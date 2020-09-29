@@ -1,0 +1,54 @@
+<!--
+ Copyright (c) 2014, 2020, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>قائمة الأنظمة الإلكترونية</h1>
+  
+
+
+<oj-list-view id="listviewthree"
+              aria-label="list with list item layout"
+              data="{{dataProvider}}" 
+              class="demo-list-view  oj-sm-padding-2x-vertical list"
+              selection-mode="multiple"
+              on-selection-changed="{{selectedActivityChanged}}"
+              gridlines.item="visible">
+                  <template slot="itemTemplate" data-oj-as="item">
+                      <li>
+                          <oj-list-item-layout>
+                              <span slot="leading" class="fas fa-arrow-left"  role="img" >
+                              </span>
+
+                              <div   style="font-size: x-large" >
+                                  <oj-bind-text value="{{item.data.V_OBJECT_ARABIC_NAME}}"></oj-bind-text>
+                              </div>
+                              <div slot="action"  class="far fa-folder fa-2x"> 
+                                    
+                              </div>
+                          </oj-list-item-layout>
+                      </li>
+                  </template>
+              </oj-list-view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
