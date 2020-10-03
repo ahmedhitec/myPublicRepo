@@ -1,0 +1,34 @@
+upstream cloud_ords{
+	server zj8qy1rlcnizhkf-adb.adb.me-jeddah-1.oraclecloudapps.com;
+}
+server {
+	listen 80;
+	listen [::]:80;
+	
+	root /var/www/personal-private-network.com/html/;
+	
+	index index.html ;
+	
+	server_name personal-private-network.com;
+	
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+}
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	root /var/www/app.personal-private-network.com/html/;
+	
+	server_name app.personal-private-network.com;
+	
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ =404;
+	}
+}
