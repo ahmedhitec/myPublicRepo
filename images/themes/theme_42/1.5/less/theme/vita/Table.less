@@ -1,0 +1,100 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+/* ==========================================================================
+   Table
+   ========================================================================== */
+.a-Table {}
+
+/* Stroke Modifier
+   ========================================================================== */
+.a-Table.u-Report {
+
+  td,
+  th {
+    border-color: transparent;
+  }
+
+  &.table-stroke {
+
+    td,
+    th {
+      border-color: @_base-alpha-4;
+    }
+  }
+}
+
+/* Stripe Modifier
+   ========================================================================== */
+.a-Table.u-Report {
+
+  tr:nth-child(even) td,
+  tr:nth-child(even) th[scope="row"] {
+    background-color: @_base-bg;
+  }
+
+  &.table-stripe {
+
+    tr:nth-child(even) td,
+    tr:nth-child(even) th[scope="row"] {
+      background-color: @_base-alpha-1;
+    }
+  }
+}
+
+
+/* Hack to make IE9 and WP7.5 treat cells like block level elements, scoped to ui-responsive class */
+/* Applied in a max-width media query up to the table layout breakpoint so we don't need to negate this*/
+@media (max-width: 560px) {
+
+  .a-Table--reflow.ui-responsive td,
+  .a-Table--reflow.ui-responsive th {
+    border-bottom-color: @_base-alpha-2;
+  }
+}
+
+/* ==========================================================================
+ Report Utilities
+ ========================================================================== */
+.u-Report {
+
+  .u-Report-header,
+  th {
+    background-color: @_base-alpha-1;
+    color: @_base;
+  }
+
+  th[scope="rowgroup"] {
+    background-color: @_base-alpha-2;
+  }
+
+  th[scope="row"] {
+    background-color: @_base-bg;
+  }
+
+  td {
+    color: @_base;
+    background-color: @_base-bg;
+  }
+
+  tr:nth-child(even) td,
+  tr:nth-child(even) th[scope="row"] {
+    background-color: @_base-alpha-1;
+  }
+
+  td,
+  th {
+    border-color: @_base-alpha-4;
+  }
+}
+
+.u-Report--staticBG {
+
+  tr:nth-child(even) td,
+  tr:nth-child(even) th[scope="row"] {
+    border-color: @_base-alpha-1;
+  }
+}

@@ -1,0 +1,40 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+/* ==========================================================================
+    List View
+    ========================================================================== */
+
+.a-ListView-item {
+  border-bottom: 1px solid @_base-alpha-2;
+
+  .ul-li-aside {
+    color: @_base-alpha-10;
+  }
+
+  .ui-li-count {
+    background-color: @_base-alpha-2;
+    box-shadow: 0 0 0 1px @_base-alpha-2 inset;
+    color: @_base-alpha-10;
+  }
+}
+
+.a-ListView-item .ui-btn {
+  color: @g_Body-Text;
+
+  &:hover {
+    background-color: @_base-alpha-2;
+  }
+}
+
+.a-ListView-item .fa {
+  color: contrast(@g_Region-BG, darken(@g_Region-BG,   15%), lighten(@g_Region-BG,   15%),  43%);
+}
+
+.a-ListView-item .ui-li-count {
+  color: contrast(@g_Region-BG, darken(@g_Region-BG,   65%), lighten(@g_Region-BG,   65%),  43%);
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+}

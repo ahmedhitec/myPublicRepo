@@ -1,0 +1,1499 @@
+/*!
+ * LiveTemplateOptions.css 
+ * apex-builder-apex_ui v20.2.0
+ * https://apex.oracle.com/
+ * Copyright (c) Oracle
+*/
+
+/******************************************************************************
+
+File Name:    LiveTemplateOptions
+Purpose:      Loads the necessary styles for the Live Template Options dialog
+              which is loaded during runtime
+
+******************************************************************************/
+/*
+$display-xxxs: 640px;
+$display-xxs: 800px;
+$display-xs: 1024px;
+$display-small: 1280px;
+$display-medium: 1680px;
+$display-large: 1920px;
+*/
+/* ==========================================================================
+   Property (Property Editor Properties)
+   ========================================================================== */
+/**
+ * Property Component
+ *
+ * This is a property that is used within the context of a property editor to
+ * provide a label and input field.
+ *
+ * Example HTML:
+ *
+ * <div class="a-Property">
+ *   <div class="a-Property-labelContainer">
+ *     <label class="a-Property-label">Label</label>
+ *   </div>
+ *   <div class="a-Property-fieldContainer">
+ *     <input type="text" class="a-Property-field">
+ *   </div>
+ * </div>
+ */
+.a-Property {
+  position: relative;
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: auto;
+}
+
+.a-Property .a-Icon.icon-required {
+  display: none;
+}
+
+.a-Property-buttonContainer,
+.a-Property-labelContainer,
+.a-Property-unitContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.a-Property-buttonContainer,
+.a-Property-labelContainer,
+.a-Property-fieldContainer,
+.a-Property-unitContainer {
+  padding: 4px 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .a-Property-buttonContainer,
+  .a-Property-labelContainer,
+  .a-Property-fieldContainer,
+  .a-Property-unitContainer {
+    padding: 2px 8px;
+  }
+}
+
+.a-Property-labelContainer {
+  padding-right: 0;
+  min-width: 112px;
+}
+
+#templateOptionsDlgPE .a-Property-labelContainer {
+  min-width: 144px;
+}
+
+.a-PropertyEditor--stacked .a-Property:not(.a-Property--stacked) .a-Property-labelContainer {
+  display: table-row;
+  width: 100%;
+}
+
+.a-Property-fieldContainer {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.a-Property-fieldContainer--comboBox {
+  padding-right: 0 !important;
+}
+
+.a-Property-buttonContainer--comboBox .a-Button {
+  margin-left: -1px;
+}
+
+.a-Property-colorPreview {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+
+.a-Property-fieldContainer--colorPicker {
+  padding-right: 0 !important;
+}
+
+.a-Property-fieldContainer--colorPicker .a-Property-field {
+  padding-left: 24px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.a-Property-fieldContainer--colorPicker .a-Property-colorPreview {
+  position: absolute;
+  margin: 6px;
+  pointer-events: none;
+}
+
+.a-Property-buttonContainer--colorPicker .a-Button {
+  margin-left: -1px;
+}
+
+.a-Property-unitContainer {
+  padding-left: 0 !important;
+  white-space: nowrap;
+}
+
+/******************************************************************************
+Property Error
+******************************************************************************/
+.a-Property.is-error .icon-error {
+  margin-right: 4px;
+}
+
+/******************************************************************************
+Property Warning
+******************************************************************************/
+.a-Property.is-warning .icon-warning {
+  margin-right: 4px;
+}
+
+/******************************************************************************
+Label and Pre / Post Text
+******************************************************************************/
+.a-Property-label,
+.a-Property-setItemsHeader-header,
+.a-Property-unit {
+  padding: 4px 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.a-Property-checkbox-label,
+.a-Property-radio {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.a-Property-unit {
+  font-size: 11px;
+}
+
+.a-Property-label--withIcon {
+  padding: 4px 0;
+  line-height: 16px;
+}
+
+/******************************************************************************
+Property Field - Used for property editor
+******************************************************************************/
+.a-Property-field {
+  padding: 4px;
+  min-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+}
+
+.a-Property-field:focus {
+  outline: none;
+}
+
+.a-Property.is-variable .a-Icon.icon-variable {
+  margin-right: 4px;
+}
+
+.a-Property.is-variable .a-Property-field {
+  border-radius: 2px;
+}
+
+/* Property Editor Select List
+   ========================================================================== */
+.a-Property-field--select {
+  overflow: hidden;
+  padding-right: 30px;
+  text-indent: 0.01px;
+  text-overflow: ' ';
+  background-position: 100% 0;
+  background-size: 32px 24px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+body:not(:-moz-handler-blocked) .a-Property-field--select {
+  padding: 2px 24px 2px 2px;
+}
+
+/* Text Area
+   ========================================================================== */
+.a-Property-field--textarea,
+body .ui-widget .a-Property-field--textarea {
+  padding: 4px;
+  max-height: 320px;
+  height: auto;
+  font-size: 11px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  line-height: 14px;
+}
+
+.a-Property-readOnly {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.a-Property-setItemsTable-header {
+  font-weight: normal;
+}
+
+.a-Property-setItemsTable .a-Property-field {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/******************************************************************************
+Combo Box Styles
+******************************************************************************/
+.a-Property-buttonContainer--comboBox .a-Button {
+  margin-left: 8px;
+}
+
+/******************************************************************************
+Checkbox + Radio Buttons
+******************************************************************************/
+.a-Property-checkbox-input[type="checkbox"],
+.a-Property-radio-input[type="radio"] {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  /* Disabled State
+   ========================================================================== */
+  /* Focus
+   ========================================================================== */
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label,
+.a-Property-radio-input[type="radio"] + label {
+  position: relative;
+  padding-right: 8px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.u-RTL .a-Property-checkbox-input[type="checkbox"] + label, .u-RTL
+.a-Property-radio-input[type="radio"] + label {
+  padding-left: 8px;
+  padding-right: 20px;
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:before, .a-Property-checkbox-input[type="checkbox"] + label:after,
+.a-Property-radio-input[type="radio"] + label:before,
+.a-Property-radio-input[type="radio"] + label:after {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: block;
+  width: 14px;
+  height: 14px;
+  content: '';
+  -webkit-transition: .125s opacity ease;
+  transition: .125s opacity ease;
+}
+
+.u-RTL .a-Property-checkbox-input[type="checkbox"] + label:before, .u-RTL .a-Property-checkbox-input[type="checkbox"] + label:after, .u-RTL
+.a-Property-radio-input[type="radio"] + label:before, .u-RTL
+.a-Property-radio-input[type="radio"] + label:after {
+  left: auto;
+  right: 0;
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:before,
+.a-Property-radio-input[type="radio"] + label:before {
+  z-index: 90;
+  border: 1px solid;
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:after,
+.a-Property-radio-input[type="radio"] + label:after {
+  z-index: 100;
+  opacity: 0;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:disabled + label,
+.a-Property-radio-input[type="radio"]:disabled + label {
+  opacity: .5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:disabled + label:before,
+.a-Property-radio-input[type="radio"]:disabled + label:before {
+  opacity: .5;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:hover:checked + label:after,
+.a-Property-checkbox-input[type="checkbox"]:focus:checked + label:after,
+.a-Property-radio-input[type="radio"]:hover:checked + label:after,
+.a-Property-radio-input[type="radio"]:focus:checked + label:after {
+  opacity: 1;
+}
+
+/******************************************************************************
+Checkbox Specific
+******************************************************************************/
+.a-Property-checkbox-input[type="checkbox"] {
+  /* Unchecked
+   ========================================================================== */
+  /* Checked
+   ========================================================================== */
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:before {
+  border-radius: 2px;
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:after {
+  background-position: 50%;
+  background-size: 16px;
+  background-repeat: no-repeat;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:indeterminate + label:after {
+  opacity: 1;
+  background-image: none;
+  width: 8px;
+  height: 2px;
+  border-radius: 2px;
+  margin: 6px 3px;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.a-Property-checkbox-input[type="checkbox"]:checked + label:after,
+.a-Property-checkbox-input[type="checkbox"]:checked + label:before {
+  opacity: 1;
+}
+
+/******************************************************************************
+Radio Specific
+******************************************************************************/
+.a-Property-radio-input[type="radio"] {
+  /* Unchecked
+   ========================================================================== */
+  /* Checked
+   ========================================================================== */
+}
+
+.a-Property-radio-input[type="radio"] + label:before {
+  border-radius: 16px;
+}
+
+.a-Property-radio-input[type="radio"] + label:after {
+  margin: 5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+}
+
+.a-Property-radio-input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+
+/******************************************************************************
+Yes / No Buttons
+******************************************************************************/
+.a-PropertyEditor--stacked .a-Property-radioGroup--buttonSet {
+  padding: 0 4px;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio {
+  margin-right: -1px;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input {
+  /* Unchecked */
+  /* Checked */
+  /* Focused */
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input + label {
+  padding: 2px 8px;
+  -webkit-transition: background-color .15s ease;
+  transition: background-color .15s ease;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input + label:before, .a-Property-radioGroup--buttonSet .a-Property-radio-input + label:after {
+  content: initial;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:checked + label {
+  font-weight: bold;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:focus + label {
+  z-index: 1;
+  outline: none;
+  border-radius: 2px;
+}
+
+/******************************************************************************
+Radio
+******************************************************************************/
+.a-Property-radioGroup:focus {
+  outline: none;
+}
+
+.a-Property-radio {
+  display: inline-block;
+}
+
+.a-Property-radio-input {
+  display: inline-block;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+}
+
+.a-Property-radio-label {
+  display: inline-block;
+  padding: 2px;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.a-Property-fieldContainer--radioGroup {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/******************************************************************************
+Yes / No Radios
+******************************************************************************/
+.a-Property-radioGroup--buttonSet:before, .a-Property-radioGroup--buttonSet:after {
+  display: table;
+  content: '';
+}
+
+.a-Property-radioGroup--buttonSet:after {
+  clear: both;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio {
+  float: left;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:disabled + label {
+  opacity: .5;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input + label {
+  min-width: 48px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 2px;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input + label .a-Icon {
+  margin: 2px;
+}
+
+/******************************************************************************
+Stacked Properties
+******************************************************************************/
+.a-Property--stacked {
+  position: relative;
+}
+
+.a-Property--stacked .a-Property-labelContainer,
+.a-Property--stacked .a-Property-fieldContainer {
+  display: block;
+}
+
+.a-Property--stacked .a-Property-labelContainer {
+  margin-right: 64px;
+  padding-bottom: 0;
+}
+
+.a-Property--stacked .a-Property-fieldContainer {
+  padding-top: 0;
+}
+
+.a-Property--stacked .a-Property-buttonContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.a-Property--stacked .a-Property-buttonContainer + .a-Property-fieldContainer {
+  padding-top: 4px;
+}
+
+.a-Property--stacked .a-Property-buttonContainer .a-Button--quickPick {
+  margin-left: 8px;
+}
+
+.a-Property--scrollable {
+  display: block;
+  overflow: auto;
+}
+
+.a-Property-labelContainer--withButtons {
+  display: table-cell;
+  table-layout: auto;
+  padding-bottom: 8px;
+}
+
+.a-Property-labelContainer--hiddenLabel {
+  padding: 0;
+}
+
+.a-Property-buttonContainer {
+  padding-left: 0 !important;
+}
+
+.a-Property-buttonContainer--pullRight {
+  float: right;
+}
+
+.a-Property.is-changed .a-Property-labelContainer:before {
+  position: absolute;
+  top: 1px;
+  bottom: 0;
+  left: 1px;
+  display: inline-block;
+  width: 3px;
+  content: '';
+  opacity: .5;
+}
+
+.a-Property.is-changed:hover .a-Property-labelContainer:before, .a-Property.is-changed.is-focused .a-Property-labelContainer:before {
+  opacity: 1;
+}
+
+.a-Property-label,
+.a-Property-unit {
+  display: block;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.a-Property-field {
+  display: block;
+  width: 100%;
+  background-clip: border-box;
+  border: 0 solid;
+}
+
+.a-Property-field--textarea {
+  min-height: 48px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  resize: vertical;
+}
+
+/******************************************************************************
+Hide/Show Classes
+******************************************************************************/
+.a-Property.js-showAll,
+.a-PropertyEditor-propertyGroup.js-showAll {
+  display: none;
+}
+
+.a-PropertyEditor.js-showAll .a-Property.js-showAll,
+.a-PropertyEditor.js-showAll .a-PropertyEditor-propertyGroup.js-showAll {
+  display: block;
+}
+
+.a-PropertyEditor--stacked.js-showAll .a-Property.js-showAll {
+  display: table;
+}
+
+/******************************************************************************
+Variable Field
+******************************************************************************/
+/******************************************************************************
+Checkbox
+******************************************************************************/
+.a-Property-checkboxGroup:focus {
+  outline: none;
+}
+
+.a-Property-checkbox-input {
+  display: inline-block;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+}
+
+.a-Property-checkbox-label {
+  display: inline-block;
+  padding: 2px;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+/******************************************************************************
+Set Items Table
+******************************************************************************/
+.a-Property-setItemsTable {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.a-Property-setItemsTable td {
+  padding-bottom: 4px;
+}
+
+.a-Property-setItemsTable tr:last-child td {
+  padding-bottom: 0;
+}
+
+.a-Property-setItemsHeader-header {
+  text-align: left;
+}
+
+.a-Property-setItemsTable-removeCol {
+  width: 40px;
+}
+
+/******************************************************************************
+Property Editor in Dialogs
+******************************************************************************/
+/******************************************************************************
+Property Editor Buttons
+******************************************************************************/
+.a-Property-button {
+  --a-button-padding-y: 6px;
+  width: 100%;
+  white-space: normal;
+}
+
+/******************************************************************************
+Stacked Styles
+******************************************************************************/
+.a-PropertyEditor--stacked .a-Property-labelContainer .a-Property-label {
+  padding-right: 12px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  font-size: 11px;
+}
+
+.a-PropertyEditor--stacked .a-Property-fieldContainer,
+.a-PropertyEditor--stacked .a-Property-buttonContainer {
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+.a-PropertyEditor--stacked .a-Property--stacked .a-Property-buttonContainer {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.a-PropertyEditor--stacked .a-Property--stacked .a-Property-labelContainer .a-Property-label {
+  padding: 4px 0;
+}
+
+/* ==========================================================================
+   High Contrast Mode
+   ========================================================================== */
+.u-HCM .a-Property-field {
+  border: 1px solid !important;
+}
+
+/*
+$display-xxxs: 640px;
+$display-xxs: 800px;
+$display-xs: 1024px;
+$display-small: 1280px;
+$display-medium: 1680px;
+$display-large: 1920px;
+*/
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+.a-PropertyEditor-wrapper .a-PropertyEditor-propertyGroup:first-child {
+  margin-top: 8px;
+}
+
+.ui-dialog .a-PropertyEditor {
+  overflow: auto;
+  max-height: 400px;
+}
+
+/* Property Editor Groups
+   ========================================================================== */
+.a-PropertyEditor-propertyGroup {
+  display: block;
+  background-clip: padding-box;
+  -webkit-transition: background-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: background-color 0.1s ease, -webkit-box-shadow 0.1s ease;
+  transition: background-color 0.1s ease, box-shadow 0.1s ease;
+  transition: background-color 0.1s ease, box-shadow 0.1s ease, -webkit-box-shadow 0.1s ease;
+}
+
+.a-PropertyEditor-propertyGroup.is-collapsed .a-PropertyEditor-propertyGroup-header {
+  border-bottom: none;
+}
+
+.a-PropertyEditor-propertyGroup.is-collapsed .a-PropertyEditor-propertyGroup-body {
+  display: none;
+}
+
+.a-PropertyEditor .a-PropertyEditor-propertyGroup:first-child {
+  margin-top: 4px;
+}
+
+.a-PropertyEditor-propertyGroup-header {
+  margin-top: 4px;
+  padding: 12px 8px;
+  border-width: 0;
+  -webkit-transition: margin .1s ease;
+  transition: margin .1s ease;
+}
+
+@media only screen and (max-width: 1024px) {
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.a-PropertyEditor-propertyGroup-header:hover .a-Icon {
+  opacity: 1;
+}
+
+.a-PropertyEditor-propertyGroup-header .a-Icon {
+  margin: 2px 6px 2px 0;
+  border-radius: 2px;
+  opacity: 0.5;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.u-RTL .a-PropertyEditor-propertyGroup-header .a-Icon {
+  margin: 2px 0 2px 6px;
+}
+
+.a-PropertyEditor-propertyGroup-header .a-Icon.icon-right-arrow:before {
+  content: "\E0D8";
+}
+
+.a-PropertyEditor-propertyGroup-header .a-Icon.icon-down-arrow:before {
+  content: "\e0c2";
+}
+
+.a-PropertyEditor-propertyGroup-header.is-focused {
+  position: relative;
+  z-index: 100;
+  outline: none;
+}
+
+.a-PropertyEditor-propertyGroup-header.is-focused .a-Icon {
+  opacity: 1;
+}
+
+.a-PropertyEditor-propertyGroup-title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/**
+ * Modifier: is-empty
+ *
+ * Used when an error message is displayed
+ */
+.a-PropertyEditor.is-empty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.a-PropertyEditor-message {
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.a-PropertyEditor-messageText {
+  margin: 0;
+}
+
+.a-Icon + .a-PropertyEditor-messageText {
+  margin-top: 8px;
+}
+
+.a-PropertyEditor-editParent {
+  padding: 6px 8px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .a-PropertyEditor-editParent {
+    padding: 2px 8px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  .a-PropertyEditor-editParent {
+    padding: 4px 8px;
+  }
+}
+
+/* Filtering
+   ========================================================================== */
+.a-PropertyEditor-filter {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.a-PropertyEditor-filter .a-PropertyEditor-filter-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 8px;
+  opacity: .5;
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+  pointer-events: none;
+}
+
+.u-RTL .a-PropertyEditor-filter .a-PropertyEditor-filter-icon {
+  left: auto;
+  right: 0;
+}
+
+.a-PropertyEditor-filter .a-Property-field:not(.a-Property-field--text) {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 8px 8px 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 2px;
+}
+
+.u-RTL .a-PropertyEditor-filter .a-Property-field:not(.a-Property-field--text) {
+  padding: 8px 32px 8px 8px;
+}
+
+.a-PropertyEditor-filter .a-Property-field:not(.a-Property-field--text):focus + .a-Icon {
+  opacity: 1;
+}
+
+.a-PropertyEditor-filter .a-Button--stickyFilter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  margin: 4px;
+  padding: 4px;
+  opacity: 0;
+  -webkit-transition: opacity .1s ease;
+  transition: opacity .1s ease;
+}
+
+.a-PropertyEditor-filter:focus-within .a-Property-field + .a-Icon {
+  opacity: 1;
+}
+
+.a-PropertyEditor-filter .a-Property-field:focus ~ .a-Button--stickyFilter,
+.a-PropertyEditor-filter .a-Button--stickyFilter.is-active,
+.a-PropertyEditor-filter .a-Button--stickyFilter:focus {
+  opacity: 1;
+}
+
+.a-Property-highlight {
+  padding: 2px 0;
+  border-radius: 2px;
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+}
+
+/* Property Filter Not Found
+   ========================================================================== */
+.a-Property-notFound {
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.a-Property-notFound .a-Icon {
+  margin-bottom: 8px;
+}
+
+/*
+$display-xxxs: 640px;
+$display-xxs: 800px;
+$display-xs: 1024px;
+$display-small: 1280px;
+$display-medium: 1680px;
+$display-large: 1920px;
+*/
+/* ==========================================================================
+   Property Group (Property Editor Groups)
+   ========================================================================== */
+/**
+ * Property Group Component
+ *
+ * This is a grouping of one or more properties in the context of a property
+ * editor. This allows us to conveniently group our properties and use
+ * psuedo selectors to apply styles to first / last elements within the group.
+ *
+ * Example HTML:
+ *
+ * <div class="a-PropertyGroup">
+ *   <div class="a-PropertyGroup-item">
+ *     [Property  Here]
+ *   </div>
+ *   <div class="a-PropertyGroup-item">
+ *     [Property  Here]
+ *   </div>
+ *   <div class="a-PropertyGroup-item">
+ *     [Property  Here]
+ *   </div>
+ * </div>
+ */
+.a-PropertyGroup-item {
+  border-top: 1px solid;
+  border-bottom-width: 0;
+}
+
+.a-PropertyEditor-propertyGroup-body {
+  padding: 4px 0;
+}
+
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Images
+ */
+/**
+ * Base Colors
+ *
+ * Description:
+ * Provides a base for the UI.
+ *
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ *
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ *
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ *
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ *
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ *
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Images
+ */
+/**
+ * Base Colors
+ *
+ * Description:
+ * Provides a base for the UI.
+ *
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ *
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ *
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ *
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ *
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ *
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Properties
+******************************************************************************/
+/******************************************************************************
+Property Error
+******************************************************************************/
+.a-Property.is-error {
+  /* Make the text red when it is not focused to bring more attention */
+}
+
+.a-Property.is-error .a-Property-label {
+  color: #100F0E;
+}
+
+.a-Property.is-error .a-Property-field:not(:focus) {
+  color: #C74634;
+}
+
+.a-Property.is-error .icon-error {
+  color: #C74634 !important;
+}
+
+/******************************************************************************
+Property Warning
+******************************************************************************/
+.a-Property.is-warning .a-Property-label {
+  color: #100F0E;
+}
+
+.a-Property.is-warning .icon-warning {
+  color: #D8974D !important;
+}
+
+/******************************************************************************
+Label and Pre / Post Text
+******************************************************************************/
+.a-Property-label,
+.a-Property-setItemsHeader-header,
+.a-Property-unit {
+  color: #100F0E;
+}
+
+.a-Property-checkbox-label,
+.a-Property-radio {
+  color: rgba(16, 15, 14, 0.8);
+}
+
+/******************************************************************************
+Property Field - Used for property editor
+******************************************************************************/
+.a-Property-field {
+  background-color: #FCFBFA;
+  color: #100F0E;
+  border-color: #E6E3E0;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a-Property-field:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a-Property-field:focus {
+  outline-color: #377E55;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  outline-offset: 2px;
+  outline-width: 2px;
+  outline-style: dotted;
+}
+
+.a-Property.is-error.is-active .a-Property-field:not(.a-Property-field--textarea):focus {
+  -webkit-box-shadow: 0 0 0 1px #E3513C inset, 0 1px 2px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 0 1px #E3513C inset, 0 1px 2px rgba(51, 51, 51, 0.1);
+}
+
+.a-Property.is-shadow.is-active .a-Property-field:not(.a-Property-field--textarea):focus {
+  -webkit-box-shadow: 0 0 0 1px #E3513C inset, 0 1px 2px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 0 0 1px #E3513C inset, 0 1px 2px rgba(51, 51, 51, 0.1);
+}
+
+.a-Property.is-variable .a-Icon.icon-variable {
+  color: #7FBEF2;
+}
+
+.a-Property.is-variable .a-Property-field {
+  -webkit-box-shadow: 0 0 0 1px rgba(127, 190, 242, 0.5) inset;
+          box-shadow: 0 0 0 1px rgba(127, 190, 242, 0.5) inset;
+  background-color: #f3f9fe;
+}
+
+.a-Property.is-warning .a-Property-field--textarea:focus {
+  border-color: #FACD62 !important;
+}
+
+.a-Property.is-error .a-Property-field--textarea:focus {
+  border-color: #E3513C !important;
+}
+
+/* Property Editor Select List
+   ========================================================================== */
+/* Text Area
+   ========================================================================== */
+.a-Property-readOnly {
+  color: rgba(51, 51, 51, 0.65);
+}
+
+.a-Property-field--readOnly {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.a-Property-field--readOnly:focus {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/******************************************************************************
+Property Editor Buttons
+******************************************************************************/
+.a-Property-buttonContainer .a-Button {
+  background-color: #FFFFFF;
+}
+
+/******************************************************************************
+Checkbox + Radio Buttons
+******************************************************************************/
+.a-Property-checkbox-input[type="checkbox"],
+.a-Property-radio-input[type="radio"] {
+  /* Focus
+   ========================================================================== */
+}
+
+.a-Property-checkbox-input[type="checkbox"] + label:before,
+.a-Property-radio-input[type="radio"] + label:before {
+  background-color: #FFFFFF;
+  border-color: #DFDCD8;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:focus + label:before,
+.a-Property-checkbox-input[type="checkbox"]:indeterminate + label:before,
+.a-Property-radio-input[type="radio"]:focus + label:before,
+.a-Property-radio-input[type="radio"]:indeterminate + label:before {
+  border-color: #377E55;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:focus:checked + label:before,
+.a-Property-checkbox-input[type="checkbox"]:focus:indeterminate + label:before,
+.a-Property-radio-input[type="radio"]:focus:checked + label:before,
+.a-Property-radio-input[type="radio"]:focus:indeterminate + label:before {
+  border-color: #377E55;
+  background-color: #377E55;
+}
+
+/******************************************************************************
+Checkbox Specific
+******************************************************************************/
+.a-Property-checkbox-input[type="checkbox"]:indeterminate + label:before, .a-Property-checkbox-input[type="checkbox"]:checked + label:before {
+  border-color: #67605B;
+  background-color: #67605B;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:indeterminate + label:after {
+  background-color: #FCFBFA;
+}
+
+.a-Property-checkbox-input[type="checkbox"]:checked + label:after {
+  background-image: url("../img/ui/checkbox-checked.svg");
+}
+
+/******************************************************************************
+Radio Specific
+******************************************************************************/
+.a-Property-radio-input[type="radio"]:checked + label:before {
+  border-color: rgba(16, 15, 14, 0.6);
+  background-color: rgba(16, 15, 14, 0.6);
+}
+
+/******************************************************************************
+Yes / No Buttons
+******************************************************************************/
+.a-Property-radioGroup--buttonSet .a-Property-radio-input {
+  /* Checked */
+  /* Focused */
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:checked + label {
+  background-color: #DFDCD8;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 2px 1px rgba(0, 0, 0, 0.05) inset;
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 2px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:focus + label {
+  border-color: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+  background-color: #DFDCD8;
+  -webkit-box-shadow: 0 0 0 1px 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 1px 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:not(:checked):hover + label {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a-Property-radioGroup--buttonSet .a-Property-radio-input:hover:active + label {
+  -webkit-box-shadow: 0 0 0 1px 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 1px 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #E6E3E0;
+}
+
+.a-Property-colorPreview {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.a-Property.is-changed .a-Property-labelContainer:before {
+  background-color: #377E55;
+}
+
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Images
+ */
+/**
+ * Base Colors
+ *
+ * Description:
+ * Provides a base for the UI.
+ *
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ *
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ *
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ *
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ *
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ *
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+.a-PropertyEditor {
+  background-color: #E6E3E0;
+}
+
+.ui-dialog .a-PropertyEditor {
+  background-color: transparent;
+}
+
+/* Property Editor Groups
+   ========================================================================== */
+.a-PropertyEditor-propertyGroup,
+.a-PropertyEditor-propertyGroup-header,
+.a-PropertyEditor-propertyGroup-body {
+  border-color: #E6E3E0;
+}
+
+.a-PropertyEditor-propertyGroup {
+  background-color: #F7F5F3;
+}
+
+.a-PropertyEditor-propertyGroup:focus-within, .a-PropertyEditor-propertyGroup.has-focus {
+  background-color: rgba(224, 245, 218, 0.3);
+}
+
+.a-PropertyEditor-propertyGroup-header .a-Icon {
+  color: #FCFBFA;
+  background-color: #A8A29B;
+}
+
+.a-PropertyEditor-propertyGroup-title {
+  color: #100F0E;
+}
+
+.a-PropertyEditor-propertyGroup-body .a-Property {
+  border-color: #E6E3E0;
+}
+
+.a-PropertyEditor-propertyGroup-header.is-focused {
+  -webkit-box-shadow: rgba(51, 51, 51, 0.1);
+          box-shadow: rgba(51, 51, 51, 0.1);
+}
+
+.a-PropertyEditor-propertyGroup-header.is-focused .a-Icon {
+  background-color: #377E55;
+}
+
+.a-PropertyEditor-message {
+  color: rgba(16, 15, 14, 0.6);
+}
+
+.a-PropertyEditor-messageText {
+  color: rgba(16, 15, 14, 0.8);
+}
+
+/* Filtering
+   ========================================================================== */
+.a-PropertyEditor-filter .a-PropertyEditor-filter-icon {
+  color: #100F0E;
+}
+
+.a-PropertyEditor-filter .a-Property-field:not(.a-Property-field--text):focus + .a-Icon {
+  color: #377E55;
+}
+
+.a-PropertyEditor-filter .a-Button--stickyFilter:focus, .a-PropertyEditor-filter .a-Button--stickyFilter:hover {
+  color: #AE562C;
+  background-color: #fff !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.a-PropertyEditor-filter .a-Button--stickyFilter.is-active {
+  color: #FFFFFF;
+  background-color: #FACD62 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.a-PropertyEditor-filter .a-Button--stickyFilter.is-active:focus, .a-PropertyEditor-filter .a-Button--stickyFilter.is-active:focus:active, .a-PropertyEditor-filter .a-Button--stickyFilter.is-active:hover {
+  color: #FFFFFF;
+  background-color: #FACD62 !important;
+  -webkit-box-shadow: 0 0 0 1px #377E55 inset;
+          box-shadow: 0 0 0 1px #377E55 inset;
+}
+
+.a-PropertyEditor-filter:focus-within .a-Property-field {
+  background-color: #FCFBFA;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.a-PropertyEditor-filter:focus-within .a-Property-field + .a-Icon {
+  color: #377E55;
+}
+
+.a-Property-highlight {
+  background-color: #FEEDC3;
+  -webkit-box-shadow: 0 1px 1px -1px rgba(51, 51, 51, 0.1);
+          box-shadow: 0 1px 1px -1px rgba(51, 51, 51, 0.1);
+}
+
+/* Property Filter Not Found
+   ========================================================================== */
+.a-Property-notFound {
+  color: rgba(16, 15, 14, 0.6);
+}
+
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Images
+ */
+/**
+ * Base Colors
+ *
+ * Description:
+ * Provides a base for the UI.
+ *
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ *
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ *
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ *
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ *
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ *
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Property Group Styles
+******************************************************************************/
+.a-PropertyGroup-item {
+  border-top-color: #CBC5BF;
+}

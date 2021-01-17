@@ -1,0 +1,89 @@
+/** Import Compass */
+/* Margins ========================================================================== */
+/* Paddings ========================================================================== */
+/* Directions ========================================================================== */
+/* Floats ========================================================================== */
+/* Text Alignment ========================================================================== */
+/* Transforms ========================================================================== */
+/* ========================================================================== Icon Library Mixin ========================================================================== */
+/* ========================================================================== Shadows ========================================================================== */
+/* ========================================================================== Header ========================================================================== */
+.t-Header { border: none; z-index: 100; }
+
+.t-Header-navBar { margin-right: 8px; }
+
+.u-RTL .t-Header-navBar { margin-left: 8px; }
+
+.u-RTL .t-Header-navBar { margin-right: 0; }
+
+/* Branding ========================================================================== */
+.t-Header-branding { z-index: 795; position: relative; padding: 0; overflow: hidden; display: flex; flex-direction: row; align-items: center; }
+
+.t-Header-controls { margin-left: 8px; }
+
+.u-RTL .t-Header-controls { margin-left: 0; margin-right: 8px; }
+
+.t-Button.t-Button--headerTree { min-width: 32px; display: inline-block; align-items: center; min-height: 32px; }
+
+.apex-top-nav .t-Button.t-Button--headerTree, .t-PageBody--noNav .t-Button.t-Button--headerTree { display: none; }
+
+.t-Button.t-Button--headerTree .t-Header-controlsIcon { transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); transition-duration: 75ms; }
+
+.t-Button.t-Button--headerTree .t-Header-controlsIcon, .t-Button.t-Button--headerTree .t-Header-controlsIcon:after, .t-Button.t-Button--headerTree .t-Header-controlsIcon:before { position: absolute; width: 16px; height: 2px; transition: -webkit-transform .12s ease; transition: transform .12s ease; transition: transform .12s ease, -webkit-transform .12s ease; border-radius: 4px; background-color: currentColor; content: '' !important; display: block; }
+
+.t-Button.t-Button--headerTree .t-Header-controlsIcon { top: 50%; display: block; margin-top: -1px; }
+
+.t-Button.t-Button--headerTree .t-Header-controlsIcon:before { transition: top 75ms ease .12s, opacity 75ms ease, width 75ms ease; top: -5px; width: 12px; }
+
+.t-Button.t-Button--headerTree .t-Header-controlsIcon:after { transition: bottom 75ms ease 0.12s, width 75ms ease, -webkit-transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19); transition: bottom 75ms ease 0.12s, transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19), width 75ms ease; transition: bottom 75ms ease 0.12s, transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19), width 75ms ease, -webkit-transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19); bottom: -5px; width: 8px; }
+
+.t-Button.t-Button--headerTree:hover .t-Header-controlsIcon, .t-Button.t-Button--headerTree:hover .t-Header-controlsIcon:after, .t-Button.t-Button--headerTree:hover .t-Header-controlsIcon:before { width: 16px; }
+
+.t-Button.t-Button--headerTree.is-active:hover .t-Header-controlsIcon, .t-Button.t-Button--headerTree.is-active:focus .t-Header-controlsIcon { transition-delay: .12s; transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+
+.t-Button.t-Button--headerTree.is-active:hover .t-Header-controlsIcon:before, .t-Button.t-Button--headerTree.is-active:focus .t-Header-controlsIcon:before { top: 0; transition: top 75ms ease, opacity 75ms ease .12s; opacity: 0; width: 16px; }
+
+.t-Button.t-Button--headerTree.is-active:hover .t-Header-controlsIcon:after, .t-Button.t-Button--headerTree.is-active:focus .t-Header-controlsIcon:after { bottom: 0; transition: bottom 75ms ease, width 75ms ease, -webkit-transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s; transition: bottom 75ms ease, transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s, width 75ms ease; transition: bottom 75ms ease, transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s, width 75ms ease, -webkit-transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); width: 16px; }
+
+@media (max-width: 480px) { .t-Button.t-Button--headerTree.is-active .t-Header-controlsIcon { transition-delay: .12s; transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+  .t-Button.t-Button--headerTree.is-active .t-Header-controlsIcon:before { top: 0; transition: top 75ms ease, opacity 75ms ease .12s; opacity: 0; }
+  .t-Button.t-Button--headerTree.is-active .t-Header-controlsIcon:after { bottom: 0; transition: bottom 75ms ease, -webkit-transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s; transition: bottom 75ms ease, transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s; transition: bottom 75ms ease, transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s, -webkit-transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); width: 16px; } }
+
+.t-Header-logo { flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.8rem; line-height: 2.4rem; font-weight: 500; padding: 0; display: flex; }
+
+.t-Header-logo-link { padding: 0 8px; display: inline-flex; align-items: center; }
+
+.t-Header-logo-link:hover { text-decoration: none; }
+
+.t-Header-logo-link img { min-width: 0; display: block; }
+
+.t-Header-logo-link .apex-logo-img + .apex-logo-text { margin-left: 4px; }
+
+.u-RTL .t-Header-logo-link .apex-logo-img + .apex-logo-text { margin-left: 0; margin-right: 4px; }
+
+.t-Header-logo-link .apex-logo-text { display: block; overflow: hidden; text-overflow: ellipsis; }
+
+.t-Header-navBar { text-align: right; flex-shrink: 0; }
+
+.u-RTL .t-Header-navBar { text-align: left; }
+
+/* Header Navigation Container ========================================================================== */
+.t-Header-nav { overflow: hidden; }
+
+/* Navigation List Menu ========================================================================== */
+.t-Header { z-index: 800; }
+
+.t-Header .t-Header-nav { z-index: 790; transition: .1s all; }
+
+.t-Header-nav-list { min-height: 40px; }
+
+.t-Header .a-MenuBar.a-MenuBar--overflow { overflow: hidden; width: 100%; }
+
+.t-Header .a-MenuBar-item--overflow { width: 40px; height: 40px; float: right; }
+
+.t-Header .a-MenuBar-item--overflow > .a-MenuBar-label { padding: 12px; }
+
+.u-RTL .t-Header .a-MenuBar-item--overflow { float: left; }
+
+/* Header Icon Navigation ========================================================================== */
+.t-Header-iconNav { float: right; }

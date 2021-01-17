@@ -1,0 +1,77 @@
+/* Margins ========================================================================== */
+/* Paddings ========================================================================== */
+/* Directions ========================================================================== */
+/* Floats ========================================================================== */
+/* Text Alignment ========================================================================== */
+/* Transforms ========================================================================== */
+/* ========================================================================== Icon Library Mixin ========================================================================== */
+/* ========================================================================== Shadows ========================================================================== */
+/* ========================================================================== Comments ========================================================================== */
+/* Comments Container ========================================================================== */
+.t-Comments { list-style: none; margin: 0; padding: 0; }
+
+/* Comment Item ========================================================================== */
+.t-Comments-item { margin-bottom: 16px; display: flex; }
+
+.t-Comments .t-Comments-item:last-child { margin-bottom: 0; }
+
+/* Icon ========================================================================== */
+.t-Comments-icon { flex-shrink: 0; flex-grow: 0; flex-basis: auto; margin-right: 12px; }
+
+.u-RTL .t-Comments-icon { margin-right: 0; margin-left: 12px; }
+
+.t-Comments-userIcon, .t-Comments-userImg { border-radius: 100%; width: 32px; height: 32px; display: block; }
+
+.t-Comments-userIcon { font-size: 12px; font-weight: 500; line-height: 32px; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-transform: uppercase; }
+
+/* Icon Shapes ========================================================================== */
+.t-Comments--iconsSquare .t-Comments-userIcon, .t-Comments--iconsSquare .t-Comments-userImg { border-radius: 0; }
+
+.t-Comments--iconsRounded .t-Comments-userIcon, .t-Comments--iconsRounded .t-Comments-userImg { border-radius: 12.5%; }
+
+/* Body ========================================================================== */
+.t-Comments-body { flex-grow: 1; flex-shrink: 1; flex-basis: auto; }
+
+/* Comment Info (User, Time, Actions) ========================================================================== */
+.t-Comments-info { font-size: 12px; }
+
+.t-Comments-info a:hover { text-decoration: underline; }
+
+.t-Comments-user { margin-right: 8px; }
+
+.t-Comments-date:before { content: '\00b7\00a0'; opacity: .5; }
+
+.u-RTL .t-Comments-date:before { content: none; }
+
+.u-RTL .t-Comments-date:after { content: '\00a0\00b7'; opacity: .5; }
+
+.t-Comments-date:empty { display: none; }
+
+/* Comment Text ========================================================================== */
+.t-Comments-comment { font-size: 14px; line-height: 20px; }
+
+/* Comment Text?? ========================================================================== */
+.t-Comments-text--prevValue { text-decoration: line-through; }
+
+.t-Comments-text--newValue { font-weight: bold; }
+
+/* Chat Message Style ========================================================================== */
+.t-Comments--chat .t-Comments-body { display: flex; flex-direction: column; align-items: flex-start; }
+
+.t-Comments--chat .t-Comments-info { margin-top: 4px; order: 2; }
+
+.t-Comments--chat .t-Comments-comment { order: 1; position: relative; padding: 6px 8px; border-radius: 4px; }
+
+.t-Comments--chat .t-Comments-comment:after { right: 100%; top: 16px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-width: 6px; margin-top: -6px; }
+
+.u-RTL .t-Comments--chat .t-Comments-comment:after { right: auto; left: 100%; }
+
+.t-Comments--chat .t-Comments-actions { float: none; }
+
+/* Basic Message Style ========================================================================== */
+.t-Comments--basic .t-Comments-item.is-active { border-radius: 2px; padding: 8px 0; }
+
+.t-Comments-item.is-systemMessage .t-Comments-userIcon { display: none; }
+
+/* No User Icon ========================================================================== */
+.t-Comments--noUserIcon .t-Comments-icon, .t-Comments-item--noUserIcon .t-Comments-icon { display: none; }

@@ -1,0 +1,79 @@
+@import "../_variables";
+
+.t-MegaMenu--fullWidth {
+  max-height: calc(~"100vh - 64px");
+  // overflow: -moz-scrollbars-none;
+  // overflow-x: hidden;
+  // -ms-overflow-style: none;
+  // -webkit-overflow-scrolling: touch;
+}
+
+.t-MegaMenu .a-Menu-content {
+  padding: 16px 0;
+}
+
+.t-MegaMenu--fullWidth {
+  .u-callout:before {
+    background-color: @g_neutral-170;
+
+  }
+
+  .a-Menu-content {
+    background-color: @g_neutral-170;
+    color: @g_neutral-10;
+    padding: 48px 0;
+    background-image: url('../../../../images/rw/textures/texture-16.png');
+  }
+}
+
+.t-MegaMenu-body {
+  max-height: none;
+  overflow: hidden;
+}
+
+.a-Menu.t-MegaMenu .t-MegaMenu-itemBody {
+  padding: 6px 16px;
+}
+
+.t-MegaMenu-item--top {
+  padding: 0;
+  font-size: 18px;
+  width: 100%;
+  line-height: 24px;
+}
+
+.t-MegaMenu-item--top.t-MegaMenu-item--hasSub {
+  padding-bottom: 16px;
+}
+
+.t-MegaMenu-itemBody > .t-Icon {
+  min-width: 20px;
+}
+
+.t-MegaMenu-item--top > .t-MegaMenu-itemBody .t-MegaMenu-label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.t-MegaMenu-item--top.is-active > .t-MegaMenu-itemBody .t-MegaMenu-label {
+  font-weight: 700;
+}
+
+.t-MegaMenu--fullWidth .t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody .t-Icon {
+  color: fade(@g_neutral-10, 60%);
+}
+
+.t-MegaMenu--fullWidth.a-Menu .a-Menu-item {
+  color: fade(@g_neutral-10, 60%);
+  font-size: 16px;
+}
+
+.t-MegaMenu--fullWidth.a-Menu .a-Menu-item a,
+.t-MegaMenu--fullWidth .t-MegaMenu-itemBody.is-focused .t-MegaMenu-label,
+.t-MegaMenu--fullWidth .t-MegaMenu-itemBody:hover .t-MegaMenu-label {
+  color: @g_neutral-10;
+}
+
+.t-MegaMenu--fullWidth .t-MegaMenu-badge {
+  background-color: @g_neutral-100;
+}

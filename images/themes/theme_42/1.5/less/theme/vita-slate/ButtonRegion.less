@@ -1,0 +1,48 @@
+/**
+ * Import Compass
+ */
+
+@import "_variables";
+
+/* ==========================================================================
+   Button Region
+   ========================================================================== */
+.t-ButtonRegion {
+  background-color: @g_Region-BG;
+  color: @g_Region-FG;
+  border-radius: @g_Container-BorderRadius;
+  border-color: @_base-alpha-3;
+  box-shadow: 0 2px 2px @_base-shadow-2;
+}
+
+.t-ButtonRegion--noUI {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.t-ButtonRegion--wizard,
+.t-ButtonRegion--dialogRegion {
+  border-radius: 0 0 2px 2px;
+}
+
+.t-ButtonRegion--dialogRegion {
+  background-color: transparent;
+}
+
+.t-ButtonRegion--showTitle {
+  .t-ButtonRegion-title {
+    .text-dark();
+  }
+}
+
+.t-Body-actions .t-ButtonRegion {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* ==========================================================================
+   Modifier: Wizard Dialog and Dialog Region
+   ========================================================================== */
+.t-Dialog-footer .t-ButtonRegion {
+  border-top-color: @_base-alpha-2;
+}

@@ -1,0 +1,26 @@
+@import "../_variables";
+
+.t-MediaList-title {
+  font-weight: 600;
+}
+
+.t-MediaList-badge,
+.t-MediaList-desc {
+  color: fade(@g_neutral-190, 60%);
+}
+
+.t-MediaList-icon {
+  border-radius: 4px;
+}
+
+a.t-MediaList-itemWrap:focus {
+  box-shadow: none;
+  outline-width: @g_OutlineWidth;
+  outline-style: @g_OutlineStyle;
+  outline-offset: @g_OutlineOffset;
+  outline-color: @g_OutlineColor;
+}
+
+.t-MediaList--cols {
+  overflow: visible;
+}

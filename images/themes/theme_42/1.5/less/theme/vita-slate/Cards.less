@@ -1,0 +1,114 @@
+@import "_variables";
+
+/* ==========================================================================
+   Cards Container
+   ========================================================================== */
+
+@l_Card-BG: @g_Region-BG;
+
+.t-Card {
+  box-shadow: 0 2px 4px -2px @_base-shadow-3;
+}
+
+.t-Card-wrap {
+  border-radius: 2px;
+  background-color: @l_Card-BG;
+  border-color: @_base-alpha-3;
+
+  &:focus {
+    border-color: @g_Focus;
+  }
+}
+
+.t-Card-icon {
+  color: @l_Card-BG;
+}
+
+.t-Card-desc {
+  color: fade(contrast(@l_Card-BG, desaturate(darken(@l_Card-BG,  85%), 100%), desaturate(lighten(@l_Card-BG,  85%), 50%)), 100%);
+}
+
+.t-Card-info,
+.t-Card-subtitle {
+  color: fade(contrast(@l_Card-BG, desaturate(darken(@l_Card-BG,  60%), 100%), desaturate(lighten(@l_Card-BG,  60%), 50%)), 100%);
+}
+
+.t-Card-title {
+  color: fade(contrast(@l_Card-BG, darken(@l_Card-BG,  85%), lighten(@l_Card-BG,  85%)), 100%);
+}
+
+.t-Card-colorFill,
+.t-Card-icon {
+  background-color: @g_Accent-BG;
+  color: @g_Accent-FG;
+}
+
+.t-Cards--featured .t-Card-body {
+  border-top-color: @_base-alpha-3;
+}
+
+.t-Cards--basic {
+  .t-Card-titleWrap {
+    box-shadow: 0 -1px 0 @_base-alpha-2 inset;
+  }
+}
+
+.t-Cards--compact {
+  .t-Card-titleWrap {
+    box-shadow: 0 -1px 0 @_base-alpha-2 inset;
+  }
+}
+
+.t-Cards--featured {
+  .t-Card-body {
+    border-top-color: @_base-alpha-3;
+  }
+}
+
+.t-Cards--block {
+  .t-Icon {
+    background-color: @_base-alpha-4;
+    text-shadow: 0 1px 1px @_base-shadow-4;
+  }
+}
+
+.t-Cards--animRaiseCard {
+  .t-Card:hover {
+    box-shadow: 0 10px 4px -4px @_base-shadow-2;
+  }
+}
+
+/* Sample Footer
+   ========================================================================== */
+.t-Cards--sampleAppsFooter {
+  margin-top: 32px;
+
+  .t-Card {
+    box-shadow: none;
+  }
+
+  .t-Cards-item {
+    display: block;
+    flex-grow: 1;
+    width: 25%;
+
+    @media only screen and (max-width: 480px) {
+      width: 50%;
+    }
+  }
+
+  .t-Card-wrap,
+  .t-Card-icon {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .t-Card-icon {
+    transition: .2s ease;
+  }
+
+  .t-Icon {
+    background-color: @_base-bg-alpha-13;
+    box-shadow: 0 0 0 1px @_base-alpha-4 inset;
+  }
+}

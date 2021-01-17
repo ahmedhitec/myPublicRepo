@@ -1,0 +1,135 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+
+/* ==========================================================================
+   Markdown Editor
+   ========================================================================== */
+
+.a-MDEditor {}
+
+.a-MDEditor .a-Toolbar {
+  border-color: @_base-alpha-3;
+  background-color: @_base-alpha-1;
+  border-top-left-radius: .2rem;
+  border-top-right-radius: .2rem;
+
+  .a-Button {
+    &:not(:hover):not(:active):not(:focus):not(.is-active) {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    // &:not(:only-of-type) {
+    //   border-radius: 0;
+    // }
+
+    // &:first-child {
+    //   border-top-left-radius: @g_Button-BorderRadius;
+    //   border-bottom-left-radius: @g_Button-BorderRadius;
+    // }
+
+    // &:last-child {
+    //   border-top-right-radius: @g_Button-BorderRadius;
+    //   border-bottom-right-radius: @g_Button-BorderRadius;
+    // }
+  }
+}
+
+.a-MDEditor-previewPanel,
+.a-MDEditor textarea.apex-item-textarea,
+.a-MDEditor .CodeMirror {
+  border-color: @_base-alpha-3;
+  // background-color: @_base-bg;
+  background-color: @g_Form-Item-BG;
+  color: @g_Form-Item-FG;
+  border-bottom-left-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+
+  &:hover {
+    background-color: @l_Form-Item-hoverBG;
+  }
+
+  &:focus,
+  &.CodeMirror-focused {
+    border-color: @g_Accent-BG;
+    background-color: @l_Form-Item-focusBG;
+  }
+}
+
+
+
+
+.CodeMirror-cursor {
+  border-left-color: @g_Form-Item-FG !important;
+}
+
+
+
+/* ==========================================================================
+   Markdownified
+   ========================================================================== */
+
+.is-markdownified {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+  }
+
+  hr {
+    background: none;
+    border-top-color: @_base-alpha-6;
+  }
+
+  blockquote {
+    border-left-color: @_base-alpha-4;
+  }
+
+  code {
+    background-color: @_base-alpha-7;
+    box-shadow: inset @_base-alpha-2 0 0 0 1px;
+  }
+
+  pre {
+    background-color: @_base-alpha-7;
+    box-shadow: inset @_base-alpha-2 0 0 0 1px;
+
+    code {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  table {
+    background-color: #fff;
+    border-color: @_base-alpha-4;
+    box-shadow: 0 2px 4px -2px @_base-shadow-3;
+
+    th {
+      background-color: fade(@_base, 1.5);
+    }
+
+    th,
+    td {
+      border-bottom-color: @_base-alpha-2;
+    }
+
+    tr:hover {
+      td {
+        background-color: fade(@_base, 1.25);
+      }
+
+      th {
+        background-color: @_base-alpha-7;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "../_variables";
+
+.t-BadgeList-value {
+  font-weight: 600;
+}
+
+.t-BadgeList-wrap,
+.t-BadgeList--dash a.t-BadgeList-wrap:hover:before {
+  border-radius: 2px;
+}
+
+.t-BadgeList--dash a.t-BadgeList-wrap:hover:before {
+  opacity: .5;
+}
+
+.t-BadgeList--dash a.t-BadgeList-wrap:focus,
+.t-BadgeList--dash .t-BadgeList-wrap:focus-within,
+.t-BadgeList--circular a.t-BadgeList-wrap:focus .t-BadgeList-value,
+.t-BadgeList--circular .t-BadgeList-value a:focus {
+  box-shadow: none;
+  outline-width: @g_OutlineWidth;
+  outline-style: @g_OutlineStyle;
+  outline-offset: @g_OutlineOffset;
+  outline-color: @g_OutlineColor;
+}

@@ -1,0 +1,38 @@
+@import "_variables";
+
+/* Star Rating
+   ========================================================================== */
+.a-StarRating-stars {
+  --a-starrating-stars-bg-color: @_base-alpha-5;
+  color: @_base-alpha-5;
+}
+
+.a-StarRating-stars.is-focused {
+  box-shadow: 0 0 0 1px currentColor inset;
+
+  .a-StarRating-stars-fg .a-StarRating-star {
+    text-shadow: 0 0 2px currentColor;
+  }
+}
+
+.a-GV-cell.is-active .a-StarRating-stars.is-focused {
+  box-shadow: none;
+}
+
+.a-StarRating-stars-fg {
+  color: @g_Accent-BG;
+}
+
+.a-StarRating-value {
+  color: @g_Body-Text;
+}
+
+.a-StarRating-clear {
+  &:focus {
+    box-shadow: inset @g_Accent-BG 0 0 0 1px;
+  }
+}
+
+.a-StarRating--disabled .a-StarRating-stars-fg {
+  color: initial;
+}

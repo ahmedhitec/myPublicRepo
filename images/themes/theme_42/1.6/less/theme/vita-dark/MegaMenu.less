@@ -1,0 +1,35 @@
+@import "_variables";
+
+/* Variables
+   ========================================================================== */
+@l_MegaMenu-BG: @g_NavBarMenu-BG;
+@l_MegaMenu-FG: @g_NavBarMenu-FG;
+@l_MegaMenu-Active-BG: @g_NavBarMenu-Active-BG;
+@l_MegaMenu-Active-FG: @g_NavBarMenu-Active-FG;
+
+/* Mega Menu
+   ========================================================================== */
+
+.a-Menu.t-MegaMenu .a-Menu-item.is-focused,
+.a-Menu.t-MegaMenu .a-Menu-item.is-expanded {
+  background-color: transparent;
+  color: inherit;
+}
+
+.t-MegaMenu-itemBody.is-focused .t-MegaMenu-label,
+.t-MegaMenu-itemBody:hover .t-MegaMenu-label {
+  color: @g_Link-Base;
+}
+
+.t-MegaMenu-badge {
+  background-color: contrast(@l_MegaMenu-BG, darken(@l_MegaMenu-BG,   3%), lighten(@l_MegaMenu-BG,   3%),  43%);
+  color: contrast(@l_MegaMenu-FG, darken(@l_MegaMenu-FG,   15%), lighten(@l_MegaMenu-FG,   15%),  43%);
+}
+
+/* Layout: Stacked
+   ========================================================================== */
+.t-MegaMenu--layoutStacked {
+  .t-MegaMenu-item--top + .t-MegaMenu-item--top {
+    border-top-color: @_base-alpha-2;
+  }
+}

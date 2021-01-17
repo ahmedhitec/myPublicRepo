@@ -1,0 +1,93 @@
+@import "../_variables";
+
+// @l_NavBarMenu-BG: @g_NavBarMenu-BG;
+// @l_NavBarMenu-FG: @g_NavBarMenu-FG;
+// @l_NavBarMenu-Active-BG: @g_NavBarMenu-Active-BG;
+// @l_NavBarMenu-Active-FG: @g_NavBarMenu-Active-FG;
+
+.a-Menu {
+  --a-menu-icon-size: 20px;
+  --a-menu-disabled-focused-shadow: none;
+  --a-menu-border-radius: 4px;
+  --a-menu-border-width: ~"0px";
+  --a-menu-shadow: 0 12px 24px -12px rgba(0, 0, 0, .3);
+  --a-menu-font-size: 14px;
+  --a-menu-disabled-opacity: .6;
+  --a-menu-accel-text-color: inherit;
+  --a-menu-focused-background-color: fade(@g_neutral-170, 5%);
+}
+
+.a-Menu {
+  outline: none !important;
+}
+
+.a-Menu-content {
+  // border: none;
+  // box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.10), 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+  // box-shadow: 0 12px 24px -12px rgba(0, 0, 0, .3);
+  // border-radius: 4px;
+  // padding: 8px 0;
+  min-width: 200px;
+}
+
+// .a-Menu-content .a-Menu-statusCol,
+// .a-Menu .a-Menu-item .a-Menu-statusCol {
+  // padding: 12px 16px;
+  // padding: 10px 16px;
+  // width: auto;
+
+  // .fa {
+    // font-size: 24px !important;
+    // font-size: 20px !important;
+    // display: none;
+  // }
+// }
+
+// .a-Menu .a-Menu-item {
+  // font-size: 14px;
+  // line-height: 32px;
+  // font-size: 14px;
+  // line-height: 40px;
+  // color: @g_neutral-190;
+  // font-size: 16px;
+  // line-height: 48px;
+
+  // > .a-Menu-inner .a-Menu-statusCol,
+  // > .a-Menu-inner .a-Menu-accel {
+    // color: inherit !important;
+  // }
+
+  // > .a-Menu-inner .a-Menu-accel {
+    // opacity: .6;
+//   }
+// }
+
+.a-Menu .a-Menu-item .a-Menu-subMenuCol {
+  height: 32px;
+  padding: 8px 4px 8px 0;
+}
+
+.a-Menu-itemSep .a-Menu-hSeparator {
+  border-color: rgba(0, 0, 0, .1);
+  margin-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#group_settings_menu {
+  .a-Menu-itemSep .a-Menu-hSeparator {
+    border-color: rgba(0, 0, 0, .05);
+  }
+}
+
+
+
+.a-Menu .a-Menu-item.is-expanded,
+.a-Menu .a-Menu-item.is-focused {
+  background-color: fade(@g_neutral-170, 5%);
+  color: inherit;
+}
+
+html .a-Menu-item.is-focused {
+  outline: none !important;
+}

@@ -1,0 +1,259 @@
+@import "../_variables";
+
+/* ==========================================================================
+   Card View
+   ========================================================================== */
+body {
+  // --a-cv-grid-gap: 16px;
+  // --a-cv-item-width: 304px;
+
+  // --a-cv-order-header: 1;
+  // --a-cv-order-media: 2;
+  // --a-cv-order-body: 3;
+  // --a-cv-order-actions: 4;
+
+  --a-cv-border-width: 1px;
+  --a-cv-border-color: fade(@g_neutral-190, 10%);
+  --a-cv-border-radius: 6px;
+  // --a-cv-background-color: @g_Region-BG;
+  // --a-cv-text-color:;
+  // --a-cv-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+
+  // --a-cv-hover-background-color: var(--a-cv-background-color);
+  // --a-cv-hover-text-color: var(--a-cv-text-color);
+  // --a-cv-hover-border-color: var(--a-cv-border-color);
+  // --a-cv-hover-shadow: 0 4px 8px 0 @_base-shadow-4;
+
+  // --a-cv-active-background-color: var(--a-cv-background-color);
+  // --a-cv-active-text-color: var(--a-cv-text-color);
+  // --a-cv-active-border-color: var(--a-cv-border-color);
+  // --a-cv-active-shadow: var(--a-cv-shadow);
+
+  // --a-cv-focus-background-color: var(--a-cv-background-color);
+  // --a-cv-focus-text-color: var(--a-cv-text-color);
+  // --a-cv-focus-border-color: @g_Focus;
+  // --a-cv-focus-shadow: var(--a-cv-shadow);
+
+  --a-cv-media-background-color: fade(@g_neutral-190, 5%);
+  --a-cv-media-border-radius: 6px;
+  --a-cv-media-padding-x: 0px;
+  --a-cv-media-padding-y: 0px;
+
+  // --a-cv-header-background-color: ;
+  // --a-cv-header-text-color: ;
+  // --a-cv-header-padding-y: 16px;
+  // --a-cv-header-padding-x: 16px;
+  // --a-cv-header-item-spacing-x: 12px;
+  --a-cv-header-border-width: 0px;
+  --a-cv-header-border-color: unset;
+
+  // --a-cv-icon-background-color: @g_Accent-BG;
+  // --a-cv-icon-background-image: ;
+  // --a-cv-icon-text-color: @g_Accent-FG;
+  // --a-cv-icon-border-radius: 100%;
+  // --a-cv-icon-size: 16px;
+  // --a-cv-icon-container-size: 32px;
+  // --a-cv-icon-padding: 8px;
+
+  // --a-cv-icon-image-size: ;
+  // --a-cv-icon-image-border-radius: ;
+
+  --a-cv-initials-border-radius: 4px;
+  --a-cv-initials-size: 44px;
+  // --a-cv-initials-padding: ;
+  --a-cv-initials-font-size: 16px;
+  --a-cv-initials-font-weight: 600;
+  --a-cv-initials-text-color: #fff;
+  --a-cv-initials-background-color: @g_neutral-130;
+  // --a-cv-initials-background-image: ;
+
+  --a-cv-title-font-size: 20px;
+  --a-cv-title-font-weight: 800;
+  --a-cv-title-line-height: 28px;
+  // --a-cv-title-text-color: ;
+
+  --a-cv-subtitle-font-size: 14px;
+  --a-cv-subtitle-font-weight: 400;
+  --a-cv-subtitle-line-height: 16px;
+  --a-cv-subtitle-text-color: fade(@g_neutral-190, 60%);
+
+  --a-cv-badge-font-size: 14px;
+  --a-cv-badge-font-weight: 700;
+  --a-cv-badge-line-height: 16px;
+  --a-cv-badge-text-color: @g_neutral-0;
+  --a-cv-badge-background-color: fade(@g_neutral-190, 60%);
+  --a-cv-badge-border-radius: 6px;
+  --a-cv-badge-padding: 4px 8px;
+
+  // --a-cv-body-padding-x: 16px;
+  // --a-cv-body-padding-y: 16px;
+  // --a-cv-body-background-color: ;
+
+  --a-cv-maincontent-font-size: 16px;
+  --a-cv-maincontent-line-height: 24px;
+  // --a-cv-maincontent-text-color: ;
+
+  --a-cv-subcontent-font-size: 14px;
+  --a-cv-subcontent-line-height: 16px;
+  --a-cv-subcontent-text-color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  60%), 100%), desaturate(lighten(@g_Region-BG,  60%), 50%)), 100%);
+
+  --a-cv-actions-border-width: 0px;
+  --a-cv-actions-border-color: unset;
+  --a-cv-actions-padding-y: 16px;
+  --a-cv-actions-padding-x: 16px;
+  --a-cv-actions-background-color: @g_neutral-20;
+}
+
+.a-CardView-badge {
+  font-stretch: condensed;
+}
+
+.a-CardView-media--first {
+  margin: 16px 16px 0;
+}
+
+.a-CardView-media--body {
+  margin: 0 16px;
+}
+
+.a-CardView-actions {
+  border-bottom-left-radius: var(--a-cv-border-radius);
+  border-bottom-right-radius: var(--a-cv-border-radius);
+}
+
+
+body .a-CardView.has-media--background {
+
+
+  .a-CardView-header,
+  .a-CardView-body,
+  .a-CardView-footer {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .a-CardView-button {
+    --a-button-background-color: transparent;
+    --a-button-border-color: fade(@g_neutral-10, 50%);
+    --a-button-text-color: @g_neutral-10;
+    --a-button-hover-background-color: fade(@g_neutral-10, 10%);
+    --a-button-active-background-color: fade(@g_neutral-10, 20%);
+    --a-button-focus-background-color: fade(@g_neutral-10, 10%);
+
+    outline-color: fade(@g_neutral-10, 60%);
+  }
+
+  .a-CardView-button--hot {
+    --a-button-border-width: ~"0px";
+    --a-button-background-color: @g_brandlight-100;
+    --a-button-border-color: var(--a-button-background-color);
+    --a-button-text-color: @g_neutral-0;
+    --a-button-hover-background-color: @g_brandlight-110;
+    --a-button-active-background-color: @g_brandlight-120;
+    --a-button-focus-background-color: @g_brandlight-110;
+  }
+}
+
+
+// Actions
+body .a-CardView-button {
+  --a-button-font-size: 14px;
+  // --a-button-line-height: 16px;
+  --a-button-border-width: 1px;
+  --a-button-border-radius: 4px;
+  --a-button-border-color: fade(@g_neutral-190, 50%);
+  --a-button-background-color: transparent;
+  --a-button-text-color: @g_neutral-190;
+  --a-button-shadow: none;
+  --a-button-hover-background-color: fade(@g_neutral-190, 4%);
+  --a-button-hover-shadow: none;
+  --a-button-active-background-color: fade(@g_neutral-190, 6%);
+  --a-button-focus-background-color: fade(@g_neutral-190, 4%);
+
+  --a-button-padding-y: 10px;
+  --a-button-padding-x: 10px;
+
+  outline-color: fade(@g_neutral-190, 60%);
+}
+
+body .a-CardView-button--hot {
+  --a-button-background-color: @g_neutral-170;
+  --a-button-text-color: @g_neutral-0;
+  --a-button-hover-background-color: @g_neutral-160;
+  --a-button-active-background-color: @g_neutral-150;
+  --a-button-focus-background-color: @g_neutral-160;
+}
+
+
+/* ==========================================================================
+   Card Variations
+   ========================================================================== */
+// Style A
+body .t-CardsRegion--styleA {
+  --a-cv-media-overlay-color: fade(@g_neutral-190, 80%);
+
+  --a-cv-icon-container-size: 44px;
+  --a-cv-icon-size: 16px;
+  --a-cv-icon-border-radius: 6px;
+
+  --a-cv-icon-image-size: var(--a-cv-icon-container-size);
+  --a-cv-icon-image-border-radius: var(--a-cv-icon-border-radius);
+
+  --a-cv-initials-border-radius: var(--a-cv-icon-border-radius);
+  --a-cv-initials-size: var(--a-cv-icon-container-size);
+  --a-cv-initials-font-size: 16px;
+  --a-cv-initials-font-weight: 400;
+
+  --a-cv-badge-padding: 4px 8px;
+  --a-cv-badge-border-radius: 6px;
+
+  --a-cv-actions-background-color: transparent;
+
+  .has-media--background {
+    --a-cv-text-color: #fff;
+    --a-cv-subtitle-text-color: fade(@g_neutral-10, 60%);
+    --a-cv-subcontent-text-color: rgba(255, 255, 255, .6);
+    --a-cv-badge-background-color: rgba(255, 255, 255, .2);
+  }
+
+  .has-media--body,
+  .has-media--first {
+    --a-cv-media-border-radius: 6px;
+  }
+
+  .has-icon--top {
+    --a-cv-icon-container-size: 144px;
+    --a-cv-icon-size: 96px;
+    --a-cv-icon-border-radius: 6px;
+
+    --a-cv-icon-image-size: var(--a-cv-icon-container-size);
+    --a-cv-icon-image-border-radius: var(--a-cv-icon-border-radius);
+
+    --a-cv-initials-border-radius: var(--a-cv-icon-border-radius);
+    --a-cv-initials-size: var(--a-cv-icon-container-size);
+    --a-cv-initials-font-size: 56px;
+  }
+}
+
+// Style B (centered header)
+body .t-CardsRegion--styleB {
+  --a-cv-actions-background-color: transparent;
+
+  .has-icon--top {
+    --a-cv-icon-container-size: 144px;
+    --a-cv-icon-size: 56px;
+    --a-cv-icon-border-radius: 8px;
+
+    --a-cv-icon-image-size: var(--a-cv-icon-container-size);
+    --a-cv-icon-image-border-radius: var(--a-cv-icon-border-radius);
+
+    --a-cv-initials-border-radius: var(--a-cv-icon-border-radius);
+    --a-cv-initials-size: var(--a-cv-icon-container-size);
+    --a-cv-initials-font-size: 56px;
+
+    .a-CardView-icon:before {
+      background-color: transparent;
+      text-shadow: none;
+    }
+  }
+}

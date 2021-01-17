@@ -1,0 +1,28 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+/* Footer
+   ========================================================================== */
+.t-Footer {
+  border-top: 1px solid @_base-alpha-2;
+  background-color: @_base-alpha-1;
+}
+
+/* Footer Top Button
+   ========================================================================== */
+.t-Footer-topButton {
+  background-color: @g_Region-BG;
+  color: contrast(@g_Body-Text, darken(@g_Body-Text,   20%), lighten(@g_Body-Text,   20%),  43%);
+  box-shadow: 0 0 0 1px @_base-alpha-4 inset;
+
+  &:hover {
+    box-shadow: 0 0 0 1px @_base-alpha-4 inset, 0 2px 4px @_base-shadow-2;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 1px @g_Focus inset;
+  }
+}

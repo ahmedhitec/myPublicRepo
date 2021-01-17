@@ -1,0 +1,71 @@
+@import "../_variables";
+
+:root {
+  --a-filedrop-progress-height: 2px;
+  --a-filedrop-progress-border-radius: 2px;
+  --a-filedrop-progress-backdrop-filter: none;
+  --a-filedrop-progress-content-opacity: 0;
+
+  --a-filedrop-padding-y: 24px;
+  --a-filedrop-padding-x: 24px;
+  --a-filedrop-border-radius: 8px;
+  --a-filedrop-border-width: 1px;
+  --a-filedrop-border-color: rgba(22, 21, 19, .5);
+  --a-filedrop-border-style: dashed;
+
+  --a-filedrop-background-color: transparent;
+  --a-filedrop-text-color: rgba(22, 21, 19, 0.6);
+
+  --a-filedrop-hover-background-color: rgba(22, 21, 19, .04);
+
+  --a-filedrop-active-background-color: #E5F4DC;
+  --a-filedrop-active-border-color: #5F7D4F;
+
+  --a-filedrop-focus-border-color: #5F7D4F;
+
+  --a-filedrop-dragging-background-color: #E5F4DC;
+  --a-filedrop-dragging-border-color: #5F7D4F;
+
+  --a-filedrop-heading-text-color: rgba(22, 21, 19, 1);
+  --a-filedrop-heading-font-weight: 700;
+  --a-filedrop-heading-font-size: 20px;
+  --a-filedrop-heading-line-height: 28px;
+
+  --a-filedrop-icon-character: "\e069";
+  --a-filedrop-icon-color: #161513;
+}
+
+.apex-item-group--file-browse {
+  --a-filedrop-text-color: rgba(22, 21, 19, 0.6) !important;
+
+  .apex-item-filedrop-icon {
+    background-color: transparent !important;
+  }
+}
+
+
+.apex-item-filedrop-action {
+  --a-button-font-weight: 600;
+  --a-button-font-size: 14px;
+  --a-button-line-height: 16px;
+  --a-button-padding-y: 14px;
+  --a-button-padding-x: 22px;
+  --a-button-border-radius: 4px;
+  --a-button-border-width: ~"0px";
+
+  border-radius: 4px;
+}
+
+.apex-item-filedrop-action.a-Button--hot {
+  background-color: #5F7D4F;
+  color: #fff;
+}
+
+.apex-item-filedrop-body {
+  --a-filedrop-item-spacing: 8px;
+}
+
+.apex-item-group--file-browse .apex-item-filedrop-icon {
+  --a-filedrop-border-width: 0px;
+  --a-filedrop-icon-size: 20px;
+}

@@ -1,0 +1,59 @@
+@import "_variables";
+
+.a-BarChart {
+  .a-BarChart-item {
+    box-shadow: 0 -0.1rem 0 @_base-alpha-2 inset;
+
+    &:hover {
+      .region-hover();
+    }
+
+    .a-BarChart-value {
+      .text-normal();
+      //      .slight-text-contrast(@g_Region-BG);
+    }
+  }
+
+  .a-BarChart-item img {
+    border-radius: 2px;
+  }
+
+  .a-BarChart-bar {
+    background-color: @_base-alpha-1;
+  }
+}
+
+.a-BarChart--classic {
+
+
+  .a-BarChart-label,
+  .a-BarChart-barLink,
+  .a-BarChart-value {
+    box-shadow: 0 -0.1rem 0 @_base-alpha-2 inset;
+  }
+
+  .a-BarChart-bar,
+  .a-BarChart-filled {
+    border-radius: 1px;
+  }
+
+  .a-BarChart-item:hover .a-BarChart-bar {
+    background-color: @_base-alpha-2;
+  }
+}
+
+.a-BarChart--modern {
+
+  .a-BarChart-bar,
+  .a-BarChart-filled {
+    border-radius: 1px;
+  }
+
+  .a-BarChart-item:hover .a-BarChart-bar {
+    background-color: @_base-alpha-2;
+  }
+}
+
+.a-BarChart-filled {
+  background-color: @g_Accent-BG;
+}

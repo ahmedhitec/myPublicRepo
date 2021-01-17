@@ -1,0 +1,117 @@
+/** Import Compass */
+/* Margins ========================================================================== */
+/* Paddings ========================================================================== */
+/* Directions ========================================================================== */
+/* Floats ========================================================================== */
+/* Text Alignment ========================================================================== */
+/* Transforms ========================================================================== */
+/* ========================================================================== Icon Library Mixin ========================================================================== */
+/* ========================================================================== Shadows ========================================================================== */
+/* ========================================================================== Content Row --- Template Options - Content Alignment: Top, Center (Default) - Style: Standard (Default), Compact - Icon Style: Default, Circle, Square, Rounded Rectangle Advanced: - Selection: Default / Hidden - Icon: Default / Hidden - Misc: Default / Hidden - Actions: Default / Hidden - Description: Default / Hidden - Title: Default / Hidden HTML: <ul class="t-ContentRow #COMPONENT_CSS_CLASSES#"> <li class="t-ContentRow-item #ITEM_CLASSES#"> <div class="t-ContentRow-wrap"> <div class="t-ContentRow-selection">#SELECTION#</div> <div class="t-ContentRow-iconWrap"> <span class="t-ContentRow-icon #ICON_CLASS#">#ICON_HTML#</span> </div> <div class="t-ContentRow-body"> <div class="t-ContentRow-content"> <h3 class="t-ContentRow-title">#TITLE#</h3> <div class="t-ContentRow-description">#DESCRIPTION#</div> </div> <div class="t-ContentRow-misc">#MISC#</div> <div class="t-ContentRow-actions">#ACTIONS#</div> </div> </div> </li> </ul> ========================================================================== */
+.t-ContentRow { list-style: none; padding: 0; margin: 0; }
+
+.t-ContentRow li { font-size: inherit; line-height: inherit; }
+
+.t-ContentRow-item:not(:only-child):not(:last-child) { border-bottom-width: 1px; border-bottom-style: solid; }
+
+.t-ContentRow-item + .t-Report-pagination { border-top: 1px solid; }
+
+.t-ContentRow-wrap { padding: 16px; display: flex; flex-wrap: nowrap; align-items: center; }
+
+@media (max-width: 992px) { .t-ContentRow-wrap { padding: 12px; } }
+
+a.t-ContentRow-wrap { text-decoration: none !important; outline: none; }
+
+.t-ContentRow-selection { margin-right: 16px; font-size: 16px; flex-grow: 0; flex-shrink: 0; flex-basis: auto; display: flex; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.u-RTL .t-ContentRow-selection { margin-right: 0; margin-left: 16px; }
+
+@media (max-width: 992px) { .t-ContentRow-selection { margin-right: 12px; }
+  .u-RTL .t-ContentRow-selection { margin-right: 0; margin-left: 12px; } }
+
+.t-ContentRow-selection input { font-size: 16px; margin: 0; }
+
+.t-ContentRow-selection:empty { display: none; }
+
+.t-ContentRow-iconWrap { margin-right: 12px; flex-grow: 0; flex-shrink: 0; flex-basis: auto; display: flex; align-content: center; }
+
+.u-RTL .t-ContentRow-iconWrap { margin-right: 0; margin-left: 12px; }
+
+.t-ContentRow-iconWrap:empty { display: none; }
+
+body .t-ContentRow-iconWrap img { display: block; max-width: 40px; }
+
+.t-ContentRow-body { flex-grow: 1; flex-shrink: 1; flex-basis: auto; display: flex; flex-wrap: nowrap; align-items: center; }
+
+@media (max-width: 640px) { .t-ContentRow-body { flex-direction: column; align-items: flex-start; } }
+
+.t-ContentRow-content { flex-grow: 1; flex-shrink: 1; flex-basis: auto; }
+
+.t-ContentRow-title { margin-bottom: 0; font-size: 16px; line-height: 20px; font-weight: 700; margin-right: 8px; display: inline-block; vertical-align: top; }
+
+.u-RTL .t-ContentRow-title { margin-right: 0; margin-left: 8px; }
+
+.t-ContentRow-title > label { display: block; cursor: pointer; }
+
+.t-ContentRow-title a:not([class]):hover { text-decoration: underline; }
+
+.t-ContentRow-description { margin: 4px 0 0; font-size: 12px; }
+
+.t-ContentRow-description:empty { display: none; }
+
+.t-ContentRow-misc { margin-left: 16px; flex-grow: 0; flex-shrink: 0; flex-basis: auto; font-size: 12px; }
+
+.u-RTL .t-ContentRow-misc { margin-left: 0; margin-right: 16px; }
+
+@media (max-width: 992px) { .t-ContentRow-misc { margin-left: 12px; }
+  .u-RTL .t-ContentRow-misc { margin-left: 0; margin-right: 12px; } }
+
+@media (max-width: 640px) { .t-ContentRow-misc { margin-left: 0; margin-right: 0; margin-top: 4px; flex-grow: 1; } }
+
+.t-ContentRow-misc:empty { display: none; }
+
+.t-ContentRow-actions { flex-grow: 0; flex-shrink: 0; flex-basis: auto; display: flex; margin-left: 16px; }
+
+.u-RTL .t-ContentRow-actions { margin-left: 0; margin-right: 16px; }
+
+@media (max-width: 640px) { .t-ContentRow-actions { margin-left: 0; margin-right: 0; margin-top: 4px; flex-grow: 1; } }
+
+.t-ContentRow-actions:empty { display: none; }
+
+.t-ContentRow--alignTop .t-ContentRow-wrap, .t-ContentRow--alignTop .t-ContentRow-body { align-items: flex-start; }
+
+.t-ContentRow--hideSelection .t-ContentRow-selection { display: none !important; }
+
+.t-ContentRow--hideIcon .t-ContentRow-iconWrap { display: none !important; }
+
+.t-ContentRow--hideTitle .t-ContentRow-title { display: none !important; }
+
+.t-ContentRow--hideTitle .t-ContentRow-description { margin-top: 0; }
+
+.t-ContentRow--hideDescription .t-ContentRow-description { display: none !important; }
+
+.t-ContentRow--hideMisc .t-ContentRow-misc { display: none !important; }
+
+.t-ContentRow--hideActions .t-ContentRow-actions { display: none !important; }
+
+.t-ContentRow--hideBorders .t-ContentRow-item { border-bottom: 0 !important; }
+
+.t-ContentRow--styleCompact .t-ContentRow-wrap { padding: 12px; }
+
+.t-ContentRow--styleCompact .t-ContentRow-selection, .t-ContentRow--styleCompact .t-ContentRow-iconWrap { margin-right: 10px; }
+
+.u-RTL .t-ContentRow--styleCompact .t-ContentRow-selection, .u-RTL .t-ContentRow--styleCompact .t-ContentRow-iconWrap { margin-right: 0; margin-left: 10px; }
+
+body .t-ContentRow--styleCompact .t-ContentRow-iconWrap img { max-width: 24px; }
+
+.t-ContentRow--styleCompact .t-ContentRow-title { font-size: 15px; }
+
+.t-ContentRow--styleCompact .t-ContentRow-misc, .t-ContentRow--styleCompact .t-ContentRow-actions { margin-left: 12px; }
+
+.u-RTL .t-ContentRow--styleCompact .t-ContentRow-misc, .u-RTL .t-ContentRow--styleCompact .t-ContentRow-actions { margin-left: 0; margin-right: 12px; }
+
+.t-ContentRow--removePadding .t-ContentRow-wrap { padding-left: 0; padding-right: 0; padding-top: 8px; padding-bottom: 8px; }
+
+.t-ContentRow--removePadding .t-ContentRow-item:first-child .t-ContentRow-wrap { padding-top: 0; }
+
+.t-ContentRow--removePadding .t-ContentRow-item:last-child .t-ContentRow-wrap { padding-bottom: 0; }

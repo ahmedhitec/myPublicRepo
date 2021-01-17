@@ -1,0 +1,123 @@
+/** Import Compass */
+/* Margins ========================================================================== */
+/* Paddings ========================================================================== */
+/* Directions ========================================================================== */
+/* Floats ========================================================================== */
+/* Text Alignment ========================================================================== */
+/* Transforms ========================================================================== */
+/* ========================================================================== Icon Library Mixin ========================================================================== */
+/* ========================================================================== Shadows ========================================================================== */
+/* ========================================================================== Interactive Report ========================================================================== */
+.a-IRR { border-radius: 2px; overflow: hidden; /* Adjusting interactive report font size to be smaller */ font-size: 1.2rem; line-height: 1.6rem; }
+
+.a-IRR-toolbar--singleRow { border-bottom-width: 1px; }
+
+.a-IRR-header.is-active { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset; }
+
+/* ========================================================================== Interactive Report Region (.t-IRR-region) ========================================================================== */
+.t-IRR-region { margin-bottom: 16px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.075); }
+
+.t-Region .t-IRR-region { margin-bottom: 0; }
+
+.t-IRR-region--noBorders .a-IRR { border: none; border-radius: 0; overflow: inherit; }
+
+body .ui-dialog .ui-dialog-content.a-IRR-dialogBody { padding: 12px; }
+
+.a-IRR-dialogContent--filter { padding: 0; }
+
+.a-IRR-dialogBody .shuttleSelect1 select, .a-IRR-dialogBody .shuttleSelect2 select { height: 180px; }
+
+/* ========================================================================== Interactive Report Region (.t-IRR-region) ========================================================================== */
+.t-IRR-region .a-IRR-iconViewTable { border-spacing: 0; border-collapse: collapse; width: 100%; display: block; padding: 8px; overflow: hidden; }
+
+.t-IRR-region .a-IRR-iconViewTable tbody { display: block; }
+
+.t-IRR-region .a-IRR-iconViewTable tr { display: inline; }
+
+.t-IRR-region .a-IRR-iconViewTable td { display: block; float: left; padding: 0; width: 16.66666%; }
+
+@media only screen and (min-width: 1281px) and (max-width: 1680px) { .t-IRR-region .a-IRR-iconViewTable td { width: 20%; }
+  .t-IRR-region .a-IRR-iconViewTable td:nth-child(6) { clear: both; } }
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) { .t-IRR-region .a-IRR-iconViewTable td { width: 25%; }
+  .t-IRR-region .a-IRR-iconViewTable td:nth-child(5) { clear: both; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) { .t-IRR-region .a-IRR-iconViewTable td { width: 33.33%; }
+  .t-IRR-region .a-IRR-iconViewTable td:nth-child(4) { clear: both; } }
+
+@media only screen and (max-width: 768px) { .t-IRR-region .a-IRR-iconViewTable td { width: 50%; }
+  .t-IRR-region .a-IRR-iconViewTable td:nth-child(3) { clear: both; } }
+
+@media only screen and (max-width: 640px) { .t-IRR-region .a-IRR-iconViewTable td { width: 100%; } }
+
+.a-IRR-detail-row img { min-width: 16px; }
+
+/* ========================================================================== Interactive Report Core Overrides ========================================================================== */
+.a-IRR-iconViewTable, .a-IRR-chartView, .a-IRR-pivotView, .a-IRR-groupByView, .a-IRR-detailView { border-top: 1px solid; }
+
+.a-IRR-iconViewTable:empty, .a-IRR-chartView:empty, .a-IRR-pivotView:empty, .a-IRR-groupByView:empty, .a-IRR-detailView:empty { border-top-width: 0; }
+
+.a-IRR-buttons { margin-top: calc(var(--a-irr-item-spacing) / -2); margin-bottom: calc(var(--a-irr-item-spacing) / -2); }
+
+.a-IRR-buttons .t-Button { margin-top: calc(var(--a-irr-item-spacing) / 2); margin-bottom: calc(var(--a-irr-item-spacing) / 2); vertical-align: top; }
+
+.a-IRR-content { overflow: hidden; }
+
+.a-IRR-tableContainer, .a-IRR-chartView, .a-IRR-pivotView, .a-IRR-groupByView, .a-IRR-detailView { overflow: auto; -webkit-overflow-scrolling: touch; }
+
+/* ========================================================================== Responsive Interactive Report ========================================================================== */
+.a-IRR-table tr td:first-child, .a-IRR-table tr th:first-child { box-shadow: none; }
+
+.u-RTL .a-IRR-table tr td:first-child, .u-RTL .a-IRR-table tr th:first-child { border-left-width: 1px; border-right-width: 0; }
+
+.a-IRR-table td { padding: 8px 12px; }
+
+.a-IRR-header.a-IRR-header--group { border-bottom-width: 0; }
+
+.u-RTL .a-IRR-button--actions { margin-right: 5px; }
+
+/* Display a bottom border when IRR rows are stuck ========================================================================== */
+.a-IRR-tableContainer .js-stickyTableHeader.is-stuck { box-shadow: 0 1px rgba(0, 0, 0, 0.1); }
+
+@media only screen and (max-width: 768px) { .a-IRR-toolbar { flex-wrap: wrap; }
+  .a-IRR-controls, .a-IRR-buttons, .a-IRR-actions { flex-grow: 1; flex-basis: 100%; }
+  .a-IRR-buttons { display: flex; flex-wrap: wrap; margin-left: calc(var(--a-irr-item-spacing) / -2); margin-right: calc(var(--a-irr-item-spacing) / -2); padding-top: calc(var(--a-irr-item-spacing) / 2); margin-top: 0; margin-bottom: calc(var(--a-irr-item-spacing) / -2); }
+  .a-IRR-buttons .t-Button { justify-content: space-between; margin: calc(var(--a-irr-item-spacing) / 2); flex-grow: 1; flex-shrink: 0; flex-basis: auto; }
+  .a-IRR-controlGroup { padding-right: 0; border-right-width: 0; border-bottom-width: var(--a-toolbar-sep-border-width); border-bottom-style: solid; border-bottom-color: var(--a-toolbar-sep-border-color); padding-bottom: var(--a-toolbar-sep-spacing); }
+  .u-RTL .a-IRR-controlGroup { border-left-width: 0; padding-left: 0; }
+  .u-RTL .a-IRR-sortWidget-searchLabel { left: 0; }
+  .a-IRR-savedReports { flex-grow: 1; }
+  .a-IRR-savedReports .a-IRR-selectList { display: block; width: 100%; }
+  .a-IRR-savedReports + .a-IRR-viewsContainer { padding-left: 8px; }
+  .a-IRR-searchFieldContainer, .a-IRR-search-field { width: 100%; }
+  .a-IRR-viewsContainer, .a-IRR-rowSelector { width: 50%; }
+  .a-IRR-rowSelector { padding-right: 8px; }
+  .a-IRR-rowSelector label, .a-IRR-rowSelector .a-IRR-selectList { display: block; float: left; margin-right: 0; }
+  .a-IRR-rowSelector label { width: 30%; }
+  .a-IRR-rowSelector .a-IRR-selectList { width: 70%; }
+  .a-IRR-button--actions { display: block; width: 100%; }
+  .a-IRR-views { display: flex; margin-right: 0; }
+  .a-IRR-views .a-IRR-button { flex-grow: 1; flex-shrink: 0; flex-basis: auto; }
+  .a-IRR-controlGroup--views, .a-IRR-controlGroup--options { flex-basis: calc(50% - var(--a-irr-item-spacing)); }
+  .a-IRR-controlGroup--views:empty + .a-IRR-controlGroup--options { flex-basis: 100%; }
+  .a-IRR-controlGroup--search, .a-IRR-controlGroup--fill { width: 100%; } }
+
+@media only screen and (max-width: 600px) { .a-IRR-controlGroup { flex-basis: 100%; }
+  .a-IRR-controlGroup--options { padding-left: 0; }
+  .a-IRR-controls-item { display: flex; white-space: nowrap; }
+  .a-IRR-controls-cell { display: inline-block; float: none; }
+  .a-IRR-controls-cell--label { flex-grow: 1; flex-shrink: 0; flex-basis: auto; white-space: normal; }
+  .a-IRR-toolbar--singleRow { display: block; position: relative; }
+  .a-IRR-toolbarNav, .a-IRR-singleRowNav, .a-IRR-viewOptionsContainer { display: block; }
+  .a-IRR-singleRowNav { position: absolute; right: 0; top: 0; margin: 14px 8px; }
+  .a-IRR-viewOptionsContainer { margin: 8px 0 0 0; }
+  .a-IRR-viewOption { margin-left: 0; margin-right: 8px; }
+  .a-IRR-singleRow-name { width: 30%; }
+  .a-IRR-content .a-IRR-singleRow-row.is-displayed:last-child .a-IRR-singleRow-name, .a-IRR-content .a-IRR-singleRow-row.is-displayed:last-child .a-IRR-singleRow-value { border-bottom-width: 0; } }
+
+.js-showMaximizeButton.t-IRR-region.is-maximized { overflow-y: auto; }
+
+@media only screen and (min-width: 769px) { .is-maximized.t-IRR-region .t-fht-thead { overflow-y: scroll; }
+  .is-maximized.t-IRR-region .t-fht-tbody { overflow-y: scroll; } }
+
+.u-RTL .a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField, .u-RTL .a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type=text] { padding: 0 32px 0 8px; }

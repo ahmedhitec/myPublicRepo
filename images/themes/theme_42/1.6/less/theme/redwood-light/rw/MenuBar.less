@@ -1,0 +1,35 @@
+@import "../_variables";
+
+.t-Header-nav {
+  .t-Menu-badge {
+    font-weight: 600;
+  }
+}
+
+/* Header Top Navigation Menu
+   ========================================================================== */
+.t-Header-nav-list {
+  background-color: @g_neutral-160;
+  box-shadow: inset rgba(0, 0, 0, .1) 0 1px 0;
+}
+
+.t-Header-nav {
+  .a-MenuBar-item {
+    border: 0;
+
+    /* Focus State (also applied on hover) */
+    &.is-focused {
+      background-color: transparent;
+      box-shadow: 0 -4px 0 @g_neutral-130 inset;
+    }
+
+    /* Current + Focused, or Current + Expanded */
+    &.a-Menu--current,
+    &.a-Menu--current.is-focused,
+    &.is-expanded,
+    &.a-Menu--current.is-expanded {
+      background-color: transparent;
+      box-shadow: inset @g_brand 0 -4px 0;
+    }
+  }
+}

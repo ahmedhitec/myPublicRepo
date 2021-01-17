@@ -1,0 +1,172 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+/* ==========================================================================
+  Tabs Configuration
+  ========================================================================== */
+
+
+/* Tab Variables
+ ========================================================================== */
+@l_Tab-Highlight: @g_Accent-BG;
+
+/* Region Display Selector
+ ========================================================================== */
+.t-Tabs--simple .t-Tabs-item.is-active .t-Tabs-link {
+  box-shadow: 0 -2px 0 @g_Focus inset;
+}
+
+.t-Tabs--simple .t-Tabs-link:focus {
+  box-shadow: 0 0 0 1px @g_Focus inset;
+}
+
+.t-Tabs--pill {
+  background-color: darken(@g_Region-BG, 2.5%);
+  border-radius: 2px;
+  border-color: @_base-alpha-4;
+  box-shadow: 0 1px 2px @_base-shadow-2;
+
+  .t-Icon {
+    color: @g_Region-FG;
+  }
+
+  .t-Tabs-link {
+    color: @g_Region-FG;
+    border-left-color: @_base-alpha-4;
+
+    .u-RTL & {
+      border-right-color: @_base-alpha-4;
+    }
+
+    &:hover {
+      background-color: @g_Region-BG;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 1px @g_Focus inset;
+    }
+
+    &:active {
+      background-color: @g_Region-BG;
+      box-shadow: 0 2px 1px @_base-shadow-2 inset;
+    }
+  }
+
+  .t-Tabs-item:first-child .t-Tabs-link {
+    border-radius: 2px 0 0 2px;
+
+    .u-RTL & {
+      border-radius: 0 2px 2px 0;
+    }
+  }
+
+  .t-Tabs-item:last-child .t-Tabs-link {
+    border-right-color: @_base-alpha-4;
+
+    .u-RTL & {
+      border-left-color: @_base-alpha-4;
+    }
+  }
+
+  .t-Tabs-item.is-active {
+    .t-Tabs-link {
+      background-color: @g_Region-BG;
+    }
+  }
+}
+
+
+
+
+.t-Tabs--simple .t-Icon {
+  color: @g_Region-FG;
+}
+
+.t-Tabs--simple .t-Tabs-link {
+  color: fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,  85%), 100%), desaturate(lighten(@g_Body-Title-BG,  85%), 50%)), 100%);
+
+  &:hover {
+    background-color: @_base-alpha-1;
+  }
+
+  &:active {
+    background-color: @_base-alpha-5;
+  }
+
+  .t-Body & {
+    color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  85%), 100%), desaturate(lighten(@g_Body-BG,  85%), 50%)), 100%);
+  }
+
+  .t-Body-title & {
+    color: @g_Body-Title-FG;
+  }
+
+  .t-Region & {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  85%), 100%), desaturate(lighten(@g_Region-BG,  85%), 50%)), 100%);
+  }
+}
+
+/* ==========================================================================
+   Region Display Selector
+   ========================================================================== */
+.apex-rds .apex-rds-selected span {
+  box-shadow: 0 -2px 0 @g_Focus inset;
+}
+
+.apex-rds a:focus {
+  box-shadow: 0 0 0 1px @g_Focus inset;
+}
+
+.apex-rds a {
+
+  .t-Body-title &,
+  .t-Body-info & {
+    color: @g_Body-Title-FG;
+  }
+
+  .t-Region & {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  85%), 100%), desaturate(lighten(@g_Region-BG,  85%), 50%)), 100%);
+  }
+
+  color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  85%), 100%), desaturate(lighten(@g_Body-BG,  85%), 50%)), 100%);
+
+  &:hover {
+    color: @g_Link-Base;
+  }
+}
+
+.apex-rds .apex-rds-selected a {
+  color: @g_Link-Base;
+}
+
+.apex-rds-hover.left {
+  a {
+    background: linear-gradient(to right, @g_Body-Title-BG 50%, @_base-bg-alpha-0 100%);
+  }
+}
+
+.apex-rds-hover.right {
+  a {
+    background: linear-gradient(to right, @g_Body-Title-BG 0%, @_base-bg-alpha-0 1%, @g_Body-Title-BG 50%);
+  }
+}
+
+.apex-rds-item--hint a span {
+  box-shadow: 0 -2px 0 @_base-alpha-6 inset;
+}
+
+/* Vertical RDS
+   ========================================================================== */
+.vertical-rds,
+.t-Body-side {
+  .apex-rds .apex-rds-selected span {
+    box-shadow: 4px 0 0 @g_Focus inset;
+
+    .u-RTL & {
+      box-shadow: -4px 0 0 @g_Focus inset;
+    }
+  }
+}

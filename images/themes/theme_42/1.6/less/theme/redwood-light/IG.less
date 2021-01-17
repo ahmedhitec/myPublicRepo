@@ -1,0 +1,223 @@
+@import "_variables";
+
+.a-IG {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+  background-color: @_base-bg;
+}
+
+.a-RV-toolbar {
+  border-color: @_base-shade-4;
+}
+
+.a-GV-hdr,
+.a-IG-header {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+  // background-color: @_base-shade-2;
+  background-color: @g_Region-Header-BG;
+}
+
+.a-GV-table {
+  --a-gv-cell-border-color: mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-GV-hdr {
+  box-shadow: inset 0 -1px 0 0 mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-GV-w-frozen .a-GV-table,
+.a-GV-w-hdr .a-GV-table {
+  border-color: @_base-shade-3 !important;
+}
+
+.a-GV-bdy {
+  background-color: @GVBody_bg;
+}
+
+.a-GV-header,
+.a-GV-headerGroup,
+.a-Toolbar-group {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-GV-table .a-GV-cell {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-GV-table tr.is-selected .a-GV-cell {
+  background-color: mix(@g_Focus, @_base-bg, 10%);
+}
+
+.a-GV-table tr.is-deleted.is-selected .a-GV-cell {
+  &.has-button {
+    background-color: fade(mix(@g_Focus, @_base-bg, 10%), 50%);
+  }
+}
+
+.a-IRR-paginationWrap--bottom {
+  border-top-color: mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-IG-gridView .a-GV-footer {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+}
+
+.a-GV-footer {
+  border-color: mix(@GVBody_bg, @_base, 92.5%);
+  background-color: mix(@GVBody_bg, @_base, 98.5%);
+}
+
+.a-GV-pageRange {
+  color: @_base-alpha-10;
+}
+
+.a-GV-pageButton {
+  color: @_base-alpha-10;
+
+  &:hover {
+    background-color: @_base-alpha-3;
+  }
+}
+
+
+
+.a-GV-pageSelector-item.is-selected .a-GV-pageButton {
+  background-color: @_base-alpha-5;
+  color: @_base-alpha-12;
+}
+
+.a-GV-table th.a-GV-controlBreakHeader {
+  background-color: @_base-alpha-2;
+  border-color: @_base-alpha-4;
+  color: @_base-alpha-11;
+}
+
+
+.a-GV-row.is-hover,
+.a-IRR-table tr:hover td {
+  --a-gv-row-hover-background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   2%), lighten(@g_Region-BG,   2%),  43%);
+}
+
+.a-GV--editMode .a-GV-row.is-readonly .a-GV-cell,
+.a-GV--editMode .a-GV-cell.is-readonly {
+  background-color: @_base-shade-1;
+  color: @_base-shade-6;
+}
+
+
+.a-IG-recordView {
+  .u-Form-fieldContainer .t-Button.t-Button--helpButton {
+    box-shadow: none !important;
+    background-color: transparent !important;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+
+    &:hover {
+      .a-Icon {
+        opacity: 1;
+      }
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 1px @g_Focus inset !important;
+    }
+  }
+}
+
+// .a-IG {
+//   border-color: @_base-shade-3;
+//   background-color: @_base-shade-0;
+// }
+
+.a-IG-header,
+.a-IGDialog-header,
+.a-IGDialog-footer,
+.a-IGDialog-side {
+  border-color: @_base-shade-3;
+  background-color: @_base-shade-1;
+}
+
+// .a-IG-gridView .a-GV-footer {
+//   border-color: @_base-shade-3;
+// }
+
+// .a-IG-button.a-IG-button--controls {
+//   background-color: transparent;
+// }
+
+// .a-IG-controlsCheckboxLabel {
+//   border-color: @_base-shade-5;
+//   background-color: @_base-bg-alpha-10;
+
+//   &:before {
+//     color: @g_Accent-FG;
+//   }
+
+//   &:hover {
+//     border-color: @_base-alpha-6;
+//   }
+
+//   &:active {
+//     background-color: inherit;
+//   }
+// }
+
+// .a-IG-controls .a-IG-controlsCheckbox:checked + .a-IG-controlsCheckboxLabel {
+//   background-color: @g_Accent-BG;
+//   border-color: @g_Accent-BG;
+
+//   &:before {}
+// }
+
+// .a-IG-controlsLabel {
+//   border-color: @_base-alpha-2;
+//   background-color: transparent;
+// }
+
+
+.a-GV-columnControls .a-Button {
+  color: @g_Button-Text;
+  background-color: @g_Button-BG;
+  box-shadow: 0 0 0 1px fade(@_base, 12.5) inset;
+
+  &.is-active {
+    background-color: darken(@g_Button-BG, 10%);
+    box-shadow: 0 0 0 1px fade(@_base, 2.5) inset;
+  }
+}
+
+.a-GV-floatingItem.is-expanded {
+  background-color: @_base-bg-alpha-12;
+}
+
+.a-GV-columnHandle,
+.a-GV-cellMoveHandle {
+  opacity: .5;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIHZpZXdCb3g9IjAgMCA0IDQiPjxwYXRoIGZpbGw9IiM2NjYiIGQ9Ik0wIDBoMnYyaC0yeiIvPjwvc3ZnPg==);
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+
+// Splitter
+:root {
+  --a-splitter-bar-background-color: @g_Button-BG;
+  --a-splitter-bar-border-color: fade(@_base, 12.5);
+  --a-splitter-bar-hover-background-color: lighten(@g_Button-BG, 10%);
+  --a-splitter-bar-active-background-color: var(--a-splitter-bar-hover-background-color);
+  --a-splitter-bar-focus-background-color:@g_Focus;
+  --a-splitter-bar-focus-border-color: var(--a-splitter-bar-focus-background-color);
+  --a-splitter-thumb-border-color: var(--a-splitter-bar-border-color);
+  --a-splitter-thumb-background-color: var(--a-splitter-bar-background-color);
+  --a-splitter-thumb-arrow-color: @g_Button-Text;
+  --a-splitter-thumb-hover-border-color: var(--a-splitter-bar-focus-background-color);
+  --a-splitter-thumb-hover-background-color: var(--a-splitter-bar-hover-background-color);
+  --a-splitter-thumb-focus-border-color: var(--a-splitter-bar-focus-background-color);
+  --a-splitter-thumb-focus-background-color: var(--a-splitter-bar-focus-background-color);
+  --a-splitter-thumb-focus-arrow-color: @g_Button-Text;
+  --a-splitter-thumb-focus-hover-background-color: var(--a-splitter-thumb-focus-background-color);
+}

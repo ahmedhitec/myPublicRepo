@@ -1,0 +1,1912 @@
+[
+{
+"name":"App Builder"
+,"url":"f?p=4000:1500:%SESSION%::\u0026DEBUG.::P1500_SHOW::"
+,"description":" App\u0026#x20;Builder"
+,"path":" App\u0026#x20;Builder"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Database Applications"
+,"url":"f?p=4000:1500:%SESSION%::\u0026DEBUG.::P1500_SHOW:DATABASE:"
+,"description":" App\u0026#x20;Builder \u005C Database\u0026#x20;Applications"
+,"path":" App\u0026#x20;Builder \u005C Database\u0026#x20;Applications"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Create"
+,"url":"f?p=4000:56:%SESSION%::\u0026DEBUG.:56,103,104,106,130,131,35,227,3020,3000,3001:FB_FLOW_ID,FB_FLOW_PAGE_ID::"
+,"description":" App\u0026#x20;Builder \u005C Create"
+,"path":" App\u0026#x20;Builder \u005C Create"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Import"
+,"url":"f?p=4000:460:%SESSION%::\u0026DEBUG.:460:P460_FILE_TYPE:FLOW_EXPORT:"
+,"description":" App\u0026#x20;Builder \u005C Import"
+,"path":" App\u0026#x20;Builder \u005C Import"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export"
+,"url":"f?p=4000:523:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Export"
+,"path":" App\u0026#x20;Builder \u005C Export"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"All Workspace Utilities"
+,"url":"f?p=4000:182:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C All\u0026#x20;Workspace\u0026#x20;Utilities"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C All\u0026#x20;Workspace\u0026#x20;Utilities"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"App Builder Defaults"
+,"url":"f?p=4000:800:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C App\u0026#x20;Builder\u0026#x20;Defaults"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C App\u0026#x20;Builder\u0026#x20;Defaults"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-ui-defaults"
+}
+,{
+"name":"Workspace Themes"
+,"url":"f?p=4000:763:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Workspace\u0026#x20;Themes"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Workspace\u0026#x20;Themes"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-util-workspace-themes"
+}
+,{
+"name":"Application Groups"
+,"url":"f?p=4000:722:%SESSION%::\u0026DEBUG.:RP"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Application\u0026#x20;Groups"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Application\u0026#x20;Groups"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-util-app-groups"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Application\u0026#x20;Express\u0026#x20;Views"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Application\u0026#x20;Express\u0026#x20;Views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Cross Application Reports"
+,"url":"f?p=4000:9009:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Cross\u0026#x20;Application\u0026#x20;Reports"
+,"path":" App\u0026#x20;Builder \u005C Workspace\u0026#x20;Utilities \u005C Cross\u0026#x20;Application\u0026#x20;Reports"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-cross-app-reports"
+}
+,{
+"name":"Migrations"
+,"url":"f?p=4400:1:%SESSION%"
+,"description":" App\u0026#x20;Builder \u005C Migrations"
+,"path":" App\u0026#x20;Builder \u005C Migrations"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL Workshop"
+,"url":"f?p=4500:3002:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop"
+,"path":" SQL\u0026#x20;Workshop"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Object Browser"
+,"url":"f?p=4500:1001:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Object\u0026#x20;Browser"
+,"path":" SQL\u0026#x20;Workshop \u005C Object\u0026#x20;Browser"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL Commands"
+,"url":"f?p=4500:1003:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C SQL\u0026#x20;Commands"
+,"path":" SQL\u0026#x20;Workshop \u005C SQL\u0026#x20;Commands"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL Scripts"
+,"url":"f?p=4500:1004:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C SQL\u0026#x20;Scripts"
+,"path":" SQL\u0026#x20;Workshop \u005C SQL\u0026#x20;Scripts"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"All Utilities"
+,"url":"f?p=4500:1005:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C All\u0026#x20;Utilities"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C All\u0026#x20;Utilities"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Data Workshop"
+,"url":"f?p=4300:1:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Data\u0026#x20;Workshop"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Data\u0026#x20;Workshop"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-data-workshop"
+}
+,{
+"name":"Query Builder"
+,"url":"f?p=4500:1002:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Query\u0026#x20;Builder"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Query\u0026#x20;Builder"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-query-builder"
+}
+,{
+"name":"Quick SQL"
+,"url":"f?p=4500:1100:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Quick\u0026#x20;SQL"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Quick\u0026#x20;SQL"
+,"priority":0
+,"scope":"global"
+,"icon":"a-Icon icon-utilities-query-builder"
+}
+,{
+"name":"Sample Datasets"
+,"url":"f?p=4300:100:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Sample\u0026#x20;Datasets"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Sample\u0026#x20;Datasets"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-sc-files"
+}
+,{
+"name":"Generate DDL"
+,"url":"f?p=4500:12:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Generate\u0026#x20;DDL"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Generate\u0026#x20;DDL"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-generate-ddl"
+}
+,{
+"name":"User Interface Defaults"
+,"url":"f?p=4500:813:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C User\u0026#x20;Interface\u0026#x20;Defaults"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C User\u0026#x20;Interface\u0026#x20;Defaults"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-ui-defaults"
+}
+,{
+"name":"Schema Comparison"
+,"url":"f?p=4500:1350:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Schema\u0026#x20;Comparison"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Schema\u0026#x20;Comparison"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilites-schema-comparison"
+}
+,{
+"name":"Methods on Tables"
+,"url":"f?p=4500:120:%SESSION%::NO::P117_CREATE_PACKAGE:TABLE"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Methods\u0026#x20;on\u0026#x20;Tables"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Methods\u0026#x20;on\u0026#x20;Tables"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-methods-tables"
+}
+,{
+"name":"Recycle Bin"
+,"url":"f?p=4500:1070:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Recycle\u0026#x20;Bin"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Recycle\u0026#x20;Bin"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilites-recycle-bin"
+}
+,{
+"name":"Object Reports"
+,"url":"f?p=4500:1042:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Object\u0026#x20;Reports"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilities \u005C Object\u0026#x20;Reports"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-object-reports"
+}
+,{
+"name":"RESTful Services"
+,"url":"f?p=4850:500:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C RESTful\u0026#x20;Services"
+,"path":" SQL\u0026#x20;Workshop \u005C RESTful\u0026#x20;Services"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Team Development"
+,"url":"f?p=4600:1:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development"
+,"path":" Team\u0026#x20;Development"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Labels"
+,"url":"f?p=4600:300:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Labels"
+,"path":" Team\u0026#x20;Development \u005C Labels"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Milestones"
+,"url":"f?p=4600:200:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Milestones"
+,"path":" Team\u0026#x20;Development \u005C Milestones"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4600:1000:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Templates"
+,"path":" Team\u0026#x20;Development \u005C Templates"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Utilities"
+,"url":"f?p=4600:2000:%SESSION%::\u0026DEBUG.::::"
+,"description":" Team\u0026#x20;Development \u005C Utilities"
+,"path":" Team\u0026#x20;Development \u005C Utilities"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Feedback"
+,"url":"f?p=4650:8012:%SESSION%::\u0026DEBUG.::::"
+,"description":" Team\u0026#x20;Development \u005C Feedback"
+,"path":" Team\u0026#x20;Development \u005C Feedback"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"App Gallery"
+,"url":"f?p=4750:50:\u0026APP_SESSION."
+,"description":" App\u0026#x20;Gallery"
+,"path":" App\u0026#x20;Gallery"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Productivity Apps"
+,"url":"f?p=4750:50:%SESSION%::\u0026DEBUG.:RP,50:P50_APP_GROUP:PACKAGE"
+,"description":" App\u0026#x20;Gallery \u005C Productivity\u0026#x20;Apps"
+,"path":" App\u0026#x20;Gallery \u005C Productivity\u0026#x20;Apps"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Sample Apps"
+,"url":"f?p=4750:50:%SESSION%::\u0026DEBUG.:RP,50:P50_APP_GROUP:SAMPLE"
+,"description":" App\u0026#x20;Gallery \u005C Sample\u0026#x20;Apps"
+,"path":" App\u0026#x20;Gallery \u005C Sample\u0026#x20;Apps"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Administration"
+,"url":"f?p=4750:6:%SESSION%::\u0026DEBUG.:6:"
+,"description":" App\u0026#x20;Gallery \u005C Administration"
+,"path":" App\u0026#x20;Gallery \u005C Administration"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Run Application"
+,"url":"\u0026F4000_P1_RUN_LINK."
+,"description":"Navigate to: Shared Components \u005C Run Application"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Supporting Objects"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Supporting Objects"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shared Components"
+,"url":"f?p=4000:9:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Shared Components"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilities"
+,"url":"f?p=4000:674:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Utilities"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Export \/ Import"
+,"url":"f?p=4000:461:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Export \/ Import"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Definition Attributes"
+,"url":"f?p=4000:4001:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Definition Attributes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Processes"
+,"url":"f?p=4000:4207:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Computations"
+,"url":"f?p=4000:4101:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Computations"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Settings"
+,"url":"f?p=4000:4850:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Settings"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Automations"
+,"url":"f?p=4000:7020:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Automations"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4910:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:130:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:533:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:42:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Processes"
+}
+,"tokens":"Processes"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:43:%SESSION%::\u0026DEBUG.::::"
+,"description":"APEX.SEARCH.SC.comp_DESCRIPTION"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Computations"
+}
+,"tokens":"Computations"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:203:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:535:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Security Attributes"
+,"url":"f?p=4000:509:%SESSION%::\u0026DEBUG.:509:FB_FLOW_ID,509_FB_UPD_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Security Attributes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:801:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authentication Schemes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authorization Schemes"
+,"url":"f?p=4000:4070:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authorization Schemes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Access Control"
+,"url":"f?p=4000:2300:%SESSION%::\u0026DEBUG.:RP,2300:::"
+,"description":"Navigate to: Shared Components \u005C Application Access Control"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:510:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Session State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1620:%SESSION%::\u0026DEBUG.:1620:::"
+,"description":"Navigate to: Shared Components \u005C Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:817:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:554:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:129:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"by Component"
+,"url":"f?p=4000:340:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C by Component"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:4045:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:558:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:1622:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:1623:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"List of Values"
+,"url":"f?p=4000:4110:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4400:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Component Settings"
+,"url":"f?p=4000:4445:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Component Settings"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shortcuts"
+,"url":"f?p=4000:4047:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4860:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Email Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Edit Null Text"
+,"url":"f?p=4000:169:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Edit Null Text"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Locally Defined"
+,"url":"f?p=4000:419:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Locally Defined"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Grid Edit"
+,"url":"f?p=4000:178:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Grid Edit"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Conditional Entries"
+,"url":"f?p=4000:556:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Conditional Entries"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:686:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:4420:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:841:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:4447:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Component Settings \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Component Settings"
+}
+,"tokens":"Component Settings"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:41:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Shortcuts"
+}
+,"tokens":"Shortcuts"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Lists"
+,"url":"f?p=4000:405:%SESSION%::\u0026DEBUG.:RIR:::"
+,"description":"Navigate to: Shared Components \u005C Lists"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Breadcrumbs"
+,"url":"f?p=4000:546:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"List Details"
+,"url":"f?p=4000:4050:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C List Details"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Conditional Entries"
+,"url":"f?p=4000:557:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Conditional Entries"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:44:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Hierarchy"
+,"url":"f?p=4000:586:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Hierarchy"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Grid Edit"
+,"url":"f?p=4000:3:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Grid Edit"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Exceptions"
+,"url":"f?p=4000:545:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Exceptions"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:365:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:369:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Classic Navigation Bar Entries"
+,"url":"f?p=4000:4005:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Bar Entries"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"User Interface Attributes"
+,"url":"f?p=4000:197:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C User Interface Attributes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:260:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Themes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4000:4003:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Reports"
+,"url":"f?p=4000:173:%SESSION%::\u0026DEBUG.:RP:P173_SHOW:1:"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Reports"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:681:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:124:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Publish"
+,"url":"f?p=4000:727:%SESSION%::\u0026DEBUG.:727:::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Publish"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:4656:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:368:%SESSION%"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Static Application Files"
+,"url":"f?p=4000:40:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Static Application Files"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Static Workspace Files"
+,"url":"f?p=4000:312:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Static Workspace Files"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Data Load Definitions"
+,"url":"f?p=4000:1800:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST Enabled SQL"
+,"url":"f?p=4000:1600:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST Data Sources"
+,"url":"f?p=4000:1901:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Legacy Web Service References"
+,"url":"f?p=4000:170:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Service References"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:1808:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Data Load Definitions"
+}
+,"tokens":"Data Load Definitions"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:1602:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:1603:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilization"
+,"url":"f?p=4000:1902:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Utilization"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:1903:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:63:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Services \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Legacy Web Services"
+}
+,"tokens":"Legacy Web Services"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Report Queries"
+,"url":"f?p=4000:1100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Report Layouts"
+,"url":"f?p=4000:1400:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:843:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Queries"
+}
+,"tokens":"Report Queries"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"History"
+,"url":"f?p=4000:844:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts \u005C History"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Layouts"
+}
+,"tokens":"Report Layouts"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Globalization Attributes"
+,"url":"f?p=4000:506:%SESSION%::\u0026DEBUG.:506:FB_FLOW_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Globalization Attributes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Text Messages"
+,"url":"f?p=4000:4006:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Text Messages"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Translate Application"
+,"url":"f?p=4000:4761:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Translate Application"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Application Dashboard"
+,"url":"f?p=4000:71:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Dashboard"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-app-dashboard"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Advisor"
+,"url":"javascript:apex.navigation.popup({ url: \u0027f?p=4000:8101:%SESSION%::\u0026DEBUG.:8101\u0027, width: 1000, height: 800 }); void(0);"
+,"description":"Navigate to: Application Utilities \u005C Advisor"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-advisor"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Upgrade Application"
+,"url":"f?p=4000:89:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Upgrade Application"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-upgrade-app"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Recently Updated Pages"
+,"url":"f?p=4000:8:%SESSION%::\u0026DEBUG.:RIR:IR_UPDATED_BY:\u0026APP_USER.:"
+,"description":"Navigate to: Application Utilities \u005C Recently Updated Pages"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-recent-pages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Attribute Dictionary"
+,"url":"f?p=4000:889:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Attribute Dictionary"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-attribute-dictionary"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Change History"
+,"url":"f?p=4000:358:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Change History"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-change-history"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Debug Messages"
+,"url":"f?p=4000:666:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Debug Messages"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-debug-messages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Express Views"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-apex-views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export Repository"
+,"url":"f?p=4000:73:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Export Repository"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-export-repository"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Embedded Code"
+,"url":"f?p=4000:101:%SESSION%::\u0026DEBUG.:RP,101:::"
+,"description":"Navigate to: Application Utilities \u005C Embedded Code"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-embedded-code"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Cross Page Utilities"
+,"url":"f?p=4000:553:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Cross Page Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Page Groups"
+,"url":"f?p=4000:520:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Page Groups"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Region Utilities"
+,"url":"f?p=4000:853:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Region Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Button Utilities"
+,"url":"f?p=4000:852:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Button Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Item Utilities"
+,"url":"f?p=4000:854:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Item Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Computation Utilities"
+,"url":"f?p=4000:847:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Computation Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Validation Utilities"
+,"url":"f?p=4000:851:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Validation Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Process Utilities"
+,"url":"f?p=4000:482:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Process Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Dynamic Action Utilities"
+,"url":"f?p=4000:699:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Dynamic Action Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Branch Utilities"
+,"url":"f?p=4000:881:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Branch Utilities"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export Application Components"
+,"url":"f?p=4000:688:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Export Application Components"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Manage Supporting Objects"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Manage Supporting Objects"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Edit Application Comment"
+,"url":"f?p=4000:4310:%SESSION%::\u0026DEBUG.::F4000_P4310_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Edit Application Comment"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Developer Comments"
+,"url":"f?p=4000:606:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Developer Comments"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Install Sample App"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:SAMPLE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Install Productivity App"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:PACKAGE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Manage Backups"
+,"url":"f?p=4000:970:%SESSION%::\u0026DEBUG.:970:::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"icon":"icon-apex-backup"
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Browse by Facets"
+,"url":"f?p=4000:69:%SESSION%::\u0026DEBUG.::::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Table"
+,"url":"f?p=4500:TABLE_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Table in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_table.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"View"
+,"url":"f?p=4500:VIEW_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create View in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_view.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Index"
+,"url":"f?p=4500:INDEX_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Index in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_index.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Sequence"
+,"url":"f?p=4500:SEQUENCE_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Sequence in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_sequence.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Type"
+,"url":"f?p=4500:TYPE_CREATE:%SESSION%:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:\u0026DEBUG.::::"
+,"description":"Create Type in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_type.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Package"
+,"url":"f?p=4500:PACKAGE_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Package in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_package_body.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Procedure"
+,"url":"f?p=4500:PROCEDURE_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Procedure in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_procedure.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Function"
+,"url":"f?p=4500:FUNCTION_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Function in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_function.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Trigger"
+,"url":"f?p=4500:TRIGGER_CREATE:%SESSION%::\u0026DEBUG.:602,604,145,149,48,98,107,100,57,77,94,135,117,118,131,186,187,120,124,125,121,122,123,97,99,3,84,182,183,91,TBL_WIZ_COLUMNS,TBL_WIZ_FKS,TBL_WIZ_CONS:::"
+,"description":"Create Trigger in SQL Workshop"
+,"path":{
+"level1":"SQL Workshop Tasks"
+,"last":"Create Object"
+}
+,"icon":"htmldb\/icons\/ob_trigger.gif"
+,"priority":0
+,"scope":"sqlworkshop"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4303:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Item"
+,"description":"Create Application Item"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Item"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Computations"
+,"url":"f?p=4000:4304:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Computation"
+,"description":"Create Application Computation"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Computation"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4911:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Build Option"
+,"description":"Create Build Option"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Build Option"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:4495:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Authentication Scheme"
+,"description":"Create Authentication Scheme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Authentication Scheme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:525:%SESSION%::\u0026DEBUG.::::"
+,"label":"Set Application State Protection"
+,"description":"Set Application State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Set Application State Protection"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1621:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Web Credentials"
+,"description":"Create Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Web Credentials"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4402:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Plug-in"
+,"description":"Create Plug-in"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Plug-in"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4861:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Email Template"
+,"description":"Create Email Template"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Email Template"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:207:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Theme"
+,"description":"Create Theme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Theme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Script Editor"
+,"url":"f?p=4500:60:%SESSION%::\u0026DEBUG.::::"
+,"label":"Script Editor"
+,"description":"Script Editor"
+,"path":{
+"last":"SQL Workshop"
+}
+,"tokens":"Script Editor"
+,"priority":0
+,"scope":"action"
+}
+]
+
+
+

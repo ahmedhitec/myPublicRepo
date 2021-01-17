@@ -1,0 +1,64 @@
+@import "../_variables";
+
+.apex-item-textarea:focus,
+.apex-item-text:focus,
+.apex-item-select:focus,
+.apex-item-multi:focus,
+select.listmanager:focus,
+.a-IRR-selectList[size="1"]:focus,
+.apex-item-select[size="1"]:focus,
+.a-Switch input[type=checkbox]:focus + .a-Switch-toggle {
+  box-shadow: none;
+  outline-width: @g_OutlineWidth;
+  outline-style: @g_OutlineStyle;
+  outline-offset: @g_OutlineOffset;
+  outline-color: @g_OutlineColor;
+}
+
+// Temp
+.t-Form-inputContainer {
+  overflow: visible;
+}
+
+.apex-item-file:focus + .apex-item-file-dropzone {
+  outline-width: @g_OutlineWidth;
+  outline-style: @g_OutlineStyle;
+  outline-offset: @g_OutlineOffset;
+  outline-color: @g_OutlineColor;
+}
+
+// Required
+.t-Form-fieldContainer--floatingLabel {
+  &.is-required:before {
+    border-color: @g_red-100 transparent transparent @g_red-100;
+  }
+}
+
+
+
+.a-Switch-toggle {
+  border-radius: 8px;
+
+  &:before {
+    border-radius: 6px;
+  }
+}
+
+
+
+.a-IRR-iconList-item .a-IRR-iconList-link.is-active,
+.a-IRR-radioIconList-item input[type=radio]:checked + label {
+  box-shadow: inset @g_OutlineColor 0 2px 0 0;
+}
+
+.a-IRR-dialogList:focus {
+  border-color: @g_OutlineColor;
+}
+
+.a-IRR-dialogList a:focus {
+  box-shadow: inset 0 0 0 1px @g_OutlineColor;
+}
+
+.a-IRR-dialogList a:hover {
+  background-color: @g_OutlineColor;
+}

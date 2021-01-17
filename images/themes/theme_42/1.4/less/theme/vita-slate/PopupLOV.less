@@ -1,0 +1,189 @@
+/**
+ * Import Compass and Theme Variables
+ */
+
+@import "_variables";
+
+/* ==========================================================================
+   Popup LOV
+   ========================================================================== */
+
+.t-PopupLOV-links {
+  a {
+    &:hover {
+      background-color: @g_Link-Base;
+      color: contrast(@g_Link-Base, darken(@g_Link-Base,   75%), lighten(@g_Link-Base,   75%),  43%);
+    }
+  }
+}
+
+.t-PopupLOV-resultsSet {
+  tr:hover td {
+    background-color: #ECF2FB !important;
+  }
+
+  tr:nth-child(2n) td {
+    background-color: #FAFAFA;
+  }
+}
+
+.t-PopupLOV-resultsSet-link,
+.ui-widget-content a.t-PopupLOV-resultsSet-link {
+  color: @g_Link-Base;
+}
+
+.t-Page--popupLOV {
+  background-color: #FFF;
+}
+
+.t-PopupLOV-actions {
+  background-color: @g_Accent-OG;
+  box-shadow: 0 -1px 0 @_base-alpha-5 inset;
+}
+
+.t-PopupLOV-links {
+  a {
+    .text-dark();
+
+    &:hover {
+      background-color: contrast(@g_Link-Base, darken(@g_Link-Base,   10%), lighten(@g_Link-Base,   10%),  43%);
+      color: contrast(@g_Link-Base, darken(@g_Link-Base,   75%), lighten(@g_Link-Base,   75%),  43%);
+    }
+  }
+}
+
+.t-PopupLOV-pagination {
+  .text-normal();
+}
+
+.a-PopupLOV-searchBar {
+  padding: 8px;
+}
+
+// Icon List
+.a-PopupLOV-results {
+  .a-IconList-item {
+    color: inherit;
+
+    &:hover {
+      background-color: @g_Focus;
+      color: @g_Focus-FG;
+      box-shadow: 0 0 0 1px darken(@g_Focus, 5%) inset;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  .a-GV-loadMore {
+    border-top-color: @_base-alpha-5;
+  }
+}
+
+.a-GV-loadMoreButton {
+  --a-button-border-width: ~"0px";
+
+  color: @g_Button-Text;
+  background-color: @g_Button-BG;
+  box-shadow: 0 0 0 1px fade(@_base, 12.5) inset;
+
+  &:hover {
+    background-color: lighten(@g_Button-BG, 10%);
+    box-shadow: 0 0 0 1px @_base-alpha-5 inset;
+  }
+
+  &:focus {
+    background-color: lighten(@g_Button-BG, 15%);
+  }
+
+  &:active {
+    background-color: darken(@g_Button-BG, 10%);
+
+    &:focus {
+      box-shadow: 0 0 0 1px @g_Focus inset, 0 0 1px 0 rgba(5, 114, 206, 0.25);
+    }
+  }
+}
+
+/* ==========================================================================
+   Popup LOV
+   ========================================================================== */
+.apex-item-group--popup-lov {
+
+  .apex-item-multi {}
+
+  .apex-item-multi-item {
+    > span {
+      background-color: @_base-alpha-2;
+      //border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &.is-active {
+      > span {
+        box-shadow: 0 0 0 1px @g_Focus inset;
+      }
+    }
+  }
+
+  .apex-item-multi-remove {
+    background-color: transparent;
+
+    &:hover {
+      background-color: @_base-alpha-2;
+    }
+  }
+}
+
+
+
+// Input Text Styling
+.apex-item-text.a-PopupLOV-search,
+.apex-item-text.apex-item-popup-lov,
+.apex-item-multi {
+  color: @g_Form-Item-FG;
+  background-color: @g_Form-Item-BG;
+  border-color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,   10%), lighten(@g_Form-Item-BG,   10%),  43%);
+
+  &:focus,
+  &.is-focused {
+    color: @g_Form-Item-FG;
+    background-color: @l_Form-Item-focusBG !important;
+    border-color: @g_Focus !important;
+
+    // Focus button
+    & + .a-Button--popupLOV {
+      box-shadow: 0 0 0 1px @g_Focus inset;
+    }
+  }
+}
+
+// Popup
+.ui-dialog .ui-dialog-content.a-PopupLOV-dialog {
+  background-color: @_base-bg;
+}
+
+.a-PopupLOV-doSearch {
+  &:focus {
+    box-shadow: 0 0 0 1px @g_Focus inset;
+  }
+}
+
+.a-PopupLOV-searchBar,
+.a-PopupLOV-clear {
+  border-bottom-color: @_base-alpha-4;
+}
+
+.a-PopupLOV-clearButton {
+  background-color: transparent;
+  color: inherit;
+
+  &:hover {
+    color: @_base-bg;
+    background-color: @g_Focus;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 1px @g_Focus inset;
+  }
+}

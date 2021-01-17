@@ -1,0 +1,141 @@
+@import "../../theme/vita/_variables";
+
+/* ==========================================================================
+   Cycle Colors for Lists
+   ========================================================================== */
+
+.color-cycle(@n, @i: 1) when (@i =< @n) {
+  & > :nth-child(45n+@{i}) {
+    .u-color {
+      --u-color-bg: extract(@_colors, @i);
+      --u-color-fg: extract(@_colors_FG, @i);
+      background-color: extract(@_colors, @i);
+      fill: extract(@_colors, @i);
+      color: extract(@_colors_FG, @i);
+    }
+
+    .u-color-bg,
+    .u-color-background {
+      --u-color-bg: extract(@_colors, @i);
+      background-color: extract(@_colors, @i);
+    }
+
+    .u-color-txt,
+    .u-color-text {
+      --u-color-fg: extract(@_colors, @i);
+      color: extract(@_colors, @i);
+    }
+
+    .u-color-bd,
+    .u-color-border {
+      --u-color-bd: extract(@_colors, @i);
+      border-color: extract(@_colors, @i);
+      stroke: extract(@_colors, @i);
+    }
+  }
+
+  .color-cycle(@n, (@i + 1));
+}
+
+.u-colors {
+
+  &,
+  .a-CardView-items {
+    .color-cycle(45);
+  }
+}
+
+/* Color Parents (used in Lists and other places as template options)
+   ========================================================================== */
+// .color-parents(@n, @i: 1) when (@i =< @n) {
+//   .u-colors-accent-@{i} {
+//     .u-color {
+//       background-color: extract(@_colors, @i);
+//       fill: extract(@_colors, @i);
+//       color: extract(@_colors_FG, @i);
+//     }
+
+//     .u-color-bg,
+//     .u-color-background {
+//       background-color: extract(@_colors, @i);
+//     }
+
+//     .u-color-txt,
+//     .u-color-text {
+//       color: extract(@_colors, @i);
+//     }
+
+//     .u-color-bd,
+//     .u-color-border {
+//       border-color: extract(@_colors, @i);
+//       stroke: extract(@_colors, @i);
+//     }
+//   }
+
+//   .color-parents(@n, (@i + 1));
+// }
+
+// .color-parents(15);
+
+/* ==========================================================================
+   Pallete Colors
+   ========================================================================== */
+.color-palette(@n, @i: 1) when (@i =< @n) {
+  .u-color-@{i} {
+    --u-color-bg: extract(@_colors, @i) !important;
+    --u-color-fg: extract(@_colors_FG, @i) !important;
+    background-color: extract(@_colors, @i) !important;
+    fill: extract(@_colors, @i) !important;
+    color: extract(@_colors_FG, @i) !important;
+  }
+
+  .u-color-@{i}-bg,
+  .u-color-@{i}-background {
+    --u-color-bg: extract(@_colors, @i) !important;
+    background-color: extract(@_colors, @i) !important;
+    fill: extract(@_colors, @i) !important;
+  }
+
+  .u-color-@{i}-txt,
+  .u-color-@{i}-text {
+    --u-color-fg: extract(@_colors, @i) !important;
+    color: extract(@_colors, @i) !important;
+  }
+
+  .u-color-@{i}-bd,
+  .u-color-@{i}-border {
+    --u-color-bd: extract(@_colors, @i) !important;
+    border-color: extract(@_colors, @i) !important;
+    stroke: extract(@_colors, @i) !important;
+  }
+
+  .color-palette(@n, (@i + 1));
+}
+
+.color-palette(45);
+
+/* Transparent Colors
+   ========================================================================== */
+.u-color-transparent {
+  --u-color-bg: transparent !important;
+  --u-color-fg: transparent !important;
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+.u-color-transparent-bg {
+  --u-color-bg: transparent !important;
+  background-color: transparent !important;
+}
+
+.u-color-transparent-txt,
+.u-color-transparent-text {
+  --u-color-fg: transparent !important;
+  color: transparent !important;
+}
+
+.u-color-transparent-bd,
+.u-color-transparent-border {
+  --u-color-bd: transparent !important;
+  border-color: transparent !important;
+}

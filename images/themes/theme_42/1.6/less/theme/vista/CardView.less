@@ -1,0 +1,74 @@
+@import "_variables";
+
+
+@l_Button-BorderRadius: 2px;
+@l_Button-BG: #E7EBED;
+
+@l_Button-BG-top: #f1f3f3;
+@l_Button-BG-bottom: #e3e7e9;
+
+@l_Button-Text-tmp: contrast(@l_Button-BG, darken(@l_Button-BG,   75%), lighten(@l_Button-BG,   75%),  43%);
+@l_Button-Text: #000;
+
+@l_Button-Hot-BG: @g_Link-Base;
+
+@l_Button-Hot-BG-top: lighten(@l_Button-Hot-BG, 1%);
+@l_Button-Hot-BG-bottom: darken(@l_Button-Hot-BG, 1%);
+
+@l_Button-Hot-Text-tmp: contrast(@l_Button-Hot-BG, darken(@l_Button-Hot-BG,   85%), lighten(@l_Button-Hot-BG,   85%),  43%);
+@l_Button-Hot-Text: fade(@l_Button-Hot-Text-tmp, 100%);
+
+:root {
+  --a-cv-border-radius: 3px;
+}
+
+/* ==========================================================================
+   Card View
+   ========================================================================== */
+
+.a-CardView-button {
+  --a-button-font-size: 12px;
+  --a-button-line-height: 16px;
+  --a-button-border-width: 1px;
+  --a-button-border-radius: @l_Button-BorderRadius;
+  --a-button-background-color: @l_Button-BG;
+  --a-button-text-color: @l_Button-Text;
+  --a-button-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.9) inset;
+  --a-button-hover-background-color: lighten(@l_Button-BG, 6.5%);
+  --a-button-hover-text-color: @g_Link-Base;
+  --a-button-focus-border-color: @g_Focus;
+  --a-button-active-border-color: @g_Focus;
+  --a-button-active-background-color: @g_Focus;
+  --a-button-active-text-color: @l_Button-Hot-Text;
+
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+  background-image: linear-gradient(to bottom, #f1f3f3 0, #e7ebed 50%, #e3e7e9 100%);
+
+  &:hover,
+  &:active {
+    text-shadow: none;
+    background-image: none;
+    box-shadow: none;
+  }
+}
+
+
+.a-CardView-button--hot {
+  --a-button-background-color: @l_Button-Hot-BG;
+  --a-button-text-color: @l_Button-Hot-Text;
+  --a-button-border-color: darken(@l_Button-Hot-BG, 2%);
+  --a-button-shadow: 0 1px 0 0 rgba(255, 255, 255, .25) inset;
+  --a-button-hover-background-color: @g_Link-Base;
+  --a-button-hover-text-color: @l_Button-Hot-Text;
+
+  text-shadow: none;
+  background-image: linear-gradient(to bottom, @l_Button-Hot-BG-top, @l_Button-Hot-BG-bottom);
+
+  &:hover {
+    background-image: linear-gradient(to bottom, #128ff9, #088bf9);
+  }
+
+  &:active {
+    background-image: none;
+  }
+}

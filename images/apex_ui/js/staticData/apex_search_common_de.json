@@ -1,0 +1,6236 @@
+[
+{
+"name":"App Builder"
+,"url":"f?p=4000:1500:%SESSION%::\u0026DEBUG.::P1500_SHOW::"
+,"description":" App\u0026#x20;Builder"
+,"path":" App\u0026#x20;Builder"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Datenbankanwendungen"
+,"url":"f?p=4000:1500:%SESSION%::\u0026DEBUG.::P1500_SHOW:DATABASE:"
+,"description":" App\u0026#x20;Builder \u005C Datenbankanwendungen"
+,"path":" App\u0026#x20;Builder \u005C Datenbankanwendungen"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Erstellen"
+,"url":"f?p=4000:56:%SESSION%::\u0026DEBUG.:56,103,104,106,130,131,35,227,3020,3000,3001:FB_FLOW_ID,FB_FLOW_PAGE_ID::"
+,"description":" App\u0026#x20;Builder \u005C Erstellen"
+,"path":" App\u0026#x20;Builder \u005C Erstellen"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Importieren"
+,"url":"f?p=4000:460:%SESSION%::\u0026DEBUG.:460:P460_FILE_TYPE:FLOW_EXPORT:"
+,"description":" App\u0026#x20;Builder \u005C Importieren"
+,"path":" App\u0026#x20;Builder \u005C Importieren"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Exportieren"
+,"url":"f?p=4000:523:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Exportieren"
+,"path":" App\u0026#x20;Builder \u005C Exportieren"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Alle Workspace-Utilitys"
+,"url":"f?p=4000:182:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Alle\u0026#x20;Workspace-Utilitys"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Alle\u0026#x20;Workspace-Utilitys"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"App Builder-Standardwerte"
+,"url":"f?p=4000:800:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C App\u0026#x20;Builder-Standardwerte"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C App\u0026#x20;Builder-Standardwerte"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Workspace Themes"
+,"url":"f?p=4000:763:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Workspace\u0026#x20;Themes"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Workspace\u0026#x20;Themes"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-util-workspace-themes"
+}
+,{
+"name":"Anwendungsgruppen"
+,"url":"f?p=4000:722:%SESSION%::\u0026DEBUG.:RP"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Anwendungsgruppen"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Anwendungsgruppen"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express-Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Application\u0026#x20;Express-Views"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Application\u0026#x20;Express-Views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungs\u00FCbergreifende Berichte"
+,"url":"f?p=4000:9009:%SESSION%::\u0026DEBUG.::::"
+,"description":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Anwendungs\u0026#xFC;bergreifende\u0026#x20;Berichte"
+,"path":" App\u0026#x20;Builder \u005C Workspace-Utilitys \u005C Anwendungs\u0026#xFC;bergreifende\u0026#x20;Berichte"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Migrationen"
+,"url":"f?p=4400:1:%SESSION%"
+,"description":" App\u0026#x20;Builder \u005C Migrationen"
+,"path":" App\u0026#x20;Builder \u005C Migrationen"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL Workshop"
+,"url":"f?p=4500:3002:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop"
+,"path":" SQL\u0026#x20;Workshop"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Objektbrowser"
+,"url":"f?p=4500:1001:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Objektbrowser"
+,"path":" SQL\u0026#x20;Workshop \u005C Objektbrowser"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL-Befehle"
+,"url":"f?p=4500:1003:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C SQL-Befehle"
+,"path":" SQL\u0026#x20;Workshop \u005C SQL-Befehle"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"SQL-Skripts"
+,"url":"f?p=4500:1004:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C SQL-Skripts"
+,"path":" SQL\u0026#x20;Workshop \u005C SQL-Skripts"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Alle Utilitys"
+,"url":"f?p=4500:1005:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Alle\u0026#x20;Utilitys"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Alle\u0026#x20;Utilitys"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Data\u0026nbsp;Workshop"
+,"url":"f?p=4300:1:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Data\u0026#x26;nbsp\u0026#x3B;Workshop"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Data\u0026#x26;nbsp\u0026#x3B;Workshop"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Query Builder"
+,"url":"f?p=4500:1002:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Query\u0026#x20;Builder"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Query\u0026#x20;Builder"
+,"priority":0
+,"scope":"global"
+,"icon":"icon-utilities-query-builder"
+}
+,{
+"name":"Quick SQL"
+,"url":"f?p=4500:1100:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Quick\u0026#x20;SQL"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Quick\u0026#x20;SQL"
+,"priority":0
+,"scope":"global"
+,"icon":"a-Icon icon-utilities-query-builder"
+}
+,{
+"name":"Beispiel-Datasets"
+,"url":"f?p=4300:100:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Beispiel-Datasets"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Beispiel-Datasets"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"DDL generieren"
+,"url":"f?p=4500:12:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C DDL\u0026#x20;generieren"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C DDL\u0026#x20;generieren"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Benutzeroberfl\u00E4chen-Standards"
+,"url":"f?p=4500:813:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Benutzeroberfl\u0026#xE4;chen-Standards"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Benutzeroberfl\u0026#xE4;chen-Standards"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Schemavergleich"
+,"url":"f?p=4500:1350:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Schemavergleich"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Schemavergleich"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Methoden auf Tabellen"
+,"url":"f?p=4500:120:%SESSION%::NO::P117_CREATE_PACKAGE:TABLE"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Methoden\u0026#x20;auf\u0026#x20;Tabellen"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Methoden\u0026#x20;auf\u0026#x20;Tabellen"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Papierkorb"
+,"url":"f?p=4500:1070:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Papierkorb"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Papierkorb"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Objektberichte"
+,"url":"f?p=4500:1042:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Objektberichte"
+,"path":" SQL\u0026#x20;Workshop \u005C Utilitys \u005C Objektberichte"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"RESTful Services"
+,"url":"f?p=4850:500:%SESSION%"
+,"description":" SQL\u0026#x20;Workshop \u005C RESTful\u0026#x20;Services"
+,"path":" SQL\u0026#x20;Workshop \u005C RESTful\u0026#x20;Services"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Team Development"
+,"url":"f?p=4600:1:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development"
+,"path":" Team\u0026#x20;Development"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Labels"
+,"url":"f?p=4600:300:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Labels"
+,"path":" Team\u0026#x20;Development \u005C Labels"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Meilensteine"
+,"url":"f?p=4600:200:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Meilensteine"
+,"path":" Team\u0026#x20;Development \u005C Meilensteine"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4600:1000:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":" Team\u0026#x20;Development \u005C Templates"
+,"path":" Team\u0026#x20;Development \u005C Templates"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Utilitys"
+,"url":"f?p=4600:2000:%SESSION%::\u0026DEBUG.::::"
+,"description":" Team\u0026#x20;Development \u005C Utilitys"
+,"path":" Team\u0026#x20;Development \u005C Utilitys"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Feedback"
+,"url":"f?p=4650:8012:%SESSION%::\u0026DEBUG.::::"
+,"description":" Team\u0026#x20;Development \u005C Feedback"
+,"path":" Team\u0026#x20;Development \u005C Feedback"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"App-Galerie"
+,"url":"f?p=4750:50:\u0026APP_SESSION."
+,"description":" App-Galerie"
+,"path":" App-Galerie"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Produktivit\u00E4ts-Apps"
+,"url":"f?p=4750:50:%SESSION%::\u0026DEBUG.:RP,50:P50_APP_GROUP:PACKAGE"
+,"description":" App-Galerie \u005C Produktivit\u0026#xE4;ts-Apps"
+,"path":" App-Galerie \u005C Produktivit\u0026#xE4;ts-Apps"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Beispiel-Apps"
+,"url":"f?p=4750:50:%SESSION%::\u0026DEBUG.:RP,50:P50_APP_GROUP:SAMPLE"
+,"description":" App-Galerie \u005C Beispiel-Apps"
+,"path":" App-Galerie \u005C Beispiel-Apps"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Administration"
+,"url":"f?p=4750:6:%SESSION%::\u0026DEBUG.:6:"
+,"description":" App-Galerie \u005C Administration"
+,"path":" App-Galerie \u005C Administration"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendung ausf\u00FChren"
+,"url":"\u0026F4000_P1_RUN_LINK."
+,"description":"Navigate to: Shared Components \u005C Anwendung ausf\u00FChren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Gemeinsame Komponenten"
+,"url":"f?p=4000:9:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Gemeinsame Komponenten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilitys"
+,"url":"f?p=4000:674:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Utilitys"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Exportieren\/Importieren"
+,"url":"f?p=4000:461:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Exportieren\/Importieren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsdefinitionsattribute"
+,"url":"f?p=4000:4001:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsdefinitionsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungselemente"
+,"url":"f?p=4000:4100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungselemente"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsprozesse"
+,"url":"f?p=4000:4207:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsprozesse"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsberechnungen"
+,"url":"f?p=4000:4101:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsberechnungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungseinstellungen"
+,"url":"f?p=4000:4850:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungseinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Automatisierungen"
+,"url":"f?p=4000:7020:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Automatisierungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Erstelloptionen"
+,"url":"f?p=4000:4910:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Erstelloptionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:130:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:533:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:42:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Processes"
+}
+,"tokens":"Processes"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:43:%SESSION%::\u0026DEBUG.::::"
+,"description":"APEX.SEARCH.SC.comp_DESCRIPTION"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Computations"
+}
+,"tokens":"Computations"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:203:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:535:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Sicherheitsattribute"
+,"url":"f?p=4000:509:%SESSION%::\u0026DEBUG.:509:FB_FLOW_ID,509_FB_UPD_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Sicherheitsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authentifizierungsschemas"
+,"url":"f?p=4000:801:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authentifizierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Autorisierungsschemas"
+,"url":"f?p=4000:4070:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Autorisierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungszugriffskontrolle"
+,"url":"f?p=4000:2300:%SESSION%::\u0026DEBUG.:RP,2300:::"
+,"description":"Navigate to: Shared Components \u005C Anwendungszugriffskontrolle"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Schutz f\u00FCr den Sessionzustand"
+,"url":"f?p=4000:510:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Schutz f\u00FCr den Sessionzustand"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Webzugangsdaten"
+,"url":"f?p=4000:1620:%SESSION%::\u0026DEBUG.:1620:::"
+,"description":"Navigate to: Shared Components \u005C Webzugangsdaten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:817:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:554:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:129:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"nach Komponente"
+,"url":"f?p=4000:340:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C nach Komponente"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4045:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:558:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1622:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1623:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Werteliste"
+,"url":"f?p=4000:4110:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Werteliste"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4400:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Komponenteneinstellungen"
+,"url":"f?p=4000:4445:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Komponenteneinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shortcuts"
+,"url":"f?p=4000:4047:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"E-Mail-Templates"
+,"url":"f?p=4000:4860:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C E-Mail-Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Text f\u00FCr Nullwert bearbeiten"
+,"url":"f?p=4000:169:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Text f\u00FCr Nullwert bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Lokal definiert"
+,"url":"f?p=4000:419:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Lokal definiert"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:178:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:556:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:686:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4420:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:841:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:4447:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Component Settings \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Component Settings"
+}
+,"tokens":"Component Settings"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:41:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Shortcuts"
+}
+,"tokens":"Shortcuts"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listen"
+,"url":"f?p=4000:405:%SESSION%::\u0026DEBUG.:RIR:::"
+,"description":"Navigate to: Shared Components \u005C Listen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Navigationspfade"
+,"url":"f?p=4000:546:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Navigationspfade"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listendetails"
+,"url":"f?p=4000:4050:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Listendetails"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:557:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:44:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Hierarchie"
+,"url":"f?p=4000:586:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Hierarchie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:3:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ausnahmen"
+,"url":"f?p=4000:545:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Ausnahmen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:365:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:369:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Klassische Navigationsleisteneintr\u00E4ge"
+,"url":"f?p=4000:4005:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Klassische Navigationsleisteneintr\u00E4ge"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Benutzeroberfl\u00E4chenattribute"
+,"url":"f?p=4000:197:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Benutzeroberfl\u00E4chenattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:260:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Themes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4000:4003:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichte"
+,"url":"f?p=4000:173:%SESSION%::\u0026DEBUG.:RP:P173_SHOW:1:"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Berichte"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:681:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:124:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ver\u00F6ffentlichen"
+,"url":"f?p=4000:727:%SESSION%::\u0026DEBUG.:727:::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Ver\u00F6ffentlichen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4656:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:368:%SESSION%"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Anwendungsdateien"
+,"url":"f?p=4000:40:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Statische Anwendungsdateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Workspace-Dateien"
+,"url":"f?p=4000:312:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Statische Workspace-Dateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Datenladedefinitionen"
+,"url":"f?p=4000:1800:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Datenladedefinitionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-f\u00E4hige SQL"
+,"url":"f?p=4000:1600:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-f\u00E4hige SQL"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-Datenquellen"
+,"url":"f?p=4000:1901:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-Datenquellen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Legacy-Webservicereferenzen"
+,"url":"f?p=4000:170:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy-Webservicereferenzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1808:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Data Load Definitions"
+}
+,"tokens":"Data Load Definitions"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1602:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1603:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1902:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1903:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:63:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Services \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Legacy Web Services"
+}
+,"tokens":"Legacy Web Services"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtsabfragen"
+,"url":"f?p=4000:1100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtsabfragen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtslayouts"
+,"url":"f?p=4000:1400:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtslayouts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:843:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Queries"
+}
+,"tokens":"Report Queries"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:844:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Layouts"
+}
+,"tokens":"Report Layouts"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Globalization-Attribute"
+,"url":"f?p=4000:506:%SESSION%::\u0026DEBUG.:506:FB_FLOW_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Globalization-Attribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Textnachrichten"
+,"url":"f?p=4000:4006:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Textnachrichten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendung \u00FCbersetzen"
+,"url":"f?p=4000:4761:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendung \u00FCbersetzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungs-Dashboard"
+,"url":"f?p=4000:71:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Anwendungs-Dashboard"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-app-dashboard"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Advisor"
+,"url":"javascript:apex.navigation.popup({ url: \u0027f?p=4000:8101:%SESSION%::\u0026DEBUG.:8101\u0027, width: 1000, height: 800 }); void(0);"
+,"description":"Navigate to: Application Utilities \u005C Advisor"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-advisor"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendung aktualisieren"
+,"url":"f?p=4000:89:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Anwendung aktualisieren"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-upgrade-app"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Zuletzt aktualisierte Seiten"
+,"url":"f?p=4000:8:%SESSION%::\u0026DEBUG.:RIR:IR_UPDATED_BY:\u0026APP_USER.:"
+,"description":"Navigate to: Application Utilities \u005C Zuletzt aktualisierte Seiten"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-recent-pages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Attribut-Dictionary"
+,"url":"f?p=4000:889:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Attribut-Dictionary"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-attribute-dictionary"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"\u00C4nderungshistorie"
+,"url":"f?p=4000:358:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C \u00C4nderungshistorie"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-change-history"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Debugging-Meldungen"
+,"url":"f?p=4000:666:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Debugging-Meldungen"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-debug-messages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Express Views"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-apex-views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export-Repository"
+,"url":"f?p=4000:73:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Export-Repository"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-export-repository"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Eingebetteter Code"
+,"url":"f?p=4000:101:%SESSION%::\u0026DEBUG.:RP,101:::"
+,"description":"Navigate to: Application Utilities \u005C Eingebetteter Code"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-embedded-code"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seiten\u00FCbergreifende Utilitys"
+,"url":"f?p=4000:553:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seiten\u00FCbergreifende Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seitengruppen"
+,"url":"f?p=4000:520:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seitengruppen"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Regions-Utilitys"
+,"url":"f?p=4000:853:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Regions-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Schaltfl\u00E4chen-Utilitys"
+,"url":"f?p=4000:852:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Schaltfl\u00E4chen-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Element-Utilitys"
+,"url":"f?p=4000:854:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Element-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Berechnungs-Utilitys"
+,"url":"f?p=4000:847:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Berechnungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Validierungs-Utilitys"
+,"url":"f?p=4000:851:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Validierungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Prozess-Utilitys"
+,"url":"f?p=4000:482:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Prozess-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Dynamische Aktionsutilitys"
+,"url":"f?p=4000:699:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Dynamische Aktionsutilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Verzweigungs-Utilitys"
+,"url":"f?p=4000:881:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Verzweigungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskomponenten exportieren"
+,"url":"f?p=4000:688:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungskomponenten exportieren"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte verwalten"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte verwalten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskommentar bearbeiten"
+,"url":"f?p=4000:4310:%SESSION%::\u0026DEBUG.::F4000_P4310_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Anwendungskommentar bearbeiten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Entwicklerkommentare"
+,"url":"f?p=4000:606:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Entwicklerkommentare"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Beispiel-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:SAMPLE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Produktivit\u00E4ts-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:PACKAGE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Backups verwalten"
+,"url":"f?p=4000:970:%SESSION%::\u0026DEBUG.:970:::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"icon":"icon-apex-backup"
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Nach Facets durchsuchen"
+,"url":"f?p=4000:69:%SESSION%::\u0026DEBUG.::::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Anwendung ausf\u00FChren"
+,"url":"\u0026F4000_P1_RUN_LINK."
+,"description":"Navigate to: Shared Components \u005C Anwendung ausf\u00FChren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Gemeinsame Komponenten"
+,"url":"f?p=4000:9:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Gemeinsame Komponenten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilitys"
+,"url":"f?p=4000:674:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Utilitys"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Exportieren\/Importieren"
+,"url":"f?p=4000:461:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Exportieren\/Importieren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsdefinitionsattribute"
+,"url":"f?p=4000:4001:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsdefinitionsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungselemente"
+,"url":"f?p=4000:4100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungselemente"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsprozesse"
+,"url":"f?p=4000:4207:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsprozesse"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsberechnungen"
+,"url":"f?p=4000:4101:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsberechnungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungseinstellungen"
+,"url":"f?p=4000:4850:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungseinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Automatisierungen"
+,"url":"f?p=4000:7020:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Automatisierungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Erstelloptionen"
+,"url":"f?p=4000:4910:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Erstelloptionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:130:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:533:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:42:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Processes"
+}
+,"tokens":"Processes"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:43:%SESSION%::\u0026DEBUG.::::"
+,"description":"APEX.SEARCH.SC.comp_DESCRIPTION"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Computations"
+}
+,"tokens":"Computations"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:203:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:535:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Sicherheitsattribute"
+,"url":"f?p=4000:509:%SESSION%::\u0026DEBUG.:509:FB_FLOW_ID,509_FB_UPD_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Sicherheitsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authentifizierungsschemas"
+,"url":"f?p=4000:801:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authentifizierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Autorisierungsschemas"
+,"url":"f?p=4000:4070:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Autorisierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungszugriffskontrolle"
+,"url":"f?p=4000:2300:%SESSION%::\u0026DEBUG.:RP,2300:::"
+,"description":"Navigate to: Shared Components \u005C Anwendungszugriffskontrolle"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Schutz f\u00FCr den Sessionzustand"
+,"url":"f?p=4000:510:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Schutz f\u00FCr den Sessionzustand"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Webzugangsdaten"
+,"url":"f?p=4000:1620:%SESSION%::\u0026DEBUG.:1620:::"
+,"description":"Navigate to: Shared Components \u005C Webzugangsdaten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:817:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:554:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:129:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"nach Komponente"
+,"url":"f?p=4000:340:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C nach Komponente"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4045:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:558:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1622:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1623:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Werteliste"
+,"url":"f?p=4000:4110:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Werteliste"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4400:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Komponenteneinstellungen"
+,"url":"f?p=4000:4445:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Komponenteneinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shortcuts"
+,"url":"f?p=4000:4047:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"E-Mail-Templates"
+,"url":"f?p=4000:4860:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C E-Mail-Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Text f\u00FCr Nullwert bearbeiten"
+,"url":"f?p=4000:169:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Text f\u00FCr Nullwert bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Lokal definiert"
+,"url":"f?p=4000:419:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Lokal definiert"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:178:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:556:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:686:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4420:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:841:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:4447:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Component Settings \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Component Settings"
+}
+,"tokens":"Component Settings"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:41:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Shortcuts"
+}
+,"tokens":"Shortcuts"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listen"
+,"url":"f?p=4000:405:%SESSION%::\u0026DEBUG.:RIR:::"
+,"description":"Navigate to: Shared Components \u005C Listen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Navigationspfade"
+,"url":"f?p=4000:546:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Navigationspfade"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listendetails"
+,"url":"f?p=4000:4050:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Listendetails"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:557:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:44:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Hierarchie"
+,"url":"f?p=4000:586:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Hierarchie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:3:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ausnahmen"
+,"url":"f?p=4000:545:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Ausnahmen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:365:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:369:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Klassische Navigationsleisteneintr\u00E4ge"
+,"url":"f?p=4000:4005:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Klassische Navigationsleisteneintr\u00E4ge"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Benutzeroberfl\u00E4chenattribute"
+,"url":"f?p=4000:197:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Benutzeroberfl\u00E4chenattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:260:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Themes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4000:4003:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichte"
+,"url":"f?p=4000:173:%SESSION%::\u0026DEBUG.:RP:P173_SHOW:1:"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Berichte"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:681:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:124:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ver\u00F6ffentlichen"
+,"url":"f?p=4000:727:%SESSION%::\u0026DEBUG.:727:::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Ver\u00F6ffentlichen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4656:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:368:%SESSION%"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Anwendungsdateien"
+,"url":"f?p=4000:40:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Statische Anwendungsdateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Workspace-Dateien"
+,"url":"f?p=4000:312:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Statische Workspace-Dateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Datenladedefinitionen"
+,"url":"f?p=4000:1800:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Datenladedefinitionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-f\u00E4hige SQL"
+,"url":"f?p=4000:1600:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-f\u00E4hige SQL"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-Datenquellen"
+,"url":"f?p=4000:1901:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-Datenquellen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Legacy-Webservicereferenzen"
+,"url":"f?p=4000:170:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy-Webservicereferenzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1808:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Data Load Definitions"
+}
+,"tokens":"Data Load Definitions"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1602:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1603:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1902:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1903:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:63:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Services \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Legacy Web Services"
+}
+,"tokens":"Legacy Web Services"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtsabfragen"
+,"url":"f?p=4000:1100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtsabfragen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtslayouts"
+,"url":"f?p=4000:1400:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtslayouts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:843:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Queries"
+}
+,"tokens":"Report Queries"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:844:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Layouts"
+}
+,"tokens":"Report Layouts"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Globalization-Attribute"
+,"url":"f?p=4000:506:%SESSION%::\u0026DEBUG.:506:FB_FLOW_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Globalization-Attribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Textnachrichten"
+,"url":"f?p=4000:4006:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Textnachrichten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendung \u00FCbersetzen"
+,"url":"f?p=4000:4761:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendung \u00FCbersetzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungs-Dashboard"
+,"url":"f?p=4000:71:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Anwendungs-Dashboard"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-app-dashboard"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Advisor"
+,"url":"javascript:apex.navigation.popup({ url: \u0027f?p=4000:8101:%SESSION%::\u0026DEBUG.:8101\u0027, width: 1000, height: 800 }); void(0);"
+,"description":"Navigate to: Application Utilities \u005C Advisor"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-advisor"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendung aktualisieren"
+,"url":"f?p=4000:89:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Anwendung aktualisieren"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-upgrade-app"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Zuletzt aktualisierte Seiten"
+,"url":"f?p=4000:8:%SESSION%::\u0026DEBUG.:RIR:IR_UPDATED_BY:\u0026APP_USER.:"
+,"description":"Navigate to: Application Utilities \u005C Zuletzt aktualisierte Seiten"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-recent-pages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Attribut-Dictionary"
+,"url":"f?p=4000:889:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Attribut-Dictionary"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-attribute-dictionary"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"\u00C4nderungshistorie"
+,"url":"f?p=4000:358:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C \u00C4nderungshistorie"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-change-history"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Debugging-Meldungen"
+,"url":"f?p=4000:666:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Debugging-Meldungen"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-debug-messages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Express Views"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-apex-views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export-Repository"
+,"url":"f?p=4000:73:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Export-Repository"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-export-repository"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Eingebetteter Code"
+,"url":"f?p=4000:101:%SESSION%::\u0026DEBUG.:RP,101:::"
+,"description":"Navigate to: Application Utilities \u005C Eingebetteter Code"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-embedded-code"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seiten\u00FCbergreifende Utilitys"
+,"url":"f?p=4000:553:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seiten\u00FCbergreifende Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seitengruppen"
+,"url":"f?p=4000:520:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seitengruppen"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Regions-Utilitys"
+,"url":"f?p=4000:853:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Regions-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Schaltfl\u00E4chen-Utilitys"
+,"url":"f?p=4000:852:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Schaltfl\u00E4chen-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Element-Utilitys"
+,"url":"f?p=4000:854:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Element-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Berechnungs-Utilitys"
+,"url":"f?p=4000:847:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Berechnungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Validierungs-Utilitys"
+,"url":"f?p=4000:851:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Validierungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Prozess-Utilitys"
+,"url":"f?p=4000:482:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Prozess-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Dynamische Aktionsutilitys"
+,"url":"f?p=4000:699:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Dynamische Aktionsutilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Verzweigungs-Utilitys"
+,"url":"f?p=4000:881:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Verzweigungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskomponenten exportieren"
+,"url":"f?p=4000:688:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungskomponenten exportieren"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte verwalten"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte verwalten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskommentar bearbeiten"
+,"url":"f?p=4000:4310:%SESSION%::\u0026DEBUG.::F4000_P4310_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Anwendungskommentar bearbeiten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Entwicklerkommentare"
+,"url":"f?p=4000:606:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Entwicklerkommentare"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Beispiel-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:SAMPLE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Produktivit\u00E4ts-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:PACKAGE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Backups verwalten"
+,"url":"f?p=4000:970:%SESSION%::\u0026DEBUG.:970:::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"icon":"icon-apex-backup"
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Nach Facets durchsuchen"
+,"url":"f?p=4000:69:%SESSION%::\u0026DEBUG.::::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Anwendung ausf\u00FChren"
+,"url":"\u0026F4000_P1_RUN_LINK."
+,"description":"Navigate to: Shared Components \u005C Anwendung ausf\u00FChren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Gemeinsame Komponenten"
+,"url":"f?p=4000:9:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Gemeinsame Komponenten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilitys"
+,"url":"f?p=4000:674:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Utilitys"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Exportieren\/Importieren"
+,"url":"f?p=4000:461:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Exportieren\/Importieren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsdefinitionsattribute"
+,"url":"f?p=4000:4001:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsdefinitionsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungselemente"
+,"url":"f?p=4000:4100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungselemente"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsprozesse"
+,"url":"f?p=4000:4207:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsprozesse"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsberechnungen"
+,"url":"f?p=4000:4101:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsberechnungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungseinstellungen"
+,"url":"f?p=4000:4850:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungseinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Automatisierungen"
+,"url":"f?p=4000:7020:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Automatisierungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Erstelloptionen"
+,"url":"f?p=4000:4910:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Erstelloptionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:130:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:533:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:42:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Processes"
+}
+,"tokens":"Processes"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:43:%SESSION%::\u0026DEBUG.::::"
+,"description":"APEX.SEARCH.SC.comp_DESCRIPTION"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Computations"
+}
+,"tokens":"Computations"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:203:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:535:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Sicherheitsattribute"
+,"url":"f?p=4000:509:%SESSION%::\u0026DEBUG.:509:FB_FLOW_ID,509_FB_UPD_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Sicherheitsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authentifizierungsschemas"
+,"url":"f?p=4000:801:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authentifizierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Autorisierungsschemas"
+,"url":"f?p=4000:4070:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Autorisierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungszugriffskontrolle"
+,"url":"f?p=4000:2300:%SESSION%::\u0026DEBUG.:RP,2300:::"
+,"description":"Navigate to: Shared Components \u005C Anwendungszugriffskontrolle"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Schutz f\u00FCr den Sessionzustand"
+,"url":"f?p=4000:510:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Schutz f\u00FCr den Sessionzustand"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Webzugangsdaten"
+,"url":"f?p=4000:1620:%SESSION%::\u0026DEBUG.:1620:::"
+,"description":"Navigate to: Shared Components \u005C Webzugangsdaten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:817:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:554:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:129:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"nach Komponente"
+,"url":"f?p=4000:340:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C nach Komponente"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4045:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:558:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1622:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1623:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Werteliste"
+,"url":"f?p=4000:4110:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Werteliste"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4400:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Komponenteneinstellungen"
+,"url":"f?p=4000:4445:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Komponenteneinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shortcuts"
+,"url":"f?p=4000:4047:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"E-Mail-Templates"
+,"url":"f?p=4000:4860:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C E-Mail-Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Text f\u00FCr Nullwert bearbeiten"
+,"url":"f?p=4000:169:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Text f\u00FCr Nullwert bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Lokal definiert"
+,"url":"f?p=4000:419:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Lokal definiert"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:178:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:556:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:686:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4420:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:841:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:4447:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Component Settings \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Component Settings"
+}
+,"tokens":"Component Settings"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:41:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Shortcuts"
+}
+,"tokens":"Shortcuts"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listen"
+,"url":"f?p=4000:405:%SESSION%::\u0026DEBUG.:RIR:::"
+,"description":"Navigate to: Shared Components \u005C Listen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Navigationspfade"
+,"url":"f?p=4000:546:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Navigationspfade"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listendetails"
+,"url":"f?p=4000:4050:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Listendetails"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:557:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:44:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Hierarchie"
+,"url":"f?p=4000:586:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Hierarchie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:3:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ausnahmen"
+,"url":"f?p=4000:545:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Ausnahmen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:365:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:369:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Klassische Navigationsleisteneintr\u00E4ge"
+,"url":"f?p=4000:4005:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Klassische Navigationsleisteneintr\u00E4ge"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Benutzeroberfl\u00E4chenattribute"
+,"url":"f?p=4000:197:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Benutzeroberfl\u00E4chenattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:260:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Themes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4000:4003:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichte"
+,"url":"f?p=4000:173:%SESSION%::\u0026DEBUG.:RP:P173_SHOW:1:"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Berichte"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:681:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:124:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ver\u00F6ffentlichen"
+,"url":"f?p=4000:727:%SESSION%::\u0026DEBUG.:727:::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Ver\u00F6ffentlichen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4656:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:368:%SESSION%"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Anwendungsdateien"
+,"url":"f?p=4000:40:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Statische Anwendungsdateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Workspace-Dateien"
+,"url":"f?p=4000:312:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Statische Workspace-Dateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Datenladedefinitionen"
+,"url":"f?p=4000:1800:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Datenladedefinitionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-f\u00E4hige SQL"
+,"url":"f?p=4000:1600:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-f\u00E4hige SQL"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-Datenquellen"
+,"url":"f?p=4000:1901:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-Datenquellen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Legacy-Webservicereferenzen"
+,"url":"f?p=4000:170:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy-Webservicereferenzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1808:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Data Load Definitions"
+}
+,"tokens":"Data Load Definitions"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1602:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1603:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1902:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1903:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:63:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Services \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Legacy Web Services"
+}
+,"tokens":"Legacy Web Services"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtsabfragen"
+,"url":"f?p=4000:1100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtsabfragen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtslayouts"
+,"url":"f?p=4000:1400:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtslayouts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:843:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Queries"
+}
+,"tokens":"Report Queries"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:844:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Layouts"
+}
+,"tokens":"Report Layouts"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Globalization-Attribute"
+,"url":"f?p=4000:506:%SESSION%::\u0026DEBUG.:506:FB_FLOW_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Globalization-Attribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Textnachrichten"
+,"url":"f?p=4000:4006:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Textnachrichten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendung \u00FCbersetzen"
+,"url":"f?p=4000:4761:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendung \u00FCbersetzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungs-Dashboard"
+,"url":"f?p=4000:71:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Anwendungs-Dashboard"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-app-dashboard"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Advisor"
+,"url":"javascript:apex.navigation.popup({ url: \u0027f?p=4000:8101:%SESSION%::\u0026DEBUG.:8101\u0027, width: 1000, height: 800 }); void(0);"
+,"description":"Navigate to: Application Utilities \u005C Advisor"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-advisor"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendung aktualisieren"
+,"url":"f?p=4000:89:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Anwendung aktualisieren"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-upgrade-app"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Zuletzt aktualisierte Seiten"
+,"url":"f?p=4000:8:%SESSION%::\u0026DEBUG.:RIR:IR_UPDATED_BY:\u0026APP_USER.:"
+,"description":"Navigate to: Application Utilities \u005C Zuletzt aktualisierte Seiten"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-recent-pages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Attribut-Dictionary"
+,"url":"f?p=4000:889:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Attribut-Dictionary"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-attribute-dictionary"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"\u00C4nderungshistorie"
+,"url":"f?p=4000:358:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C \u00C4nderungshistorie"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-change-history"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Debugging-Meldungen"
+,"url":"f?p=4000:666:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Debugging-Meldungen"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-debug-messages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Express Views"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-apex-views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export-Repository"
+,"url":"f?p=4000:73:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Export-Repository"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-export-repository"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Eingebetteter Code"
+,"url":"f?p=4000:101:%SESSION%::\u0026DEBUG.:RP,101:::"
+,"description":"Navigate to: Application Utilities \u005C Eingebetteter Code"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-embedded-code"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seiten\u00FCbergreifende Utilitys"
+,"url":"f?p=4000:553:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seiten\u00FCbergreifende Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seitengruppen"
+,"url":"f?p=4000:520:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seitengruppen"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Regions-Utilitys"
+,"url":"f?p=4000:853:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Regions-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Schaltfl\u00E4chen-Utilitys"
+,"url":"f?p=4000:852:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Schaltfl\u00E4chen-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Element-Utilitys"
+,"url":"f?p=4000:854:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Element-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Berechnungs-Utilitys"
+,"url":"f?p=4000:847:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Berechnungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Validierungs-Utilitys"
+,"url":"f?p=4000:851:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Validierungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Prozess-Utilitys"
+,"url":"f?p=4000:482:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Prozess-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Dynamische Aktionsutilitys"
+,"url":"f?p=4000:699:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Dynamische Aktionsutilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Verzweigungs-Utilitys"
+,"url":"f?p=4000:881:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Verzweigungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskomponenten exportieren"
+,"url":"f?p=4000:688:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungskomponenten exportieren"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte verwalten"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte verwalten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskommentar bearbeiten"
+,"url":"f?p=4000:4310:%SESSION%::\u0026DEBUG.::F4000_P4310_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Anwendungskommentar bearbeiten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Entwicklerkommentare"
+,"url":"f?p=4000:606:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Entwicklerkommentare"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Beispiel-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:SAMPLE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Produktivit\u00E4ts-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:PACKAGE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Backups verwalten"
+,"url":"f?p=4000:970:%SESSION%::\u0026DEBUG.:970:::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"icon":"icon-apex-backup"
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Nach Facets durchsuchen"
+,"url":"f?p=4000:69:%SESSION%::\u0026DEBUG.::::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Anwendung ausf\u00FChren"
+,"url":"\u0026F4000_P1_RUN_LINK."
+,"description":"Navigate to: Shared Components \u005C Anwendung ausf\u00FChren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Gemeinsame Komponenten"
+,"url":"f?p=4000:9:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Gemeinsame Komponenten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Utilitys"
+,"url":"f?p=4000:674:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Utilitys"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Exportieren\/Importieren"
+,"url":"f?p=4000:461:%SESSION%::\u0026DEBUG.::FB_FLOW_ID,FB_FLOW_PAGE_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_PAGE_ID.:"
+,"description":"Navigate to: Shared Components \u005C Exportieren\/Importieren"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-shared-components"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsdefinitionsattribute"
+,"url":"f?p=4000:4001:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsdefinitionsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungselemente"
+,"url":"f?p=4000:4100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungselemente"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsprozesse"
+,"url":"f?p=4000:4207:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsprozesse"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungsberechnungen"
+,"url":"f?p=4000:4101:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungsberechnungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungseinstellungen"
+,"url":"f?p=4000:4850:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungseinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Automatisierungen"
+,"url":"f?p=4000:7020:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Automatisierungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Erstelloptionen"
+,"url":"f?p=4000:4910:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Erstelloptionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:130:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:533:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Items \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Application Items"
+}
+,"tokens":"Application Items"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:42:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Application Processes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Processes"
+}
+,"tokens":"Processes"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:43:%SESSION%::\u0026DEBUG.::::"
+,"description":"APEX.SEARCH.SC.comp_DESCRIPTION"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Computations"
+}
+,"tokens":"Computations"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:203:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:535:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Build Options \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Application Logic"
+,"last":"Build Options"
+}
+,"tokens":"Build Options"
+,"icon":"icon-sc-logic"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Sicherheitsattribute"
+,"url":"f?p=4000:509:%SESSION%::\u0026DEBUG.:509:FB_FLOW_ID,509_FB_UPD_ID:\u0026FB_FLOW_ID.,\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Sicherheitsattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Authentifizierungsschemas"
+,"url":"f?p=4000:801:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Authentifizierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Autorisierungsschemas"
+,"url":"f?p=4000:4070:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Autorisierungsschemas"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungszugriffskontrolle"
+,"url":"f?p=4000:2300:%SESSION%::\u0026DEBUG.:RP,2300:::"
+,"description":"Navigate to: Shared Components \u005C Anwendungszugriffskontrolle"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Schutz f\u00FCr den Sessionzustand"
+,"url":"f?p=4000:510:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Schutz f\u00FCr den Sessionzustand"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Webzugangsdaten"
+,"url":"f?p=4000:1620:%SESSION%::\u0026DEBUG.:1620:::"
+,"description":"Navigate to: Shared Components \u005C Webzugangsdaten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:817:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:554:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authentication Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authentication Schemes"
+}
+,"tokens":"Authentication Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:129:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"nach Komponente"
+,"url":"f?p=4000:340:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C nach Komponente"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4045:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:558:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Authorization Schemes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Authorization Schemes"
+}
+,"tokens":"Authorization Schemes"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1622:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1623:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Security Web Credentials \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Security"
+,"last":"Web Credentials"
+}
+,"tokens":"Web Credentials"
+,"icon":"icon-sc-security"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Werteliste"
+,"url":"f?p=4000:4110:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Werteliste"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4400:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Komponenteneinstellungen"
+,"url":"f?p=4000:4445:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Komponenteneinstellungen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Shortcuts"
+,"url":"f?p=4000:4047:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"E-Mail-Templates"
+,"url":"f?p=4000:4860:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C E-Mail-Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Text f\u00FCr Nullwert bearbeiten"
+,"url":"f?p=4000:169:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Text f\u00FCr Nullwert bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Lokal definiert"
+,"url":"f?p=4000:419:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Lokal definiert"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:178:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:556:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:686:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C List of Values \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"List of Values"
+}
+,"tokens":"List of Values"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4420:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:841:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Plug-ins \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Plug-ins"
+}
+,"tokens":"Plug-ins"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:4447:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Component Settings \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Component Settings"
+}
+,"tokens":"Component Settings"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:41:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Shortcuts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Other Components"
+,"last":"Shortcuts"
+}
+,"tokens":"Shortcuts"
+,"icon":"icon-util-page-group"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listen"
+,"url":"f?p=4000:405:%SESSION%::\u0026DEBUG.:RIR:::"
+,"description":"Navigate to: Shared Components \u005C Listen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Navigationspfade"
+,"url":"f?p=4000:546:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Navigationspfade"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Listendetails"
+,"url":"f?p=4000:4050:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Listendetails"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Bedingte Eintr\u00E4ge"
+,"url":"f?p=4000:557:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Bedingte Eintr\u00E4ge"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:44:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Classic Navigation Lists \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Navigation Lists"
+}
+,"tokens":"Navigation Lists"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Hierarchie"
+,"url":"f?p=4000:586:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Hierarchie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Im Grid bearbeiten"
+,"url":"f?p=4000:3:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Im Grid bearbeiten"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ausnahmen"
+,"url":"f?p=4000:545:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Ausnahmen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:365:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:369:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Breadcrumbs \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Navigation"
+,"last":"Breadcrumbs"
+}
+,"tokens":"Breadcrumbs"
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Klassische Navigationsleisteneintr\u00E4ge"
+,"url":"f?p=4000:4005:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Klassische Navigationsleisteneintr\u00E4ge"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-nav"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Benutzeroberfl\u00E4chenattribute"
+,"url":"f?p=4000:197:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Benutzeroberfl\u00E4chenattribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:260:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Themes"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Templates"
+,"url":"f?p=4000:4003:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Templates"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichte"
+,"url":"f?p=4000:173:%SESSION%::\u0026DEBUG.:RP:P173_SHOW:1:"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Berichte"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:681:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Themes \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Themes"
+}
+,"tokens":"Themes"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Subscription"
+,"url":"f?p=4000:124:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Subscription"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Ver\u00F6ffentlichen"
+,"url":"f?p=4000:727:%SESSION%::\u0026DEBUG.:727:::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Ver\u00F6ffentlichen"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:4656:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:368:%SESSION%"
+,"description":"Navigate to: Shared Components \u005C UI Templates \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"User Interface"
+,"last":"Templates"
+}
+,"tokens":"Templates"
+,"icon":"icon-sc-ui"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Anwendungsdateien"
+,"url":"f?p=4000:40:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Statische Anwendungsdateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Statische Workspace-Dateien"
+,"url":"f?p=4000:312:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Shared Components \u005C Statische Workspace-Dateien"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-files"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Datenladedefinitionen"
+,"url":"f?p=4000:1800:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Datenladedefinitionen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-f\u00E4hige SQL"
+,"url":"f?p=4000:1600:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-f\u00E4hige SQL"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"REST-Datenquellen"
+,"url":"f?p=4000:1901:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST-Datenquellen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Legacy-Webservicereferenzen"
+,"url":"f?p=4000:170:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy-Webservicereferenzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1808:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C Data Load Definitions \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Data Load Definitions"
+}
+,"tokens":"Data Load Definitions"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1602:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1603:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Enabled SQL \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Enabled SQL"
+}
+,"tokens":"REST Enabled SQL"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Nutzung"
+,"url":"f?p=4000:1902:%SESSION%:"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Nutzung"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:1903:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C REST Data Sources \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"REST Data Source"
+}
+,"tokens":"REST Data Source"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:63:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Legacy Web Services \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Data Sources"
+,"last":"Legacy Web Services"
+}
+,"tokens":"Legacy Web Services"
+,"icon":"icon-sc-data-references"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtsabfragen"
+,"url":"f?p=4000:1100:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtsabfragen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Berichtslayouts"
+,"url":"f?p=4000:1400:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Berichtslayouts"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:843:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Queries \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Queries"
+}
+,"tokens":"Report Queries"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Historie"
+,"url":"f?p=4000:844:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Report Layouts \u005C Historie"
+,"path":{
+"level1":"Shared Components"
+,"level2":"Reports"
+,"last":"Report Layouts"
+}
+,"tokens":"Report Layouts"
+,"icon":"icon-sc-reports"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Globalization-Attribute"
+,"url":"f?p=4000:506:%SESSION%::\u0026DEBUG.:506:FB_FLOW_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Globalization-Attribute"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Textnachrichten"
+,"url":"f?p=4000:4006:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Textnachrichten"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendung \u00FCbersetzen"
+,"url":"f?p=4000:4761:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendung \u00FCbersetzen"
+,"path":{
+"last":"Shared Components"
+}
+,"icon":"icon-sc-globalization"
+,"priority":0
+,"scope":"app"
+}
+,{
+"name":"Anwendungs-Dashboard"
+,"url":"f?p=4000:71:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Anwendungs-Dashboard"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-app-dashboard"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Advisor"
+,"url":"javascript:apex.navigation.popup({ url: \u0027f?p=4000:8101:%SESSION%::\u0026DEBUG.:8101\u0027, width: 1000, height: 800 }); void(0);"
+,"description":"Navigate to: Application Utilities \u005C Advisor"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-advisor"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendung aktualisieren"
+,"url":"f?p=4000:89:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Anwendung aktualisieren"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-upgrade-app"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Zuletzt aktualisierte Seiten"
+,"url":"f?p=4000:8:%SESSION%::\u0026DEBUG.:RIR:IR_UPDATED_BY:\u0026APP_USER.:"
+,"description":"Navigate to: Application Utilities \u005C Zuletzt aktualisierte Seiten"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-recent-pages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Attribut-Dictionary"
+,"url":"f?p=4000:889:%SESSION%::\u0026DEBUG.:RP:::"
+,"description":"Navigate to: Application Utilities \u005C Attribut-Dictionary"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-attribute-dictionary"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"\u00C4nderungshistorie"
+,"url":"f?p=4000:358:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C \u00C4nderungshistorie"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-change-history"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Debugging-Meldungen"
+,"url":"f?p=4000:666:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Debugging-Meldungen"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-debug-messages"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Application Express Views"
+,"url":"f?p=4000:714:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Application Express Views"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-apex-views"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Export-Repository"
+,"url":"f?p=4000:73:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Export-Repository"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-export-repository"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Eingebetteter Code"
+,"url":"f?p=4000:101:%SESSION%::\u0026DEBUG.:RP,101:::"
+,"description":"Navigate to: Application Utilities \u005C Eingebetteter Code"
+,"path":{
+"last":"Utilities"
+}
+,"icon":"icon-util-embedded-code"
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seiten\u00FCbergreifende Utilitys"
+,"url":"f?p=4000:553:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seiten\u00FCbergreifende Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Seitengruppen"
+,"url":"f?p=4000:520:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Seitengruppen"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Regions-Utilitys"
+,"url":"f?p=4000:853:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Regions-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Schaltfl\u00E4chen-Utilitys"
+,"url":"f?p=4000:852:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Schaltfl\u00E4chen-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Element-Utilitys"
+,"url":"f?p=4000:854:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Element-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Berechnungs-Utilitys"
+,"url":"f?p=4000:847:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Berechnungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Validierungs-Utilitys"
+,"url":"f?p=4000:851:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Validierungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Prozess-Utilitys"
+,"url":"f?p=4000:482:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Prozess-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Dynamische Aktionsutilitys"
+,"url":"f?p=4000:699:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Dynamische Aktionsutilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Verzweigungs-Utilitys"
+,"url":"f?p=4000:881:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Application Utilities \u005C Verzweigungs-Utilitys"
+,"path":{
+"last":"Utilities"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskomponenten exportieren"
+,"url":"f?p=4000:688:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Anwendungskomponenten exportieren"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Unterst\u00FCtzende Objekte verwalten"
+,"url":"f?p=4000:2:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Unterst\u00FCtzende Objekte verwalten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Anwendungskommentar bearbeiten"
+,"url":"f?p=4000:4310:%SESSION%::\u0026DEBUG.::F4000_P4310_ID:\u0026FB_FLOW_ID.:"
+,"description":"Navigate to: Shared Components \u005C Anwendungskommentar bearbeiten"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Entwicklerkommentare"
+,"url":"f?p=4000:606:%SESSION%::\u0026DEBUG.::::"
+,"description":"Navigate to: Shared Components \u005C Entwicklerkommentare"
+,"path":{
+"last":"Shared Components"
+}
+,"priority":0
+,"scope":"global"
+}
+,{
+"name":"Beispiel-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:SAMPLE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Produktivit\u00E4ts-App installieren"
+,"url":"f?p=4750:50:\u0026APP_SESSION.:::50,RP:P50_APP_GROUP:PACKAGE"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Backups verwalten"
+,"url":"f?p=4000:970:%SESSION%::\u0026DEBUG.:970:::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"icon":"icon-apex-backup"
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Nach Facets durchsuchen"
+,"url":"f?p=4000:69:%SESSION%::\u0026DEBUG.::::"
+,"description":"App Builder Tasks \u003E "
+,"path":{
+"last":"App Builder"
+}
+,"priority":0
+,"scope":"appgallery"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4303:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Item"
+,"description":"Create Application Item"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Item"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Computations"
+,"url":"f?p=4000:4304:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Computation"
+,"description":"Create Application Computation"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Computation"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4911:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Build Option"
+,"description":"Create Build Option"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Build Option"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:4495:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Authentication Scheme"
+,"description":"Create Authentication Scheme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Authentication Scheme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:525:%SESSION%::\u0026DEBUG.::::"
+,"label":"Set Application State Protection"
+,"description":"Set Application State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Set Application State Protection"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1621:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Web Credentials"
+,"description":"Create Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Web Credentials"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4402:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Plug-in"
+,"description":"Create Plug-in"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Plug-in"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4861:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Email Template"
+,"description":"Create Email Template"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Email Template"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:207:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Theme"
+,"description":"Create Theme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Theme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Script Editor"
+,"url":"f?p=4500:60:%SESSION%::\u0026DEBUG.::::"
+,"label":"Script Editor"
+,"description":"Script Editor"
+,"path":{
+"last":"SQL Workshop"
+}
+,"tokens":"Script Editor"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4303:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Item"
+,"description":"Create Application Item"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Item"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Computations"
+,"url":"f?p=4000:4304:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Computation"
+,"description":"Create Application Computation"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Computation"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4911:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Build Option"
+,"description":"Create Build Option"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Build Option"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:4495:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Authentication Scheme"
+,"description":"Create Authentication Scheme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Authentication Scheme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:525:%SESSION%::\u0026DEBUG.::::"
+,"label":"Set Application State Protection"
+,"description":"Set Application State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Set Application State Protection"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1621:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Web Credentials"
+,"description":"Create Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Web Credentials"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4402:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Plug-in"
+,"description":"Create Plug-in"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Plug-in"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4861:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Email Template"
+,"description":"Create Email Template"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Email Template"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:207:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Theme"
+,"description":"Create Theme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Theme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Script Editor"
+,"url":"f?p=4500:60:%SESSION%::\u0026DEBUG.::::"
+,"label":"Script Editor"
+,"description":"Script Editor"
+,"path":{
+"last":"SQL Workshop"
+}
+,"tokens":"Script Editor"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4303:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Item"
+,"description":"Create Application Item"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Item"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Computations"
+,"url":"f?p=4000:4304:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Computation"
+,"description":"Create Application Computation"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Computation"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4911:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Build Option"
+,"description":"Create Build Option"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Build Option"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:4495:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Authentication Scheme"
+,"description":"Create Authentication Scheme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Authentication Scheme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:525:%SESSION%::\u0026DEBUG.::::"
+,"label":"Set Application State Protection"
+,"description":"Set Application State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Set Application State Protection"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1621:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Web Credentials"
+,"description":"Create Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Web Credentials"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4402:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Plug-in"
+,"description":"Create Plug-in"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Plug-in"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4861:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Email Template"
+,"description":"Create Email Template"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Email Template"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:207:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Theme"
+,"description":"Create Theme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Theme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Script Editor"
+,"url":"f?p=4500:60:%SESSION%::\u0026DEBUG.::::"
+,"label":"Script Editor"
+,"description":"Script Editor"
+,"path":{
+"last":"SQL Workshop"
+}
+,"tokens":"Script Editor"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Application Items"
+,"url":"f?p=4000:4303:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Item"
+,"description":"Create Application Item"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Item"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Computations"
+,"url":"f?p=4000:4304:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Application Computation"
+,"description":"Create Application Computation"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Application Computation"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Build Options"
+,"url":"f?p=4000:4911:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Build Option"
+,"description":"Create Build Option"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Build Option"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Authentication Schemes"
+,"url":"f?p=4000:4495:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Authentication Scheme"
+,"description":"Create Authentication Scheme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Authentication Scheme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Session State Protection"
+,"url":"f?p=4000:525:%SESSION%::\u0026DEBUG.::::"
+,"label":"Set Application State Protection"
+,"description":"Set Application State Protection"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Set Application State Protection"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Web Credentials"
+,"url":"f?p=4000:1621:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Web Credentials"
+,"description":"Create Web Credentials"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Web Credentials"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Plug-ins"
+,"url":"f?p=4000:4402:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Plug-in"
+,"description":"Create Plug-in"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Plug-in"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Email Templates"
+,"url":"f?p=4000:4861:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Email Template"
+,"description":"Create Email Template"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Email Template"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Themes"
+,"url":"f?p=4000:207:%SESSION%::\u0026DEBUG.::::"
+,"label":"Create Theme"
+,"description":"Create Theme"
+,"path":{
+"last":"Shared Components"
+}
+,"tokens":"Create Theme"
+,"priority":0
+,"scope":"action"
+}
+,{
+"name":"Script Editor"
+,"url":"f?p=4500:60:%SESSION%::\u0026DEBUG.::::"
+,"label":"Script Editor"
+,"description":"Script Editor"
+,"path":{
+"last":"SQL Workshop"
+}
+,"tokens":"Script Editor"
+,"priority":0
+,"scope":"action"
+}
+]
+
+
+

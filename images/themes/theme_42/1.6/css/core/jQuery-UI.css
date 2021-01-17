@@ -1,0 +1,26 @@
+/*! jQuery UI Datepicker 1.10.4 http://jqueryui.com Copyright 2014 jQuery Foundation and other contributors Released under the MIT license. http://jquery.org/license http://api.jqueryui.com/datepicker/#theming */
+.ui-datepicker { z-index: 99999 !important; }
+
+.ui-datepicker-prev:active, .ui-datepicker-next:active { box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05) inset, 0 0 0 1px rgba(0, 0, 0, 0.125) inset; }
+
+.ui-datepicker-title { font-size: 16px; font-weight: 500; }
+
+body .ui-datepicker table { font-size: 11px; }
+
+body .ui-datepicker span.spanTime { display: block; padding-top: 8px; }
+
+body .ui-datepicker span.spanTime select { margin-left: 4px !important; }
+
+body .ui-datepicker span.spanTime table { table-layout: auto; }
+
+body .ui-datepicker th { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+body .ui-datepicker td span.ui-state-default, body .ui-datepicker td a.ui-state-default { transition: background-color .1s, color .1s; box-shadow: none; border-radius: 24px; width: 32px; height: 32px; margin: 2px; line-height: 32px; }
+
+body .ui-datepicker td span.ui-state-default.ui-state-active, body .ui-datepicker td a.ui-state-default.ui-state-active { font-size: 14px; }
+
+body .ui-datepicker td span.ui-state-default.ui-state-highlight, body .ui-datepicker td a.ui-state-default.ui-state-highlight { font-weight: bold; }
+
+/* with multiple calendars */
+/* RTL support */
+.ui-icon-closethick { background-image: none !important; }

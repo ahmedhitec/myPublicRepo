@@ -1,0 +1,114 @@
+@import "_variables";
+
+// Color Overrides for JET
+
+// @rootFontSize:    12px;
+// @fontSize:        @rootFontSize;
+// @smallFontSize:   @rootFontSize - 1px;
+// @mediumFontSize:  @rootFontSize + 2px;
+// @largeFontSize:   @rootFontSize + 4px;
+// @largestFontSize: @rootFontSize + 6px;
+
+.oj-dvt-category1 {
+  color: @g_Color-Palette-1
+}
+
+.oj-dvt-category2 {
+  color: @g_Color-Palette-4
+}
+
+.oj-dvt-category3 {
+  color: @g_Color-Palette-7
+}
+
+.oj-dvt-category4 {
+  color: @g_Color-Palette-9
+}
+
+.oj-dvt-category5 {
+  color: @g_Color-Palette-12
+}
+
+.oj-dvt-category6 {
+  color: @g_Color-Palette-3
+}
+
+.oj-dvt-category7 {
+  color: @g_Color-Palette-8
+}
+
+.oj-dvt-category8 {
+  color: @g_Color-Palette-10
+}
+
+.oj-dvt-category9 {
+  color: @g_Color-Palette-2
+}
+
+.oj-dvt-category10 {
+  color: @g_Color-Palette-5
+}
+
+.oj-dvt-category11 {
+  color: @g_Color-Palette-11
+}
+
+.oj-dvt-category12 {
+  color: @g_Color-Palette-6
+}
+
+// Colors for Jet Charts
+.oj-legend,
+.oj-legend-title,
+.oj-chart-pie-center-label,
+.oj-chart-xaxis-title,
+.oj-chart-yaxis-title,
+.oj-chart-y2axis-title,
+.oj-chart-xaxis-tick-label,
+.oj-chart-yaxis-tick-label,
+.oj-chart-y2axis-tick-label,
+.oj-chart-data-label,
+.oj-dvt-no-data-message {
+  color: @g_Body-Text;
+}
+
+// Set Variables for oJet 9
+:root {
+  --oj-body-bg-color: @g_Body-BG;
+  --oj-body-text-color: @g_Body-Text;
+  --oj-header-text-color: @g_Body-Text;
+  --oj-core-text-color-primary: @g_Body-Text;
+  --oj-core-text-color-secondary: fade(@g_Body-Text, 70%);
+  --oj-dvt-datatip-bg-color: @_base-shade-2;
+  --oj-dvt-datatip-border-color: @_base-shade-3;
+  --oj-dvt-datatip-text-color: @_base-shade-10;
+  --oj-dvt-datatip-label-color: @_base-shade-8;
+  --oj-dvt-datatip-value-color: @_base-shade-10;
+  --oj-listbox-bg-color-hover: @g_NavBarMenu-Active-BG;
+}
+
+
+// Jet Dropdown
+.oj-listbox-drop {
+  background-color: @g_NavBarMenu-BG;
+  color: @g_NavBarMenu-FG;
+  border-width: 0;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px @_base-shadow-7, 0 0 0 1px @_base-alpha-4;
+  padding: 8px 0;
+}
+
+.oj-inputsearch-choice {
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.oj-listbox-results {
+  outline: none;
+}
+
+.oj-listbox-results .oj-hover {
+  background-color: @g_NavBarMenu-Active-BG;
+  color: @g_NavBarMenu-Active-FG;
+}

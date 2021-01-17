@@ -1,0 +1,19 @@
+@import "../_variables";
+
+// ==========================================================================
+// Body
+// ==========================================================================
+body,
+.ui-widget {
+  font-family: @g_FontFamily-base;
+}
+
+a:focus,
+div[tabindex]:focus,
+li[tabindex]:focus,
+span[tabindex]:focus {
+  outline-width: @g_OutlineWidth;
+  outline-style: @g_OutlineStyle;
+  outline-offset: @g_OutlineOffset;
+  outline-color: currentColor;
+}

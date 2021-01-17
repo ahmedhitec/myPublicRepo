@@ -1,0 +1,228 @@
+@import "_variables";
+
+/* Generic Menu Bar
+   ========================================================================== */
+.a-MenuBar-label {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  padding: 12px;
+  text-decoration: none;
+  flex-grow: 1;
+
+  &:hover {
+    background-clip: padding-box;
+    text-decoration: none;
+  }
+
+  & + .a-Menu-subMenuCol {
+    flex-shrink: 0;
+    align-self: center;
+    line-height: 1;
+  }
+}
+
+.a-MenuBar-item {
+  display: flex;
+  float: left;
+  padding: 0;
+  border-width: 0 1px;
+  box-shadow: none;
+  margin-left: 0;
+  background-clip: content-box;
+
+  .u-RTL & {
+    float: right;
+  }
+
+  &.is-expanded {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  /* First Menu Bar Item */
+  &:first-child {
+    border-left-width: 0;
+
+    .u-RTL & {
+      border-right-width: 0;
+      border-left-width: 1px;
+    }
+  }
+
+  /* Focus State (also applied on hover) */
+  &.is-focused {
+    box-shadow: none;
+  }
+
+  /* Current Menu Item becomes bold */
+  &.a-Menu--current {
+    .a-MenuBar-label {
+      font-weight: bold;
+    }
+  }
+
+  /* Sub Menu Drop Down Icon */
+  & > .a-Menu-subMenuCol,
+  &.a-Menu--split > .a-Menu-subMenuCol {
+    border-width: 0;
+    padding: 0 12px 0 0;
+
+    .u-RTL & {
+      padding-right: 0;
+      padding-left: 12px;
+      border-right: 0 !important;
+    }
+  }
+
+  & > .a-Menu-subMenuCol .a-Icon {
+    border-radius: 12.5%;
+
+    &:before {
+      content: '\e0c2';
+    }
+  }
+
+  & > button + .a-Menu-subMenuCol {
+    /* When parent is no target, but has sub menu, then make it appear as single item */
+    margin-left: -6px;
+
+    .u-RTL & {
+      margin-left: 0;
+      margin-right: -6px;
+    }
+  }
+}
+
+/* Header Top Navigation Menu
+   ========================================================================== */
+.t-Header-nav-list {
+  background-color: @g_Nav-BG;
+}
+
+.t-Header-nav {
+  .a-MenuBar-label {
+    color: @g_Nav-FG;
+  }
+
+  .t-Menu-badge {
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: inherit;
+    font-weight: 500;
+    background-color: @g_Nav-Badge-BG;
+    color: @g_Nav-Badge-FG;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+    border-radius: 16px;
+
+    .u-RTL & {
+      margin-left: 0;
+      margin-right: 4px;
+    }
+  }
+
+  .a-MenuBar-item {
+    /* First Menu Bar Item */
+
+    border-color: mix(@g_Nav-Active-FG, @g_Nav-BG, 7.5%);
+
+    /* Focus State (also applied on hover) */
+    &.is-focused {
+      background-color: contrast(@g_Nav-Active-BG, darken(@g_Nav-Active-BG,   3%), lighten(@g_Nav-Active-BG,   3%),  43%);
+      box-shadow: 0 0 0 1px @g_Focus inset;
+
+      .a-MenuBar-label {
+        color: @g_Nav-Active-FG;
+      }
+    }
+
+    /* Current + Focused, or Current + Expanded */
+    &.a-Menu--current,
+    &.a-Menu--current.is-focused,
+    &.is-expanded,
+    &.a-Menu--current.is-expanded {
+      background-color: @g_Nav-Active-BG;
+
+      .a-MenuBar-label {
+        color: @g_Nav-Active-FG;
+      }
+    }
+
+    & > .a-Menu-subMenuCol .a-Icon {
+      color: fade(@g_Nav-Active-FG, 80%);
+    }
+
+    &.a-Menu--split > .a-Menu-subMenuCol:hover .a-Icon,
+    &.is-focused > button + .a-Menu-subMenuCol .a-Icon {
+      /* Hovering over sub menu icon on menu bar,
+         or hovering on a non-split menu bar item */
+      background-color: fade(@g_Nav-Active-FG, 15%);
+    }
+
+    /* Icon when Menu Expanded */
+    &.is-expanded > .a-Menu-subMenuCol .a-Icon,
+    &.is-expanded > .a-Menu-subMenuCol:hover .a-Icon {
+      background-color: @g_Nav-Accent-BG;
+      border-color: @g_Nav-Accent-BG;
+      color: @g_Nav-Accent-FG;
+    }
+  }
+}
+
+/* ==========================================================================
+   Standalone Menu Bar
+   ========================================================================== */
+.t-MenuBar {
+  background-color: @g_Button-BG;
+
+  // border: 1px solid mix(@g_Button-Text, @g_Button-BG, 10%);
+  .a-MenuBar-label {
+    color: @g_Button-Text;
+  }
+
+  .a-MenuBar-item {
+    /* First Menu Bar Item */
+    border-color: mix(@g_Button-Text, @g_Button-BG, 10%);
+
+    /* Focus State (also applied on hover) */
+    &.is-focused {
+      background-color: contrast(@g_Button-BG, darken(@g_Button-BG,   3%), lighten(@g_Button-BG,   3%),  43%);
+    }
+
+    /* Current + Focused, or Current + Expanded */
+    &.a-Menu--current,
+    &.a-Menu--current.is-focused,
+    &.is-expanded,
+    &.a-Menu--current.is-expanded {
+      background-color: @g_NavBarMenu-Active-BG;
+
+      .a-MenuBar-label {
+        color: @g_NavBarMenu-Active-FG;
+      }
+    }
+
+    & > .a-Menu-subMenuCol .a-Icon {
+      color: fade(@g_Button-Text, 80%);
+    }
+
+    &.a-Menu--split > .a-Menu-subMenuCol:hover .a-Icon,
+    &.is-focused > button + .a-Menu-subMenuCol .a-Icon {
+      /* Hovering over sub menu icon on menu bar,
+         or hovering on a non-split menu bar item */
+      background-color: fade(@g_Button-Text, 15%);
+    }
+
+    /* Icon when Menu Expanded */
+    &.is-expanded > .a-Menu-subMenuCol .a-Icon,
+    &.is-expanded > .a-Menu-subMenuCol:hover .a-Icon {
+      background-color: @g_NavBarMenu-Active-FG;
+      border-color: @g_NavBarMenu-Active-FG;
+      color: @g_NavBarMenu-Active-BG;
+    }
+  }
+}

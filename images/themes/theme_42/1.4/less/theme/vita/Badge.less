@@ -1,0 +1,115 @@
+/**
+ * Import Compass and Theme Variables
+ */
+@import "_variables";
+
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+
+
+/* ==========================================================================
+     Badge Modifiers
+     ========================================================================== */
+.t-Badge--basic {
+  box-shadow: 0 0 0 0.1rem @_base-bg-alpha-1 inset;
+}
+
+.t-Badge--orb {
+  &:before {
+    box-shadow: 0 0 0 0.1rem @_base-bg-alpha-2 inset;
+  }
+}
+
+
+// /* ==========================================================================
+//      Badge States
+//      ========================================================================== */
+
+// @g_Base-BG: #FFFFFF;
+// @g_Warning-BG: #FFBE2A;
+// @g_Danger-BG: #F54B21;
+// @g_Primary-BG: #AAC7DA;
+// @g_Info-BG: #8ABCEB;
+// @g_Hot-BG: #0572CE;
+// @g_Success-BG: #2ECC71;
+
+// /* Default (Normal)
+//      ========================================================================== */
+
+// /* Primary
+//      ========================================================================== */
+// .t-Badge--orb.is-primary:before {
+//   background-color: @g_Primary-BG;
+// }
+
+// .t-Badge--basic.is-primary {
+//   background-color: lighten(@g_Primary-BG, 23%);
+//   color: #404040;
+// }
+
+// /* Info
+//      ========================================================================== */
+// .t-Badge--orb.is-info:before {
+//   background-color: @g_Info-BG;
+// }
+
+// .t-Badge--basic.is-info {
+//   background-color: lighten(@g_Info-BG, 23%);
+//   // color: darken(@g_Info-BG,35%);
+//   color: #404040;
+// }
+
+// /* Warning
+//      ========================================================================== */
+// .t-Badge--orb.is-warning:before {
+//   background-color: @g_Warning-BG;
+// }
+
+// .t-Badge--basic.is-warning {
+//   background-color: lighten(@g_Warning-BG, 35%);
+//   color: darken(@g_Warning-BG, 35%);
+// }
+
+// /* Success
+//      ========================================================================== */
+// .t-Badge--orb.is-success:before {
+//   background-color: @g_Success-BG;
+// }
+
+// .t-Badge--basic.is-success {
+//   background-color: lighten(@g_Success-BG, 40%);
+//   color: darken(@g_Success-BG, 35%);
+// }
+
+// /* Danger
+//      ========================================================================== */
+// .t-Badge--orb.is-danger:before {
+//   background-color: @g_Danger-BG;
+// }
+
+// .t-Badge--basic.is-danger {
+//   background-color: lighten(@g_Danger-BG, 35%);
+//   color: darken(@g_Danger-BG, 35%);
+// }
+
+// /* Complete
+//      ========================================================================== */
+// .t-Badge--orb.is-complete:before {
+//   background-color: #E0E0E0;
+// }
+
+// .t-Badge--basic.is-complete {
+//   background-color: #E0E0E0;
+// color: #404040;
+// }
+
+/* Null / Unknown
+     ========================================================================== */
+.t-Badge--orb.is-null:before {
+  color: #707070;
+}
+
+.t-Badge--basic.is-null {
+  color: #707070;
+}

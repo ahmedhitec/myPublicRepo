@@ -1,0 +1,113 @@
+@import "../_variables";
+
+@Head-Height: 64px;
+
+// ==========================================================================
+// Header
+// ==========================================================================
+.t-Header-branding {}
+
+.t-Header-logo,
+.t-Header .t-Button--header.is-active,
+.t-Header .t-Button--header {
+
+  &:hover {}
+}
+
+.t-Header-logo-link {
+  color: inherit;
+
+  &:focus,
+  &:active:focus {
+    box-shadow: none;
+    outline-width: @g_OutlineWidth;
+    outline-style: @g_OutlineStyle;
+    outline-offset: @g_OutlineOffset;
+    outline-color: currentColor;
+  }
+}
+
+/* ==========================================================================
+   Oracle Logo
+   ========================================================================== */
+.t-Header-logo {
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  overflow: visible;
+}
+
+.t-Header-logo-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  min-height: 40px;
+
+  &:before {
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIyNCI+PHBhdGggZD0iTTI0LjYzMS42MTNIMTEuMzkzQzUuMTAyLjYxMyAwIDUuNzEyIDAgMTIuMDA5IDAgMTguMyA1LjEwMiAyMy4zODggMTEuMzkzIDIzLjM4OGgxMy4yMzhDMzAuOTI5IDIzLjM4OCAzNiAxOC4yOTkgMzYgMTIuMDA5IDM2IDUuNzEyIDMwLjkyOS42MTMgMjQuNjMxLjYxM3ptLS4zMTQgMTguNzU5SDExLjY3M2MtNC4wNjkgMC03LjM2Ni0zLjMwNy03LjM2Ni03LjM3MWE3LjM2MSA3LjM2MSAwIDAgMSA3LjM2Ni03LjM3MWgxMi42NDRhNy4zNjEgNy4zNjEgMCAwIDEgNy4zNzYgNy4zNzEgNy4zNzMgNy4zNzMgMCAwIDEtNy4zNzYgNy4zNzF6IiBmaWxsPSIjYzc0NjM0Ii8+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 36px;
+    height: 24px;
+    display: block;
+    margin-left: 4px;
+    margin-right: 12px;
+    position: relative;
+    z-index: -1;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+  }
+
+  .apex-logo-img,
+  .apex-logo-text {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+  }
+
+  .apex-logo-img + .apex-logo-text {
+    margin-left: 12px;
+  }
+}
+
+// Header HEight
+.t-Header-branding {
+  height: @Head-Height;
+}
+
+.t-Header-logo-link img {
+  max-height: @Head-Height - 8px;
+}
+
+.t-Body-content {
+  //min-height: 100vh;
+  min-height: calc(~"100vh - "@Head-Height);
+}
+
+.apex-side-nav {
+
+  .t-Body-nav,
+  .t-Body-actions,
+  .t-Body-title {
+    top: @Head-Height;
+  }
+}
+
+.apex-top-nav {
+  .t-Body-actions {
+    top: @Head-Height + 40;
+  }
+
+  .t-Body-title {
+    top: @Head-Height + 40;
+  }
+}
+
+.t-MegaMenu--fullWidth {
+  &:not(.js-menu-callout) {
+    padding-top: (@Head-Height - 40px) / 2; // Button Height
+  }
+}

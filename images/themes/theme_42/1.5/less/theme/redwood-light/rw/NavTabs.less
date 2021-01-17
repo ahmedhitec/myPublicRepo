@@ -1,0 +1,13 @@
+@import "../_variables";
+
+.t-NavTabs {
+  background-color: @g_neutral-180;
+}
+
+.t-NavTabs-item:hover,
+.t-NavTabs-item.is-active {
+  @media (max-width: @display-xs) {
+    background-color: transparent;
+    box-shadow: inset 0 4px 0 @g_brand;
+  }
+}

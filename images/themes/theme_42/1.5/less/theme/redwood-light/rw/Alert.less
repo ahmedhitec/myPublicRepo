@@ -1,0 +1,160 @@
+@import "../_variables";
+
+@g_Success-BG: @g_green-100;
+@g_Success-FG: @g_green-10;
+
+@g_Info-BG: @g_blue-100;
+@g_Info-FG: @g_blue-10;
+
+@g_Warning-BG: @g_yellow-100;
+@g_Warning-FG: @g_yellow-10;
+
+@g_Danger-BG: @g_red-100;
+@g_Danger-FG: @g_red-10;
+
+// Alert Colored Backgrounds
+@l_Alert-Warning-BG: @g_Warning-FG;
+@l_Alert-Success-BG: @g_Success-FG;
+@l_Alert-Danger-BG: @g_Danger-FG;
+@l_Alert-Info-BG: @g_Info-FG;
+
+
+
+.t-Alert--page {
+  .htmldbOraErr {
+    font-family: @g_FontFamily-mono;
+  }
+}
+
+/**
+ * Colorized Background
+ */
+.t-Alert--wizard,
+.t-Alert--horizontal {
+  border-radius: @g_Container-BorderRadius;
+  border-color: @_base-alpha-4;
+
+  .t-Alert-icon {
+    border-top-left-radius: @g_Container-BorderRadius;
+    border-bottom-left-radius: @g_Container-BorderRadius;
+  }
+}
+
+.t-Alert--colorBG {
+
+  &.t-Alert--warning,
+  &.t-Alert--yellow {
+    background-color: @l_Alert-Warning-BG;
+    color: @g_neutral-190;
+  }
+
+  &.t-Alert--success {
+    background-color: @l_Alert-Success-BG;
+    color: fade(contrast(@l_Alert-Success-BG, desaturate(darken(@l_Alert-Success-BG,  100%), 100%), desaturate(lighten(@l_Alert-Success-BG,  100%), 50%)), 100%);
+  }
+
+  &.t-Alert--danger,
+  &.t-Alert--red {
+    background-color: @l_Alert-Danger-BG;
+    color: fade(contrast(@l_Alert-Danger-BG, desaturate(darken(@l_Alert-Danger-BG,  100%), 100%), desaturate(lighten(@l_Alert-Danger-BG,  100%), 50%)), 100%);
+  }
+
+  &.t-Alert--info {
+    background-color: @l_Alert-Info-BG;
+    color: fade(contrast(@l_Alert-Info-BG, desaturate(darken(@l_Alert-Info-BG,  100%), 100%), desaturate(lighten(@l_Alert-Info-BG,  100%), 50%)), 100%);
+  }
+}
+
+
+
+/**
+  * Modifier: Warning
+  */
+.t-Alert--warning,
+.t-Alert--yellow {
+  .t-Alert-icon .t-Icon {
+    color: @g_Warning-BG;
+  }
+
+  &.t-Alert--horizontal:not(.t-Alert--page) .t-Alert-icon {
+    background-color: @g_Warning-FG;
+  }
+}
+
+/**
+  * Modifier: Success
+  */
+.t-Alert--success {
+  .t-Alert-icon .t-Icon {
+    color: @g_Success-BG;
+  }
+
+  &.t-Alert--horizontal:not(.t-Alert--page) .t-Alert-icon {
+    background-color: @g_Success-FG;
+  }
+}
+
+/**
+  * Modifier: Information
+  */
+.t-Alert--info {
+  .t-Alert-icon .t-Icon {
+    color: @g_Info-BG;
+  }
+
+  &.t-Alert--horizontal:not(.t-Alert--page) .t-Alert-icon {
+    background-color: @g_Info-FG;
+  }
+}
+
+/**
+  * Modifier: Success
+  */
+.t-Alert--danger,
+.t-Alert--red {
+  .t-Alert-icon .t-Icon {
+    color: @g_Danger-BG;
+  }
+
+  &.t-Alert--horizontal:not(.t-Alert--page) .t-Alert-icon {
+    background-color: @g_Danger-FG;
+  }
+}
+
+.t-Alert--wizard {
+  .t-Alert-inset {
+    border-radius: @g_Container-BorderRadius;
+  }
+}
+
+.t-Alert--horizontal,
+.t-Alert--wizard {
+  background-color: @g_Region-BG;
+  color: @g_Region-FG;
+}
+
+/* Page Level Alerts (from APEX)
+    ========================================================================== */
+.t-Alert--page {
+  &.t-Alert--success {
+    background-color: @g_Success-BG;
+    color: @g_Success-FG;
+
+    .t-Alert-icon {
+      color: @g_Success-FG;
+    }
+
+    .t-Button--closeAlert {
+      color: @g_Success-FG !important;
+    }
+  }
+
+  &.t-Alert--warning {
+    background-color: @g_Warning-BG;
+    color: @g_Warning-FG;
+
+    .t-Alert-icon .t-Icon {
+      color: @g_Warning-FG;
+    }
+  }
+}

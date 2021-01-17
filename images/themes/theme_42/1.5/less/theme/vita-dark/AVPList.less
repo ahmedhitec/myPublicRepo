@@ -1,0 +1,39 @@
+@import "_variables";
+
+.t-AVPList-item {
+  box-shadow: 0 -0.1rem 0 @_base-alpha-2 inset;
+}
+
+.t-AVPList-label,
+.t-AVPList-value {
+  box-shadow: 0 0.1rem @_base-alpha-3 inset;
+}
+
+.t-AVPList-value {
+  color: contrast(@g_Body-Text, darken(@g_Body-Text,   15%), lighten(@g_Body-Text,   15%),  43%);
+
+  .t-Body-info & {
+    @value-tmp: @g_Body-Title-FG;
+    color: contrast(@value-tmp, darken(@value-tmp,   15%), lighten(@value-tmp,   15%),  43%);
+  }
+
+  .t-Region & {
+    color: contrast(@g_Region-FG, darken(@g_Region-FG,   15%), lighten(@g_Region-FG,   15%),  43%);
+  }
+}
+
+.t-AVPList-label {
+  color: @g_Body-Text;
+
+  .t-Body-info & {
+    color: @g_Body-Title-FG;
+  }
+
+  .t-Region & {
+    color: @g_Region-FG;
+  }
+}
+
+.t-AVPList + .t-Report-pagination {
+  border-top-color: @_base-alpha-2;
+}

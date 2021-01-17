@@ -1,0 +1,123 @@
+@import "_variables";
+
+/* File Drop
+   ======================================================================= */
+:root {
+  --a-filedrop-border-radius: @g_Form-BorderRadius;
+  --a-filedrop-border-color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,   10%), lighten(@g_Form-Item-BG,   10%),  43%);
+
+  --a-filedrop-background-color: @l_Form-Item-hoverBG;
+
+  --a-filedrop-focus-border-color: @g_Focus;
+
+  --a-filedrop-dragging-background-color: fade(@g_Focus, 10%);
+  --a-filedrop-dragging-border-color: @g_Focus;
+
+  --a-filedrop-progress-background-color: @_base-alpha-4;
+  --a-filedrop-progress-bar-background-color: @g_Focus;
+}
+
+.apex-item-file-download {
+  margin-top: .4rem;
+  display: inline-block;
+}
+
+.apex-item-filedrop-action {
+  // margin-top: 12px;
+}
+
+.apex-item-group--file-block {
+  --a-filedrop-item-spacing: 6px;
+  --a-filedrop-padding-y: 24px;
+
+  .apex-item-filedrop-icon {
+    // margin-bottom: 0;
+  }
+}
+
+.apex-item-group--file-browse {
+  --a-filedrop-padding-y: 0px;
+  --a-filedrop-padding-x: 0px;
+  // --a-filedrop-item-spacing: 0px;
+  --a-filedrop-icon-size: 16px;
+  --a-filedrop-heading-font-size: 12px;
+  --a-filedrop-heading-line-height: 16px;
+  --a-filedrop-heading-font-weight: 400;
+  --a-filedrop-text-color: fade(@g_Form-Item-FG, 70%);
+
+  .apex-item-filedrop-body,
+  .apex-item-filedrop-icon {
+    padding: .4rem .8rem;
+  }
+
+  .apex-item-filedrop-icon {
+    border-left-width: var(--a-filedrop-border-width);
+    border-left-style: var(--a-filedrop-border-style);
+    border-left-color: var(--a-filedrop-border-color);
+    background-color: @g_Form-Item-BG;
+    border-radius: 0 @g_Form-BorderRadius @g_Form-BorderRadius 0;
+
+    .u-RTL & {
+      border-radius: @g_Form-BorderRadius 0 0 @g_Form-BorderRadius;
+      border-left-width: 0;
+      border-right-width: var(--a-filedrop-border-width);
+      border-right-style: solid;
+      border-right-color: var(--a-filedrop-border-color);
+    }
+  }
+
+  .apex-item-filedrop {
+    flex-direction: row;
+    height: auto;
+    outline: none;
+
+    &:hover {
+      --a-filedrop-text-color: @g_Form-Item-FG;
+
+      .apex-item-filedrop-icon {
+        background-color: @l_Form-Item-focusBG;
+        color: @g_Form-Item-FG;
+      }
+    }
+
+    &:focus {
+      .apex-item-filedrop-icon {
+        border-color: @g_Focus;
+        background-color: @g_Focus;
+        color: @g_Focus-FG;
+      }
+    }
+  }
+
+  // Large
+  .t-Form-fieldContainer--floatingLabel.t-Form-fieldContainer--large & {
+    --a-filedrop-heading-font-size: 14px;
+
+    .apex-item-filedrop-body,
+    .apex-item-filedrop-icon {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    .apex-item-filedrop-icon {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+
+  // X-Large
+  .t-Form-fieldContainer--floatingLabel.t-Form-fieldContainer--xlarge & {
+    --a-filedrop-heading-font-size: 16px;
+
+    .apex-item-filedrop-body,
+    .apex-item-filedrop-icon {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    .apex-item-filedrop-icon {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+}

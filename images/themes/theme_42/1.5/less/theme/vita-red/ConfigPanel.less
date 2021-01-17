@@ -1,0 +1,60 @@
+@import "_variables";
+
+.t-ConfigPanel {
+  box-shadow: 0 -1px 0 @_base-alpha-4 inset;
+}
+
+.t-ConfigPanel-about {
+  background-color: lighten(#FFCB3D, 32%);
+  color: #565656;
+  box-shadow: 0 -1px 0 @_base-alpha-4 inset;
+}
+
+.t-ConfigPanel-main {
+  box-shadow: -1px 0 0 @_base-alpha-4 inset;
+
+  @media only screen and (max-width: 640px) {
+    box-shadow: 0 -1px 0 @_base-alpha-4 inset;
+  }
+}
+
+.t-ConfigPanel-icon {
+  border-radius: 100%;
+  background-color: #A0A0A0;
+  color: #FFF;
+
+  &.is-enabled {
+    background-color: @g_Success-BG;
+  }
+
+  &.is-disabled {
+    background-color: @g_Danger-BG;
+  }
+}
+
+.t-ConfigPanel-setting,
+.t-ConfigPanel-status {
+  color: @g_Region-FG-Light;
+}
+
+.t-ConfigPanel-status {
+  color: @g_Region-FG;
+}
+
+.t-ConfigPanel-attrLink {
+  color: @g_Region-FG-Light;
+  box-shadow: 0 -1px 0 @_base-alpha-2 inset;
+
+  &:hover {
+    background-color: @_base-alpha-2;
+    box-shadow: 0 1px 0 @_base-alpha-2;
+  }
+}
+
+.t-ConfigPanel-attrLabel {
+  // color: @g_Region-FG;
+}
+
+.t-ConfigPanel-attrValue {
+  color: @g_Link-Base;
+}

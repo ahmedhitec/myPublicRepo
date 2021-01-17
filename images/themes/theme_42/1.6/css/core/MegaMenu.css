@@ -1,0 +1,257 @@
+/* Margins ========================================================================== */
+/* Paddings ========================================================================== */
+/* Directions ========================================================================== */
+/* Floats ========================================================================== */
+/* Text Alignment ========================================================================== */
+/* Transforms ========================================================================== */
+/* ========================================================================== Icon Library Mixin ========================================================================== */
+/* ========================================================================== Shadows ========================================================================== */
+/* ========================================================================== Mega Menu ========================================================================== */
+/* Menu Content Container ========================================================================== */
+.t-MegaMenu .a-Menu-content { padding: 0; overflow: hidden; }
+
+/* Top Level Menu Items ========================================================================== */
+.a-Menu .t-MegaMenu-list--top { display: grid; display: -ms-grid; }
+
+@media (min-width: 769px) { .a-Menu .t-MegaMenu-list--top { grid-template-columns: repeat(5, auto); -ms-grid-columns: 1fr [5]; } }
+
+.t-MegaMenu-item--top { padding: 16px; }
+
+.t-MegaMenu-item--hasSub > .t-MegaMenu-list--sub { margin-top: 8px; }
+
+/* ========================================================================== Menu Item Body ========================================================================== */
+.t-MegaMenu-body { max-height: 80vh; overflow: auto; }
+
+/* Menu Item Body ========================================================================== */
+.a-Menu.t-MegaMenu .t-MegaMenu-itemBody { display: flex; align-items: flex-start; white-space: normal; line-height: normal; }
+
+.a-Menu.t-MegaMenu .t-MegaMenu-itemBody.is-focused, .a-Menu.t-MegaMenu .t-MegaMenu-itemBody:hover { cursor: pointer; }
+
+.a-Menu.t-MegaMenu .t-MegaMenu-itemBody.is-focused .t-MegaMenu-label, .a-Menu.t-MegaMenu .t-MegaMenu-itemBody:hover .t-MegaMenu-label { text-decoration: underline; }
+
+/* Icons ========================================================================== */
+/* Common Icon Styles */
+.t-MegaMenu-itemBody > .t-Icon { margin-right: 8px; flex-grow: 0; flex-shrink: 0; flex-basis: auto; text-align: center; min-width: 28px; }
+
+.u-RTL .t-MegaMenu-itemBody > .t-Icon { margin-left: 8px; }
+
+.u-RTL .t-MegaMenu-itemBody > .t-Icon { margin-right: 0; }
+
+/* Top Level Icons */
+.t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody .t-Icon { border-radius: 2px; color: inherit; }
+
+.t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody .t-Icon:not(.fa) { display: none; }
+
+.t-MegaMenu-list--top > .t-MegaMenu-item > .t-MegaMenu-itemBody .t-Icon:not(.fa-lg) { font-size: 20px; width: 28px; height: 28px; line-height: 28px; margin-top: -2px; margin-bottom: -2px; }
+
+/* Sub Level Icons */
+.t-MegaMenu-list--sub .t-Icon { opacity: .55; }
+
+/* Badges ========================================================================== */
+.t-MegaMenu-badge { flex-grow: 0; flex-shrink: 0; flex-basis: auto; font-size: 11px; line-height: 16px; border-radius: 2px; padding: 0px 4px; /* Top Level Badge */ /* Margins to accomodate text getting too close to badges */ }
+
+.t-MegaMenu-badge:empty { display: none; }
+
+.t-MegaMenu-item--top > .t-MegaMenu-itemBody .t-MegaMenu-badge { margin-top: 4px; margin-bottom: 4px; }
+
+.a-Menu-label + .t-MegaMenu-badge:not(:empty) { margin-left: 4px; }
+
+.u-RTL .a-Menu-label + .t-MegaMenu-badge:not(:empty) { margin-right: 4px; }
+
+.u-RTL .a-Menu-label + .t-MegaMenu-badge:not(:empty) { margin-left: 0; }
+
+/* Label and Description ========================================================================== */
+/* Label Container */
+.t-MegaMenu.a-Menu .t-MegaMenu-item .a-Menu-label { flex-grow: 1; flex-shrink: 1; flex-basis: auto; padding: 0; line-height: 16px; }
+
+.u-RTL .t-MegaMenu.a-Menu .t-MegaMenu-item .a-Menu-label:hover, .u-RTL .t-MegaMenu.a-Menu .t-MegaMenu-item .a-Menu-label:active, .u-RTL .t-MegaMenu.a-Menu .t-MegaMenu-item .a-Menu-label:visited { padding: 0; }
+
+/* Label Text and Description */
+.t-MegaMenu-label, .t-MegaMenu-desc { display: block; }
+
+.t-MegaMenu-item--top > .t-MegaMenu-itemBody .t-MegaMenu-label { font-size: 14px; line-height: 20px; font-weight: 700; padding-top: 2px; padding-bottom: 2px; }
+
+.t-MegaMenu-item--top.is-active > .t-MegaMenu-itemBody .t-MegaMenu-label { font-weight: 900; }
+
+/* Description Text */
+.t-MegaMenu-desc { font-size: 12px; line-height: 1.333; }
+
+.t-MegaMenu-desc:empty { display: none; }
+
+/* Nested Navigation ========================================================================== */
+.a-Menu .t-MegaMenu-list--sub { position: relative; /* Third Level Navigation */ /* Sub Item Descriptions */ }
+
+.a-Menu .t-MegaMenu-list--sub .t-MegaMenu-itemBody { padding-top: 6px; padding-bottom: 6px; }
+
+.a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item.is-active > .t-MegaMenu-itemBody .t-MegaMenu-label { font-weight: 700; }
+
+.a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item .t-MegaMenu-item { padding-left: 36px; padding-left: 36px; }
+
+.u-RTL .a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item .t-MegaMenu-item { padding-right: 36px; }
+
+.a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item .t-MegaMenu-item .t-Icon { min-width: 16px; margin-right: 6px; }
+
+.u-RTL .a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item .t-MegaMenu-item .t-Icon { margin-left: 6px; }
+
+.u-RTL .a-Menu .t-MegaMenu-list--sub .t-MegaMenu-item .t-MegaMenu-item .t-Icon { margin-right: 0; }
+
+.a-Menu .t-MegaMenu-list--sub .t-MegaMenu-desc { margin-top: 2px; }
+
+/* ========================================================================== Template Options ========================================================================== */
+/* Layout: 2 Columns ========================================================================== */
+.t-MegaMenu--layout2Cols .t-MegaMenu-list--top { grid-template-columns: repeat(2, 1fr); -ms-grid-columns: 1fr 1fr; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(1) { -ms-grid-column: 1; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(2) { -ms-grid-column: 2; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(3) { -ms-grid-column: 1; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(4) { -ms-grid-column: 2; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(5) { -ms-grid-column: 1; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(6) { -ms-grid-column: 2; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(7) { -ms-grid-column: 1; -ms-grid-row: 4; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(8) { -ms-grid-column: 2; -ms-grid-row: 4; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(9) { -ms-grid-column: 1; -ms-grid-row: 5; }
+
+.t-MegaMenu--layout2Cols .t-MegaMenu-item--top:nth-child(10) { -ms-grid-column: 2; -ms-grid-row: 5; }
+
+/* Layout: 3 Columns ========================================================================== */
+.t-MegaMenu--layout3Cols .t-MegaMenu-list--top { grid-template-columns: repeat(3, 1fr); -ms-grid-columns: 1fr 1fr 1fr; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(1) { -ms-grid-column: 1; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(2) { -ms-grid-column: 2; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(3) { -ms-grid-column: 3; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(4) { -ms-grid-column: 1; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(5) { -ms-grid-column: 2; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(6) { -ms-grid-column: 3; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(7) { -ms-grid-column: 1; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(8) { -ms-grid-column: 2; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(9) { -ms-grid-column: 3; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(10) { -ms-grid-column: 1; -ms-grid-row: 4; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(11) { -ms-grid-column: 2; -ms-grid-row: 4; }
+
+.t-MegaMenu--layout3Cols .t-MegaMenu-item--top:nth-child(12) { -ms-grid-column: 3; -ms-grid-row: 4; }
+
+/* Layout: 4 Columns ========================================================================== */
+.t-MegaMenu--layout4Cols .t-MegaMenu-list--top { grid-template-columns: repeat(4, 1fr); -ms-grid-columns: 1fr 1fr 1fr; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(1) { -ms-grid-column: 1; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(2) { -ms-grid-column: 2; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(3) { -ms-grid-column: 3; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(4) { -ms-grid-column: 4; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(5) { -ms-grid-column: 1; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(6) { -ms-grid-column: 2; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(7) { -ms-grid-column: 3; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(8) { -ms-grid-column: 4; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(9) { -ms-grid-column: 1; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(10) { -ms-grid-column: 2; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(11) { -ms-grid-column: 3; -ms-grid-row: 3; }
+
+.t-MegaMenu--layout4Cols .t-MegaMenu-item--top:nth-child(12) { -ms-grid-column: 4; -ms-grid-row: 3; }
+
+/* Layout: 5 Columns ========================================================================== */
+.t-MegaMenu--layout5Cols .t-MegaMenu-list--top { grid-template-columns: repeat(5, 1fr); -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(1) { -ms-grid-column: 1; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(2) { -ms-grid-column: 2; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(3) { -ms-grid-column: 3; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(4) { -ms-grid-column: 4; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(5) { -ms-grid-column: 5; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(6) { -ms-grid-column: 1; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(7) { -ms-grid-column: 2; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(8) { -ms-grid-column: 3; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(9) { -ms-grid-column: 4; -ms-grid-row: 2; }
+
+.t-MegaMenu--layout5Cols .t-MegaMenu-item--top:nth-child(10) { -ms-grid-column: 5; -ms-grid-row: 2; }
+
+/* Layout: Stacked ========================================================================== */
+.t-MegaMenu--layoutStacked .t-MegaMenu-list--top { display: flex; flex-direction: column; flex-wrap: nowrap; padding: 0; }
+
+.t-MegaMenu--layoutStacked.a-Menu .t-MegaMenu-list--top .t-MegaMenu-item--top { max-width: 100%; flex-basis: 100%; }
+
+.t-MegaMenu--layoutStacked.a-Menu .t-MegaMenu-item--top + .t-MegaMenu-item--top { border-top: 1px solid rgba(0, 0, 0, 0.05); margin-top: 8px; padding-top: 8px; }
+
+/* Full Width ========================================================================== */
+.t-MegaMenu--fullWidth { width: 100%; left: 0 !important; right: 0 !important; }
+
+.t-MegaMenu--fullWidth.has-callout { margin-left: 0; margin-right: 0; }
+
+.t-MegaMenu--fullWidth .t-MegaMenu-container { border-radius: 0; min-width: 100%; }
+
+/* Responsive Behavior ========================================================================== */
+@media (max-width: 768px) { .t-MegaMenu-body { max-height: 80vh; overflow: auto; }
+  /* Need to make this very specific */
+  .a-Menu .t-MegaMenu-list--top { display: flex; flex-wrap: wrap; }
+  .a-Menu .t-MegaMenu-list--top .t-MegaMenu-item--top { max-width: 50%; flex-basis: 50%; } }
+
+@media (max-width: 480px) { .a-Menu .t-MegaMenu-list--top { flex-direction: column; flex-wrap: nowrap; padding: 0; }
+  .a-Menu .t-MegaMenu-list--top .t-MegaMenu-item--top { padding: 16px; max-width: 100%; flex-basis: 100%; }
+  .t-MegaMenu-item--top + .t-MegaMenu-item--top { border-top: 1px solid rgba(0, 0, 0, 0.05); } }
+
+/* Display Callout ========================================================================== */
+.t-MegaMenu.has-callout { margin-top: 8px; }
+
+/* ========================================================================== Advanced Modifiers (using classes only) ========================================================================== */
+/* No Icons ========================================================================== */
+.t-MegaMenu-item--noIcons .t-MegaMenu-itemBody .t-Icon { display: none; }
+
+.t-MegaMenu-item--noIcons .t-MegaMenu-item .t-MegaMenu-item { padding-left: 16px; }
+
+/* ========================================================================== Internet Explorer 11 ========================================================================== */
+/* Default Positioning ========================================================================== */
+.t-MegaMenu-item--top:nth-child(1) { -ms-grid-column: 1; }
+
+.t-MegaMenu-item--top:nth-child(2) { -ms-grid-column: 2; }
+
+.t-MegaMenu-item--top:nth-child(3) { -ms-grid-column: 3; }
+
+.t-MegaMenu-item--top:nth-child(4) { -ms-grid-column: 4; }
+
+.t-MegaMenu-item--top:nth-child(5) { -ms-grid-column: 5; }
+
+.t-MegaMenu-item--top:nth-child(6) { -ms-grid-column: 1; -ms-grid-row: 2; }
+
+.t-MegaMenu-item--top:nth-child(7) { -ms-grid-column: 2; -ms-grid-row: 2; }
+
+.t-MegaMenu-item--top:nth-child(8) { -ms-grid-column: 3; -ms-grid-row: 2; }
+
+.t-MegaMenu-item--top:nth-child(9) { -ms-grid-column: 4; -ms-grid-row: 2; }
+
+.t-MegaMenu-item--top:nth-child(10) { -ms-grid-column: 5; -ms-grid-row: 2; }
+
+/* ========================================================================== Shame ========================================================================== */
+.t-MegaMenu-desc { opacity: .65; }

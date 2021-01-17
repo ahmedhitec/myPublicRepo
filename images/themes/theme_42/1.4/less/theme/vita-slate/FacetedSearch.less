@@ -1,0 +1,75 @@
+@import "_variables";
+
+.a-FS-control + .a-FS-control {
+  border-top-color: @_base-alpha-4;
+}
+
+.a-FS-toggle {
+  background-color: @_base-alpha-6;
+  color: @g_Accent-FG;
+  border-radius: 2px;
+
+  &:hover {
+    background-color: @_base-alpha-7;
+  }
+
+  &:focus {
+    background-color: @g_Accent-BG;
+    box-shadow: 0 1px 1px 0 fade(@g_Accent-BG, 85%);
+  }
+}
+
+.a-FS-clearButton,
+.a-FS-toggleOverflow {
+  background-color: transparent;
+  color: @g_Link-Base;
+}
+
+.a-FS-search,
+.a-FS-filter {
+  span.apex-item-icon {
+    color: @_base-alpha-10;
+  }
+}
+
+.a-FS-search {
+  border-bottom-color: @_base-alpha-4;
+}
+
+.a-FS .apex-group-label {}
+
+.a-FS-clearAll {
+}
+
+.a-FS-clear {
+  outline: none;
+
+  --a-button-background-color: @_base-alpha-2;
+  // --a-button-text-color: #000;
+  --a-button-hover-background-color: @_base-alpha-3;
+  // --a-button-hover-text-color: #000;
+  --a-button-active-background-color: @_base-alpha-4;
+  // --a-button-active-text-color: #000;
+  --a-button-focus-background-color: @_base-alpha-4;
+  --a-button-focus-border-color: @g_Accent-BG;
+  // --a-button-focus-text-color: #000;
+
+  // Temp
+  &:focus {
+    box-shadow: inset 0 0 0 1px @g_Accent-BG;
+  }
+}
+
+.a-FS-currentList {
+  --a-fs-filter-group-border-color: @_base-alpha-4;
+  --a-fs-filter-group-label-text-color: @_base-shade-6;
+}
+
+
+.a-FS-facetChart {
+  --jui-dialog-titlebar-border-width: 1px;
+  --jui-dialog-titlebar-border-color: @_base-alpha-2;
+  --jui-dialog-titlebar-background-color: @g_Region-Header-BG;
+  --jui-dialog-titlebar-text-color: @g_Region-FG;
+  --a-fs-chart-border-color: @_base-alpha-4;
+}
